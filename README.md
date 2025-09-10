@@ -6,3 +6,6 @@
 - data/: data input   
 - output/: data output từ AI tool  
 - test/: kết quả test validate  
+
+res3: file ebay new rule  
+res2: file ebay rule

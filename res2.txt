@@ -1,0 +1,1713 @@
+=== Running model: gpt-4.1-mini on 836 items ===
+RUNNING ITEM 0
+[gpt-4.1-mini] #0/836 id= ✓ 4.23s (in=486, out=91)
+✓ Wrote output/result_gpt-4.1-mini_1757487072297.8442.json (1 items)
+
+--- Summary for gpt-4.1-mini ---
+Wrote: output/result_gpt-4.1-mini_1757487072297.8442.json (1 items)
+Success: 1 | Fail: 0
+Total time: 4.23s
+Avg latency/item: 4.23s
+Throughput: 197.55 items/sec
+Total tokens: in=486, out=91, sum=577
+
+=== Running model: gpt-4.1-nano on 836 items ===
+RUNNING ITEM 0
+[gpt-4.1-nano] #0/836 id= ✓ 8.88s (in=486, out=244)
+✓ Wrote output/result_gpt-4.1-nano_1757487081178.3933.json (1 items)
+
+--- Summary for gpt-4.1-nano ---
+Wrote: output/result_gpt-4.1-nano_1757487081178.3933.json (1 items)
+Success: 1 | Fail: 0
+Total time: 8.88s
+Avg latency/item: 8.88s
+Throughput: 94.14 items/sec
+Total tokens: in=486, out=244, sum=730
+
+=== All models done. Grand total: 13.11s ===
+(venv) litextension@litextension-H610M-H-V2-DDR4:~/litc_ai_tool$ python func_ebay.py 
+
+=== Running model: gpt-4.1-mini on 836 items ===
+RUNNING ITEM 0
+[gpt-4.1-mini] #0/836 id= ✓ 4.99s (in=529, out=102)
+RUNNING ITEM 1
+[gpt-4.1-mini] #1/836 id=BG118S_gruen ✓ 10.00s (in=1427, out=444)
+RUNNING ITEM 2
+[gpt-4.1-mini] #2/836 id=HK_ROSA ✓ 5.53s (in=1832, out=376)
+RUNNING ITEM 3
+[gpt-4.1-mini] #3/836 id=SCHULROSA ✓ 7.35s (in=3589, out=379)
+RUNNING ITEM 4
+[gpt-4.1-mini] #4/836 id=QS77_royal ✓ 12.00s (in=1525, out=394)
+RUNNING ITEM 5
+[gpt-4.1-mini] #5/836 id=107632094700 ✓ 5.83s (in=3296, out=464)
+RUNNING ITEM 6
+[gpt-4.1-mini] #6/836 id=WM110_rosa_Reh ✓ 8.21s (in=1740, out=381)
+RUNNING ITEM 7
+[gpt-4.1-mini] #7/836 id=107731015700 ✓ 9.60s (in=4445, out=466)
+RUNNING ITEM 8
+[gpt-4.1-mini] #8/836 id=107650078700 ✓ 5.81s (in=1648, out=308)
+RUNNING ITEM 9
+[gpt-4.1-mini] #9/836 id=BG544_royal ✓ 6.18s (in=1706, out=413)
+RUNNING ITEM 10
+[gpt-4.1-mini] #10/836 id=HF7777 ✓ 5.23s (in=2518, out=339)
+RUNNING ITEM 11
+[gpt-4.1-mini] #11/836 id= ✓ 11.37s (in=8597, out=580)
+RUNNING ITEM 12
+[gpt-4.1-mini] #12/836 id= ✓ 14.74s (in=9357, out=644)
+RUNNING ITEM 13
+[gpt-4.1-mini] #13/836 id=HAPPYSTYLE_NAV ✓ 8.61s (in=3444, out=390)
+RUNNING ITEM 14
+[gpt-4.1-mini] #14/836 id=3/4-RY6681K_lightpink48 ✓ 6.14s (in=4326, out=388)
+RUNNING ITEM 15
+[gpt-4.1-mini] #15/836 id=207632494700 ✓ 2.46s (in=612, out=134)
+RUNNING ITEM 16
+[gpt-4.1-mini] #16/836 id=207639515800 ✓ 5.84s (in=585, out=224)
+RUNNING ITEM 17
+[gpt-4.1-mini] #17/836 id= ✓ 4.56s (in=854, out=290)
+RUNNING ITEM 18
+[gpt-4.1-mini] #18/836 id=JH030K_R_5-6 ✓ 7.11s (in=2871, out=325)
+RUNNING ITEM 19
+[gpt-4.1-mini] #19/836 id=3/4-RY6681K_hellblau ✓ 7.60s (in=5234, out=422)
+RUNNING ITEM 20
+[gpt-4.1-mini] #20/836 id=3/4-RY6681K_weiss-1Kl ✓ 8.06s (in=16892, out=404)
+RUNNING ITEM 21
+[gpt-4.1-mini] #21/836 id=JH030K_M_5-6 ✓ 6.14s (in=2260, out=361)
+RUNNING ITEM 22
+[gpt-4.1-mini] #22/836 id=JH030K_S_3-4 ✓ 4.66s (in=3272, out=341)
+RUNNING ITEM 23
+[gpt-4.1-mini] #23/836 id=HK-SET4-LWP-DE-PERS ✓ 11.64s (in=1579, out=562)
+RUNNING ITEM 24
+[gpt-4.1-mini] #24/836 id=HK-SET4-FW-NAME ✓ 10.13s (in=3256, out=550)
+RUNNING ITEM 25
+[gpt-4.1-mini] #25/836 id=MK-RS4-HASE-SCHN-PERS-DE ✓ 10.76s (in=3279, out=551)
+RUNNING ITEM 26
+[gpt-4.1-mini] #26/836 id=MP-SET3-TRA-NAME-SA ✓ 8.59s (in=2422, out=453)
+RUNNING ITEM 27
+[gpt-4.1-mini] #27/836 id=MP-SET3-REH-NAME-NB ✓ 8.00s (in=2422, out=460)
+RUNNING ITEM 28
+[gpt-4.1-mini] #28/836 id=MP-SET3-REG-NAME-VM ✓ 8.50s (in=2422, out=454)
+RUNNING ITEM 29
+[gpt-4.1-mini] #29/836 id=MP3-SET-FUS-NAME-SW ✓ 6.24s (in=2422, out=492)
+RUNNING ITEM 30
+[gpt-4.1-mini] #30/836 id=MP-SET3-BAG-NAME-VB ✓ 10.76s (in=2422, out=507)
+RUNNING ITEM 31
+[gpt-4.1-mini] #31/836 id=HS-APR-REG-NAM-001 ✓ 11.68s (in=9446, out=522)
+RUNNING ITEM 32
+[gpt-4.1-mini] #32/836 id=HS-BLUE ✓ 8.60s (in=9436, out=649)
+RUNNING ITEM 33
+[gpt-4.1-mini] #33/836 id=SET-MEP-CUTE-MAUVE ✓ 7.85s (in=1134, out=381)
+RUNNING ITEM 34
+[gpt-4.1-mini] #34/836 id=SET-MEP-REHSCH-MVNB ✓ 6.90s (in=1136, out=379)
+RUNNING ITEM 35
+[gpt-4.1-mini] #35/836 id=SET-MEP-LOEDJU-MVNB ✓ 5.05s (in=1138, out=328)
+RUNNING ITEM 36
+[gpt-4.1-mini] #36/836 id=SET-MEP-BOHOHA-MVNB ✓ 5.70s (in=1136, out=368)
+RUNNING ITEM 37
+[gpt-4.1-mini] #37/836 id=MEPALDUO_VIVIDBLUE-1 ✓ 8.09s (in=1715, out=415)
+RUNNING ITEM 38
+[gpt-4.1-mini] #38/836 id=HKERSATZ_ROSA ✓ 5.12s (in=1150, out=357)
+RUNNING ITEM 39
+[gpt-4.1-mini] #39/836 id=ROLLTOP-SETSAGE ✓ 9.22s (in=8599, out=550)
+RUNNING ITEM 40
+[gpt-4.1-mini] #40/836 id=HK-SETSAGE ✓ 6.45s (in=1804, out=420)
+RUNNING ITEM 41
+[gpt-4.1-mini] #41/836 id=107632094700 ✓ 6.45s (in=2488, out=326)
+RUNNING ITEM 42
+[gpt-4.1-mini] #42/836 id=107632094700 ✓ 6.74s (in=2488, out=414)
+RUNNING ITEM 43
+[gpt-4.1-mini] #43/836 id=207632494700 ✓ 4.32s (in=645, out=145)
+RUNNING ITEM 44
+[gpt-4.1-mini] #44/836 id=HK_GRÜN ✓ 7.99s (in=1506, out=340)
+RUNNING ITEM 45
+[gpt-4.1-mini] #45/836 id=107632094700 ✓ 5.56s (in=2487, out=356)
+RUNNING ITEM 46
+[gpt-4.1-mini] #46/836 id=WM110_rosa ✓ 14.73s (in=2030, out=634)
+RUNNING ITEM 47
+[gpt-4.1-mini] #47/836 id=HK-SETSAGE ✓ 5.11s (in=1806, out=312)
+RUNNING ITEM 48
+[gpt-4.1-mini] #48/836 id=107632010100 ✓ 9.52s (in=2487, out=448)
+RUNNING ITEM 49
+[gpt-4.1-mini] #49/836 id=MEPALTRIO_BLUE ✓ 9.93s (in=1584, out=491)
+RUNNING ITEM 50
+[gpt-4.1-mini] #50/836 id=107632094700 ✓ 7.98s (in=2487, out=416)
+RUNNING ITEM 51
+[gpt-4.1-mini] #51/836 id=107632015700 ✓ 10.44s (in=2487, out=530)
+RUNNING ITEM 52
+[gpt-4.1-mini] #52/836 id=HK-SETBLAU ✓ 12.67s (in=4062, out=517)
+RUNNING ITEM 53
+[gpt-4.1-mini] #53/836 id=107731015700 ✓ 8.52s (in=2944, out=408)
+RUNNING ITEM 54
+[gpt-4.1-mini] #54/836 id=HK_KUPFER ✓ 9.13s (in=1507, out=436)
+RUNNING ITEM 55
+[gpt-4.1-mini] #55/836 id=HK-SETSAGE ✓ 8.11s (in=3683, out=512)
+RUNNING ITEM 56
+[gpt-4.1-mini] #56/836 id=HK-SETROSA ✓ 9.79s (in=3654, out=563)
+RUNNING ITEM 57
+[gpt-4.1-mini] #57/836 id=HK-SETROSA ✓ 9.83s (in=3654, out=531)
+RUNNING ITEM 58
+[gpt-4.1-mini] #58/836 id=HK-SETROSA ✓ 8.90s (in=3654, out=606)
+RUNNING ITEM 59
+[gpt-4.1-mini] #59/836 id=HK_ROSA ✓ 4.61s (in=1506, out=341)
+RUNNING ITEM 60
+[gpt-4.1-mini] #60/836 id=HK-SETSAGE ✓ 7.06s (in=3685, out=612)
+RUNNING ITEM 61
+[gpt-4.1-mini] #61/836 id=HK-SETSAGE ✓ 11.67s (in=3679, out=652)
+RUNNING ITEM 62
+[gpt-4.1-mini] #62/836 id=HK_BLAU ✓ 6.07s (in=1504, out=318)
+RUNNING ITEM 63
+[gpt-4.1-mini] #63/836 id=MEPALDUO_MAUVE ✓ 6.84s (in=1587, out=405)
+RUNNING ITEM 64
+[gpt-4.1-mini] #64/836 id=107632078700 ✓ 9.20s (in=2489, out=419)
+RUNNING ITEM 65
+[gpt-4.1-mini] #65/836 id=HK_ROSA ✓ 5.84s (in=1507, out=365)
+RUNNING ITEM 66
+[gpt-4.1-mini] #66/836 id=107632078700 ✓ 9.22s (in=2488, out=432)
+RUNNING ITEM 67
+[gpt-4.1-mini] #67/836 id=MEPALDUO_MAUVE ✓ 12.28s (in=1578, out=464)
+RUNNING ITEM 68
+[gpt-4.1-mini] #68/836 id=HAPPYSTYLE_NAV ✓ 6.22s (in=6682, out=399)
+RUNNING ITEM 69
+[gpt-4.1-mini] #69/836 id=207632415700 ✓ 2.79s (in=644, out=139)
+RUNNING ITEM 70
+[gpt-4.1-mini] #70/836 id=107731015700 ✓ 7.78s (in=2947, out=408)
+RUNNING ITEM 71
+[gpt-4.1-mini] #71/836 id=MEPALTRIO_BLUE ✓ 8.28s (in=1585, out=531)
+RUNNING ITEM 72
+[gpt-4.1-mini] #72/836 id=107650094700 ✓ 6.28s (in=1684, out=388)
+RUNNING ITEM 73
+[gpt-4.1-mini] #73/836 id=107731094700 ✓ 6.44s (in=2947, out=377)
+RUNNING ITEM 74
+[gpt-4.1-mini] #74/836 id=107632078700 ✓ 6.15s (in=2489, out=318)
+RUNNING ITEM 75
+[gpt-4.1-mini] #75/836 id=HK_BLAU ✓ 7.06s (in=1863, out=323)
+RUNNING ITEM 76
+[gpt-4.1-mini] #76/836 id=MEPALDUO_MAUVE ✓ 5.54s (in=1591, out=420)
+RUNNING ITEM 77
+[gpt-4.1-mini] #77/836 id=107731015700 ✓ 7.07s (in=2949, out=465)
+RUNNING ITEM 78
+[gpt-4.1-mini] #78/836 id=107632015700 ✓ 5.98s (in=2486, out=303)
+RUNNING ITEM 79
+[gpt-4.1-mini] #79/836 id=MEPALTRIO_VIVIDBLUE ✓ 6.90s (in=1588, out=417)
+RUNNING ITEM 80
+[gpt-4.1-mini] #80/836 id=HKERSATZ_ROSA ✓ 5.22s (in=1185, out=358)
+RUNNING ITEM 81
+[gpt-4.1-mini] #81/836 id=HK-SETSAGE ✓ 9.83s (in=3683, out=603)
+RUNNING ITEM 82
+[gpt-4.1-mini] #82/836 id=HK-SETSAGE ✓ 7.07s (in=3682, out=507)
+RUNNING ITEM 83
+[gpt-4.1-mini] #83/836 id=BG544_black ✓ 8.19s (in=1740, out=386)
+RUNNING ITEM 84
+[gpt-4.1-mini] #84/836 id=107632010100 ✓ 5.64s (in=2488, out=269)
+RUNNING ITEM 85
+[gpt-4.1-mini] #85/836 id=107632010100 ✓ 8.90s (in=2489, out=503)
+RUNNING ITEM 86
+[gpt-4.1-mini] #86/836 id=HKERSATZ_Flieder ✓ 4.30s (in=1187, out=244)
+RUNNING ITEM 87
+[gpt-4.1-mini] #87/836 id=HK-SET4-BAU-DE-PERS ✓ 6.12s (in=3270, out=624)
+RUNNING ITEM 88
+[gpt-4.1-mini] #88/836 id=HKBAUFAHRZ-SETBLAU ✓ 8.86s (in=4057, out=575)
+RUNNING ITEM 89
+[gpt-4.1-mini] #89/836 id=107731094700 ✓ 3.98s (in=2947, out=378)
+RUNNING ITEM 90
+[gpt-4.1-mini] #90/836 id=HKROSA-SETREH ✓ 9.29s (in=3302, out=511)
+RUNNING ITEM 91
+[gpt-4.1-mini] #91/836 id=HK-GRUEN3D-1 ✓ 8.61s (in=1910, out=518)
+RUNNING ITEM 92
+[gpt-4.1-mini] #92/836 id=107632015700 ✓ 5.22s (in=2488, out=437)
+RUNNING ITEM 93
+[gpt-4.1-mini] #93/836 id=107650015700 ✓ 9.52s (in=1682, out=391)
+RUNNING ITEM 94
+[gpt-4.1-mini] #94/836 id=107632015700 ✓ 5.84s (in=2488, out=302)
+RUNNING ITEM 95
+[gpt-4.1-mini] #95/836 id=107632078700 ✓ 11.98s (in=2487, out=505)
+RUNNING ITEM 96
+[gpt-4.1-mini] #96/836 id=HK-SETSAGE ✓ 11.67s (in=3683, out=591)
+RUNNING ITEM 97
+[gpt-4.1-mini] #97/836 id=107632094700 ✓ 7.87s (in=2488, out=440)
+RUNNING ITEM 98
+[gpt-4.1-mini] #98/836 id=BG544_fuchsia ✓ 10.87s (in=1739, out=366)
+RUNNING ITEM 99
+[gpt-4.1-mini] #99/836 id=107632078700 ✓ 6.16s (in=2485, out=477)
+RUNNING ITEM 100
+[gpt-4.1-mini] #100/836 id=JH030K_M_5-6 ✓ 4.99s (in=2301, out=328)
+RUNNING ITEM 101
+[gpt-4.1-mini] #101/836 id=107632015700 ✓ 6.98s (in=2489, out=497)
+RUNNING ITEM 102
+[gpt-4.1-mini] #102/836 id=HKBAUFAHRZ-SETBLAU ✓ 9.02s (in=4053, out=578)
+RUNNING ITEM 103
+[gpt-4.1-mini] #103/836 id=HK_KUPFER ✓ 6.95s (in=1866, out=364)
+RUNNING ITEM 104
+[gpt-4.1-mini] #104/836 id=HK_KUPFER ✓ 5.41s (in=1862, out=397)
+RUNNING ITEM 105
+[gpt-4.1-mini] #105/836 id=HK_KUPFER ✓ 5.38s (in=1864, out=382)
+RUNNING ITEM 106
+[gpt-4.1-mini] #106/836 id=107632015700 ✓ 6.85s (in=2487, out=377)
+RUNNING ITEM 107
+[gpt-4.1-mini] #107/836 id=107632010100 ✓ 8.17s (in=2487, out=466)
+RUNNING ITEM 108
+[gpt-4.1-mini] #108/836 id=107632078700 ✓ 3.99s (in=2488, out=300)
+RUNNING ITEM 109
+[gpt-4.1-mini] #109/836 id=BG118S_gruen ✓ 3.48s (in=1457, out=367)
+RUNNING ITEM 110
+[gpt-4.1-mini] #110/836 id=HK-SETSAGE ✓ 8.51s (in=3688, out=427)
+RUNNING ITEM 111
+[gpt-4.1-mini] #111/836 id=MEPALTRIO_MAUVE ✓ 6.15s (in=1587, out=489)
+RUNNING ITEM 112
+[gpt-4.1-mini] #112/836 id=107731078700 ✓ 7.41s (in=2947, out=422)
+RUNNING ITEM 113
+[gpt-4.1-mini] #113/836 id=107650078700 ✓ 5.48s (in=1685, out=341)
+RUNNING ITEM 114
+[gpt-4.1-mini] #114/836 id=107632078700 ✓ 6.21s (in=2487, out=256)
+RUNNING ITEM 115
+[gpt-4.1-mini] #115/836 id=HK_BLAU ✓ 3.82s (in=1863, out=397)
+RUNNING ITEM 116
+[gpt-4.1-mini] #116/836 id=107632015700 ✓ 7.78s (in=2488, out=470)
+RUNNING ITEM 117
+[gpt-4.1-mini] #117/836 id=HK_BLAU ✓ 6.75s (in=1864, out=438)
+RUNNING ITEM 118
+[gpt-4.1-mini] #118/836 id=107632094700 ✓ 6.53s (in=2487, out=429)
+RUNNING ITEM 119
+[gpt-4.1-mini] #119/836 id=107632078700 ✓ 6.37s (in=2488, out=390)
+RUNNING ITEM 120
+[gpt-4.1-mini] #120/836 id=107632015700 ✓ 7.37s (in=2485, out=295)
+RUNNING ITEM 121
+[gpt-4.1-mini] #121/836 id=107632015700 ✓ 5.22s (in=2488, out=314)
+RUNNING ITEM 122
+[gpt-4.1-mini] #122/836 id=HK_LACHS ✓ 5.22s (in=1865, out=350)
+RUNNING ITEM 123
+[gpt-4.1-mini] #123/836 id=WM110_rosa ✓ 5.02s (in=2032, out=306)
+RUNNING ITEM 124
+[gpt-4.1-mini] #124/836 id=HK-SETSAGE ✓ 8.50s (in=3686, out=504)
+RUNNING ITEM 125
+[gpt-4.1-mini] #125/836 id=HK-SETBLAU ✓ 10.14s (in=4062, out=595)
+RUNNING ITEM 126
+[gpt-4.1-mini] #126/836 id=HKROSA-SETROSA ✓ 8.07s (in=3652, out=558)
+RUNNING ITEM 127
+[gpt-4.1-mini] #127/836 id=107632078700 ✓ 7.30s (in=2490, out=367)
+RUNNING ITEM 128
+[gpt-4.1-mini] #128/836 id=MEPALDUO_MAUVE ✓ 6.44s (in=1405, out=421)
+RUNNING ITEM 129
+[gpt-4.1-mini] #129/836 id=107632078700 ✓ 9.46s (in=2491, out=345)
+RUNNING ITEM 130
+[gpt-4.1-mini] #130/836 id=HK-SETSAGE ✓ 8.96s (in=3684, out=605)
+RUNNING ITEM 131
+[gpt-4.1-mini] #131/836 id=QS77_rot ✓ 6.48s (in=1511, out=387)
+RUNNING ITEM 132
+[gpt-4.1-mini] #132/836 id=MEPALDUO_SAGE ✓ 7.68s (in=1683, out=380)
+RUNNING ITEM 133
+[gpt-4.1-mini] #133/836 id=BG544_red ✓ 7.39s (in=1738, out=424)
+RUNNING ITEM 134
+[gpt-4.1-mini] #134/836 id=HK-SETROSA ✓ 8.26s (in=3658, out=554)
+RUNNING ITEM 135
+[gpt-4.1-mini] #135/836 id=HS-APRICOT ✓ 8.91s (in=9476, out=518)
+RUNNING ITEM 136
+[gpt-4.1-mini] #136/836 id=HS-APRICOT ✓ 8.29s (in=9476, out=531)
+RUNNING ITEM 137
+[gpt-4.1-mini] #137/836 id=HS-APRICOT ✓ 9.23s (in=9476, out=532)
+RUNNING ITEM 138
+[gpt-4.1-mini] #138/836 id=HS-APRICOT ✓ 6.13s (in=9477, out=450)
+RUNNING ITEM 139
+[gpt-4.1-mini] #139/836 id=MEPALDUO_MAUVE ✓ 6.14s (in=1410, out=349)
+RUNNING ITEM 140
+[gpt-4.1-mini] #140/836 id=MEPALDUO_MAUVE ✓ 6.76s (in=1406, out=430)
+RUNNING ITEM 141
+[gpt-4.1-mini] #141/836 id=BG118S_rosa ✓ 5.74s (in=1460, out=367)
+RUNNING ITEM 142
+[gpt-4.1-mini] #142/836 id=WM110_rosa ✓ 10.53s (in=2031, out=299)
+RUNNING ITEM 143
+[gpt-4.1-mini] #143/836 id=107731078700 ✓ 6.45s (in=2945, out=409)
+RUNNING ITEM 144
+[gpt-4.1-mini] #144/836 id=HK-SETROSA ✓ 7.68s (in=3658, out=583)
+RUNNING ITEM 145
+[gpt-4.1-mini] #145/836 id=HK-SETROSA ✓ 6.45s (in=3659, out=535)
+RUNNING ITEM 146
+[gpt-4.1-mini] #146/836 id=HK-SETROSA ✓ 6.76s (in=3658, out=516)
+RUNNING ITEM 147
+[gpt-4.1-mini] #147/836 id=BG118S_rosa ✓ 4.50s (in=1460, out=303)
+RUNNING ITEM 148
+[gpt-4.1-mini] #148/836 id=107731078700 ✓ 7.48s (in=2946, out=508)
+RUNNING ITEM 149
+[gpt-4.1-mini] #149/836 id=HKSCHILD-SETSAGE ✓ 15.63s (in=3728, out=1098)
+RUNNING ITEM 150
+[gpt-4.1-mini] #150/836 id=HAPPYSTYLE_NAV ✓ 9.26s (in=6681, out=390)
+RUNNING ITEM 151
+[gpt-4.1-mini] #151/836 id=HK-SETROSA ✓ 8.62s (in=3657, out=501)
+RUNNING ITEM 152
+[gpt-4.1-mini] #152/836 id=HK-SETROSA ✓ 8.21s (in=3658, out=524)
+RUNNING ITEM 153
+[gpt-4.1-mini] #153/836 id=HKROSA-SETROSA ✓ 16.04s (in=3651, out=633)
+RUNNING ITEM 154
+[gpt-4.1-mini] #154/836 id=HKROSA-SETROSA ✓ 7.98s (in=3652, out=468)
+RUNNING ITEM 155
+[gpt-4.1-mini] #155/836 id=HS-BLUE ✓ 11.98s (in=9466, out=502)
+RUNNING ITEM 156
+[gpt-4.1-mini] #156/836 id=HKROSA-SETROSA ✓ 12.90s (in=3650, out=502)
+RUNNING ITEM 157
+[gpt-4.1-mini] #157/836 id=BG544_black ✓ 7.07s (in=1740, out=408)
+RUNNING ITEM 158
+[gpt-4.1-mini] #158/836 id=HK_GRÜN ✓ 5.84s (in=1865, out=407)
+RUNNING ITEM 159
+[gpt-4.1-mini] #159/836 id=HK_GRÜN ✓ 5.53s (in=1861, out=449)
+RUNNING ITEM 160
+[gpt-4.1-mini] #160/836 id=HK_ROSA ✓ 7.32s (in=1865, out=383)
+RUNNING ITEM 161
+[gpt-4.1-mini] #161/836 id=HK-SETSAGE ✓ 7.74s (in=3688, out=525)
+RUNNING ITEM 162
+[gpt-4.1-mini] #162/836 id=107632015700 ✓ 9.48s (in=2492, out=369)
+RUNNING ITEM 163
+[gpt-4.1-mini] #163/836 id=107632015700 ✓ 7.10s (in=2490, out=379)
+RUNNING ITEM 164
+[gpt-4.1-mini] #164/836 id=HK_ROSA ✓ 11.49s (in=1866, out=710)
+RUNNING ITEM 165
+[gpt-4.1-mini] #165/836 id=QS77_royal ✓ 4.60s (in=1511, out=317)
+RUNNING ITEM 166
+[gpt-4.1-mini] #166/836 id=MEPALDUO_SAGE ✓ 6.15s (in=1685, out=423)
+RUNNING ITEM 167
+[gpt-4.1-mini] #167/836 id=107632078700 ✓ 7.37s (in=2490, out=419)
+RUNNING ITEM 168
+[gpt-4.1-mini] #168/836 id=HK_BLAU ✓ 7.89s (in=1865, out=351)
+RUNNING ITEM 169
+[gpt-4.1-mini] #169/836 id=HK_GRÜN ✓ 5.33s (in=1863, out=400)
+RUNNING ITEM 170
+[gpt-4.1-mini] #170/836 id=HK_LACHS ✓ 6.13s (in=1864, out=355)
+RUNNING ITEM 171
+[gpt-4.1-mini] #171/836 id=WM110_rosa ✓ 6.46s (in=2032, out=360)
+RUNNING ITEM 172
+[gpt-4.1-mini] #172/836 id=HK-SETSAGE ✓ 9.83s (in=3686, out=533)
+RUNNING ITEM 173
+[gpt-4.1-mini] #173/836 id=QS77_navy ✓ 9.22s (in=1511, out=304)
+RUNNING ITEM 174
+[gpt-4.1-mini] #174/836 id=HKROSA-SETROSA ✓ 7.06s (in=3654, out=469)
+RUNNING ITEM 175
+[gpt-4.1-mini] #175/836 id=HK_GRÜN ✓ 7.99s (in=1866, out=372)
+RUNNING ITEM 176
+[gpt-4.1-mini] #176/836 id=HK_GRÜN ✓ 5.22s (in=1863, out=360)
+RUNNING ITEM 177
+[gpt-4.1-mini] #177/836 id=HK_GRÜN ✓ 6.15s (in=1868, out=378)
+RUNNING ITEM 178
+[gpt-4.1-mini] #178/836 id=HK-SETBLAU ✓ 9.21s (in=4061, out=547)
+RUNNING ITEM 179
+[gpt-4.1-mini] #179/836 id=HK-SETBLAU ✓ 14.45s (in=4062, out=982)
+RUNNING ITEM 180
+[gpt-4.1-mini] #180/836 id=HK-SETBLAU ✓ 7.93s (in=4063, out=456)
+RUNNING ITEM 181
+[gpt-4.1-mini] #181/836 id=HK-SETROSA ✓ 9.57s (in=3656, out=676)
+RUNNING ITEM 182
+[gpt-4.1-mini] #182/836 id=HK_ROSA ✓ 5.22s (in=1867, out=380)
+RUNNING ITEM 183
+[gpt-4.1-mini] #183/836 id=HK_LACHS ✓ 5.69s (in=1865, out=390)
+RUNNING ITEM 184
+[gpt-4.1-mini] #184/836 id=QS77_navy ✓ 5.69s (in=1512, out=361)
+RUNNING ITEM 185
+[gpt-4.1-mini] #185/836 id=BG544_fuchsia ✓ 6.96s (in=1738, out=529)
+RUNNING ITEM 186
+[gpt-4.1-mini] #186/836 id=QS77_roas ✓ 7.78s (in=1509, out=358)
+RUNNING ITEM 187
+[gpt-4.1-mini] #187/836 id=QS77_navy ✓ 5.53s (in=1511, out=377)
+RUNNING ITEM 188
+[gpt-4.1-mini] #188/836 id=QS77_navy ✓ 4.30s (in=1514, out=347)
+RUNNING ITEM 189
+[gpt-4.1-mini] #189/836 id=QS77_navy ✓ 5.53s (in=1513, out=340)
+RUNNING ITEM 190
+[gpt-4.1-mini] #190/836 id=HK-SETBLAU ✓ 8.76s (in=4061, out=578)
+RUNNING ITEM 191
+[gpt-4.1-mini] #191/836 id=HK_ROSA ✓ 3.85s (in=1863, out=254)
+RUNNING ITEM 192
+[gpt-4.1-mini] #192/836 id=107632078700 ✓ 8.59s (in=2490, out=472)
+RUNNING ITEM 193
+[gpt-4.1-mini] #193/836 id=107632078700 ✓ 8.91s (in=2490, out=420)
+RUNNING ITEM 194
+[gpt-4.1-mini] #194/836 id=HK-SETBLAU ✓ 10.14s (in=4063, out=471)
+RUNNING ITEM 195
+[gpt-4.1-mini] #195/836 id=HK_GRÜN ✓ 9.83s (in=1866, out=428)
+RUNNING ITEM 196
+[gpt-4.1-mini] #196/836 id=HK-SETSAGE ✓ 7.93s (in=3686, out=537)
+RUNNING ITEM 197
+[gpt-4.1-mini] #197/836 id=7/8-RY6681K_lightpink48 ✓ 8.36s (in=4744, out=479)
+RUNNING ITEM 198
+[gpt-4.1-mini] #198/836 id=HK_LACHS ✓ 5.83s (in=1866, out=363)
+RUNNING ITEM 199
+[gpt-4.1-mini] #199/836 id=BG544_navy ✓ 5.54s (in=1742, out=429)
+RUNNING ITEM 200
+[gpt-4.1-mini] #200/836 id=HK-SETBLAU ✓ 8.28s (in=4063, out=505)
+RUNNING ITEM 201
+[gpt-4.1-mini] #201/836 id=QS77_roas ✓ 5.79s (in=1513, out=367)
+RUNNING ITEM 202
+[gpt-4.1-mini] #202/836 id=HK-SETBLAU ✓ 7.58s (in=4061, out=467)
+RUNNING ITEM 203
+[gpt-4.1-mini] #203/836 id=HK-SETBLAU ✓ 14.89s (in=4063, out=579)
+RUNNING ITEM 204
+[gpt-4.1-mini] #204/836 id=107632094700 ✓ 6.15s (in=2490, out=460)
+RUNNING ITEM 205
+[gpt-4.1-mini] #205/836 id=HK_GRÜN ✓ 6.59s (in=1864, out=379)
+RUNNING ITEM 206
+[gpt-4.1-mini] #206/836 id=QS77_navy ✓ 4.47s (in=1514, out=329)
+RUNNING ITEM 207
+[gpt-4.1-mini] #207/836 id=MEPALDUO_SAGE ✓ 7.26s (in=1688, out=461)
+RUNNING ITEM 208
+[gpt-4.1-mini] #208/836 id=107632094700 ✓ 4.72s (in=2491, out=281)
+RUNNING ITEM 209
+[gpt-4.1-mini] #209/836 id=107731094700 ✓ 6.14s (in=2944, out=433)
+RUNNING ITEM 210
+[gpt-4.1-mini] #210/836 id=ROLLTOP-NAVYSCHMETT ✓ 7.38s (in=8599, out=602)
+RUNNING ITEM 211
+[gpt-4.1-mini] #211/836 id=107632078700 ✓ 7.82s (in=2494, out=496)
+RUNNING ITEM 212
+[gpt-4.1-mini] #212/836 id=HKROSA-SETROSA ✓ 10.92s (in=3651, out=652)
+RUNNING ITEM 213
+[gpt-4.1-mini] #213/836 id=107632094700 ✓ 5.84s (in=2489, out=306)
+RUNNING ITEM 214
+[gpt-4.1-mini] #214/836 id=WM810_sage ✓ 7.06s (in=2032, out=332)
+RUNNING ITEM 215
+[gpt-4.1-mini] #215/836 id=MEPALDUO_SCHWARZ ✓ 7.37s (in=1685, out=438)
+RUNNING ITEM 216
+[gpt-4.1-mini] #216/836 id=107632041100 ✓ 7.10s (in=2490, out=271)
+RUNNING ITEM 217
+[gpt-4.1-mini] #217/836 id=107632010100 ✓ 12.78s (in=2493, out=370)
+RUNNING ITEM 218
+[gpt-4.1-mini] #218/836 id=107632078700 ✓ 5.31s (in=2492, out=298)
+RUNNING ITEM 219
+[gpt-4.1-mini] #219/836 id=107632094700 ✓ 7.06s (in=2492, out=442)
+RUNNING ITEM 220
+[gpt-4.1-mini] #220/836 id=107731078700 ✓ 7.99s (in=2944, out=418)
+RUNNING ITEM 221
+[gpt-4.1-mini] #221/836 id=107731010100 ✓ 10.01s (in=2945, out=352)
+RUNNING ITEM 222
+[gpt-4.1-mini] #222/836 id=107731078700 ✓ 5.60s (in=2944, out=327)
+RUNNING ITEM 223
+[gpt-4.1-mini] #223/836 id=107731078700 ✓ 4.05s (in=2947, out=335)
+RUNNING ITEM 224
+[gpt-4.1-mini] #224/836 id=HK_ROSA ✓ 7.62s (in=1865, out=368)
+RUNNING ITEM 225
+[gpt-4.1-mini] #225/836 id=HK_ROSA ✓ 7.13s (in=1866, out=405)
+RUNNING ITEM 226
+[gpt-4.1-mini] #226/836 id=HK_ROSA ✓ 5.84s (in=1868, out=384)
+RUNNING ITEM 227
+[gpt-4.1-mini] #227/836 id=107632078700 ✓ 6.14s (in=2492, out=335)
+RUNNING ITEM 228
+[gpt-4.1-mini] #228/836 id=HK_ROSA ✓ 6.14s (in=1864, out=284)
+RUNNING ITEM 229
+[gpt-4.1-mini] #229/836 id=107650078700 ✓ 6.46s (in=1684, out=337)
+RUNNING ITEM 230
+[gpt-4.1-mini] #230/836 id=107632078700 ✓ 7.98s (in=2492, out=425)
+RUNNING ITEM 231
+[gpt-4.1-mini] #231/836 id=207632415700 ✓ 4.61s (in=648, out=119)
+RUNNING ITEM 232
+[gpt-4.1-mini] #232/836 id=207632415700 ✓ 3.99s (in=649, out=162)
+RUNNING ITEM 233
+[gpt-4.1-mini] #233/836 id=207632410100 ✓ 2.94s (in=648, out=149)
+RUNNING ITEM 234
+[gpt-4.1-mini] #234/836 id=HKSCHILD-SETSAGE ✓ 7.21s (in=3727, out=498)
+RUNNING ITEM 235
+[gpt-4.1-mini] #235/836 id=HK_BLAU ✓ 6.44s (in=1864, out=381)
+RUNNING ITEM 236
+[gpt-4.1-mini] #236/836 id=RT-PK-HAS-01 ✓ 9.23s (in=8076, out=529)
+RUNNING ITEM 237
+[gpt-4.1-mini] #237/836 id=107632015700 ✓ 6.44s (in=2491, out=450)
+RUNNING ITEM 238
+[gpt-4.1-mini] #238/836 id=107632094700 ✓ 8.25s (in=2492, out=377)
+RUNNING ITEM 239
+[gpt-4.1-mini] #239/836 id=107632015700 ✓ 5.80s (in=2491, out=400)
+RUNNING ITEM 240
+[gpt-4.1-mini] #240/836 id=HK_ROSA ✓ 6.59s (in=1866, out=383)
+RUNNING ITEM 241
+[gpt-4.1-mini] #241/836 id=107650094700 ✓ 6.49s (in=1686, out=358)
+RUNNING ITEM 242
+[gpt-4.1-mini] #242/836 id=107650015700 ✓ 5.64s (in=1684, out=370)
+RUNNING ITEM 243
+[gpt-4.1-mini] #243/836 id=207632494700 ✓ 3.99s (in=650, out=249)
+RUNNING ITEM 244
+[gpt-4.1-mini] #244/836 id=BG544_royal ✓ 7.17s (in=1739, out=444)
+RUNNING ITEM 245
+[gpt-4.1-mini] #245/836 id=ROLLTOP-NAVYDUSK ✓ 7.33s (in=8594, out=534)
+RUNNING ITEM 246
+[gpt-4.1-mini] #246/836 id=107650094700 ✓ 7.11s (in=1684, out=397)
+RUNNING ITEM 247
+[gpt-4.1-mini] #247/836 id=107650015700 ✓ 9.16s (in=1684, out=388)
+RUNNING ITEM 248
+[gpt-4.1-mini] #248/836 id=207632494700 ✓ 3.76s (in=648, out=217)
+RUNNING ITEM 249
+[gpt-4.1-mini] #249/836 id=AR071_ROSA ✓ 6.75s (in=2933, out=435)
+RUNNING ITEM 250
+[gpt-4.1-mini] #250/836 id=HK_GRÜN ✓ 8.15s (in=1864, out=338)
+RUNNING ITEM 251
+[gpt-4.1-mini] #251/836 id=107632094700 ✓ 28.41s (in=2490, out=386)
+RUNNING ITEM 252
+[gpt-4.1-mini] #252/836 id=107731094700 ✓ 11.88s (in=2946, out=382)
+RUNNING ITEM 253
+[gpt-4.1-mini] #253/836 id=107632094700 ✓ 6.85s (in=2492, out=404)
+RUNNING ITEM 254
+[gpt-4.1-mini] #254/836 id=HK_ROSA ✓ 7.34s (in=1864, out=403)
+RUNNING ITEM 255
+[gpt-4.1-mini] #255/836 id=HK-SETSAGE ✓ 11.58s (in=3686, out=538)
+RUNNING ITEM 256
+[gpt-4.1-mini] #256/836 id=HK_GRÜN ✓ 11.50s (in=1864, out=391)
+RUNNING ITEM 257
+[gpt-4.1-mini] #257/836 id=HK_GRÜN ✓ 7.93s (in=1864, out=439)
+RUNNING ITEM 258
+[gpt-4.1-mini] #258/836 id=HK-SETSAGE ✓ 11.44s (in=3683, out=563)
+RUNNING ITEM 259
+[gpt-4.1-mini] #259/836 id=107731078700 ✓ 7.97s (in=2947, out=412)
+RUNNING ITEM 260
+[gpt-4.1-mini] #260/836 id=HK_GRÜN ✓ 4.27s (in=1866, out=355)
+RUNNING ITEM 261
+[gpt-4.1-mini] #261/836 id=HK_KUPFER ✓ 5.86s (in=1866, out=389)
+RUNNING ITEM 262
+[gpt-4.1-mini] #262/836 id=HK-SETROSA ✓ 9.41s (in=3658, out=533)
+RUNNING ITEM 263
+[gpt-4.1-mini] #263/836 id=HK-SETROSA ✓ 11.64s (in=3658, out=621)
+RUNNING ITEM 264
+[gpt-4.1-mini] #264/836 id=HK-SETROSA ✓ 12.19s (in=3658, out=668)
+RUNNING ITEM 265
+[gpt-4.1-mini] #265/836 id=HK-SETSAGE ✓ 10.69s (in=3686, out=495)
+RUNNING ITEM 266
+[gpt-4.1-mini] #266/836 id=QS77_black ✓ 5.22s (in=1512, out=351)
+RUNNING ITEM 267
+[gpt-4.1-mini] #267/836 id=107632078700 ✓ 4.91s (in=2492, out=442)
+RUNNING ITEM 268
+[gpt-4.1-mini] #268/836 id=107632078700 ✓ 5.38s (in=2490, out=363)
+RUNNING ITEM 269
+[gpt-4.1-mini] #269/836 id=BG544_black ✓ 7.83s (in=1739, out=371)
+RUNNING ITEM 270
+[gpt-4.1-mini] #270/836 id=107731041100 ✓ 11.98s (in=2947, out=386)
+RUNNING ITEM 271
+[gpt-4.1-mini] #271/836 id=BG544_limegreen ✓ 9.37s (in=1741, out=458)
+RUNNING ITEM 272
+[gpt-4.1-mini] #272/836 id=107632094700 ✓ 5.48s (in=2491, out=300)
+RUNNING ITEM 273
+[gpt-4.1-mini] #273/836 id=107632010100 ✓ 8.50s (in=2490, out=357)
+RUNNING ITEM 274
+[gpt-4.1-mini] #274/836 id=107632094700 ✓ 5.22s (in=2491, out=433)
+RUNNING ITEM 275
+[gpt-4.1-mini] #275/836 id=107632078700 ✓ 7.83s (in=2490, out=433)
+RUNNING ITEM 276
+[gpt-4.1-mini] #276/836 id=107632094700 ✓ 6.54s (in=2489, out=356)
+RUNNING ITEM 277
+[gpt-4.1-mini] #277/836 id=107632094700 ✓ 9.76s (in=2490, out=368)
+RUNNING ITEM 278
+[gpt-4.1-mini] #278/836 id=HKROSA-SETROSA ✓ 9.47s (in=3651, out=537)
+RUNNING ITEM 279
+[gpt-4.1-mini] #279/836 id=MEPALDUO_MAUVE ✓ 7.27s (in=2652, out=453)
+RUNNING ITEM 280
+[gpt-4.1-mini] #280/836 id=BG544_SETFUCHS ✓ 5.94s (in=1681, out=415)
+RUNNING ITEM 281
+[gpt-4.1-mini] #281/836 id=HKROSA-SETROSA ✓ 10.63s (in=3651, out=629)
+RUNNING ITEM 282
+[gpt-4.1-mini] #282/836 id=107632015700 ✓ 5.23s (in=2494, out=340)
+RUNNING ITEM 283
+[gpt-4.1-mini] #283/836 id=107632094700 ✓ 4.70s (in=2489, out=353)
+RUNNING ITEM 284
+[gpt-4.1-mini] #284/836 id=107632078700 ✓ 6.97s (in=2489, out=360)
+RUNNING ITEM 285
+[gpt-4.1-mini] #285/836 id=107632010100 ✓ 4.30s (in=2491, out=263)
+RUNNING ITEM 286
+[gpt-4.1-mini] #286/836 id=QS77_navy ✓ 6.70s (in=1512, out=388)
+RUNNING ITEM 287
+[gpt-4.1-mini] #287/836 id=107632041100 ✓ 9.11s (in=2491, out=379)
+RUNNING ITEM 288
+[gpt-4.1-mini] #288/836 id=HKROSA-SETROSA ✓ 7.53s (in=3651, out=464)
+RUNNING ITEM 289
+[gpt-4.1-mini] #289/836 id=207632478700 ✓ 4.31s (in=650, out=244)
+RUNNING ITEM 290
+[gpt-4.1-mini] #290/836 id=ROLLTOP-SETSAGE ✓ 8.91s (in=8595, out=558)
+RUNNING ITEM 291
+[gpt-4.1-mini] #291/836 id=HS-BLUE ✓ 11.97s (in=9466, out=494)
+RUNNING ITEM 292
+[gpt-4.1-mini] #292/836 id=HF16063_pastelblue ✓ 10.14s (in=2030, out=363)
+RUNNING ITEM 293
+[gpt-4.1-mini] #293/836 id=WM110_rosa ✓ 9.39s (in=2030, out=356)
+RUNNING ITEM 294
+[gpt-4.1-mini] #294/836 id=107632094700 ✓ 6.96s (in=2490, out=357)
+RUNNING ITEM 295
+[gpt-4.1-mini] #295/836 id=107632094700 ✓ 4.05s (in=2491, out=246)
+RUNNING ITEM 296
+[gpt-4.1-mini] #296/836 id=HK_ROSA ✓ 7.96s (in=1865, out=402)
+RUNNING ITEM 297
+[gpt-4.1-mini] #297/836 id=BG544_orange ✓ 8.38s (in=1741, out=383)
+RUNNING ITEM 298
+[gpt-4.1-mini] #298/836 id=BG544_limegreen ✓ 8.15s (in=1741, out=413)
+RUNNING ITEM 299
+[gpt-4.1-mini] #299/836 id=HS-BLUE ✓ 8.87s (in=9466, out=537)
+RUNNING ITEM 300
+[gpt-4.1-mini] #300/836 id=107632094700 ✓ 6.15s (in=2491, out=271)
+RUNNING ITEM 301
+[gpt-4.1-mini] #301/836 id=107632094700 ✓ 7.37s (in=2491, out=430)
+RUNNING ITEM 302
+[gpt-4.1-mini] #302/836 id=107632094700 ✓ 6.15s (in=2492, out=340)
+RUNNING ITEM 303
+[gpt-4.1-mini] #303/836 id=107632078700 ✓ 6.45s (in=2492, out=342)
+RUNNING ITEM 304
+[gpt-4.1-mini] #304/836 id=BG544_fuchsia ✓ 5.88s (in=1739, out=375)
+RUNNING ITEM 305
+[gpt-4.1-mini] #305/836 id=HK-SETSAGE ✓ 9.64s (in=3686, out=593)
+RUNNING ITEM 306
+[gpt-4.1-mini] #306/836 id=HKBAUFAHRZ-SETBLAU ✓ 8.76s (in=4055, out=486)
+RUNNING ITEM 307
+[gpt-4.1-mini] #307/836 id=HK-SETBLAU ✓ 8.59s (in=4060, out=479)
+RUNNING ITEM 308
+[gpt-4.1-mini] #308/836 id=107632078700 ✓ 5.73s (in=2491, out=348)
+RUNNING ITEM 309
+[gpt-4.1-mini] #309/836 id=HK_GRÜN ✓ 6.25s (in=1865, out=419)
+RUNNING ITEM 310
+[gpt-4.1-mini] #310/836 id=107632078700 ✓ 5.73s (in=2493, out=240)
+RUNNING ITEM 311
+[gpt-4.1-mini] #311/836 id=107731015700 ✓ 7.48s (in=2945, out=404)
+RUNNING ITEM 312
+[gpt-4.1-mini] #312/836 id=107632078700 ✓ 7.07s (in=2487, out=454)
+RUNNING ITEM 313
+[gpt-4.1-mini] #313/836 id=107632078700 ✓ 4.00s (in=2487, out=301)
+RUNNING ITEM 314
+[gpt-4.1-mini] #314/836 id=MEPALDUO_MAUVE ✓ 7.98s (in=2653, out=424)
+RUNNING ITEM 315
+[gpt-4.1-mini] #315/836 id=107731078700 ✓ 7.99s (in=2945, out=313)
+RUNNING ITEM 316
+[gpt-4.1-mini] #316/836 id=HK-SETSAGE ✓ 14.44s (in=3688, out=616)
+RUNNING ITEM 317
+[gpt-4.1-mini] #317/836 id=HK-SETSAGE ✓ 9.83s (in=3685, out=554)
+RUNNING ITEM 318
+[gpt-4.1-mini] #318/836 id=HK_LACHS ✓ 5.53s (in=1866, out=329)
+RUNNING ITEM 319
+[gpt-4.1-mini] #319/836 id=HK-SETSAGE ✓ 9.33s (in=3685, out=620)
+RUNNING ITEM 320
+[gpt-4.1-mini] #320/836 id=HK-SETSAGE ✓ 9.83s (in=3690, out=543)
+RUNNING ITEM 321
+[gpt-4.1-mini] #321/836 id=107632078700 ✓ 6.76s (in=2490, out=296)
+RUNNING ITEM 322
+[gpt-4.1-mini] #322/836 id=107632078700 ✓ 6.45s (in=2489, out=443)
+RUNNING ITEM 323
+[gpt-4.1-mini] #323/836 id=HK_ROSA ✓ 5.83s (in=1864, out=412)
+RUNNING ITEM 324
+[gpt-4.1-mini] #324/836 id=HK_LACHS ✓ 6.45s (in=1865, out=427)
+RUNNING ITEM 325
+[gpt-4.1-mini] #325/836 id=WM110_rosa ✓ 4.61s (in=2029, out=333)
+RUNNING ITEM 326
+[gpt-4.1-mini] #326/836 id=ROLLTOP-SETSAGE ✓ 9.52s (in=8595, out=507)
+RUNNING ITEM 327
+[gpt-4.1-mini] #327/836 id=207632415700 ✓ 3.99s (in=647, out=141)
+RUNNING ITEM 328
+[gpt-4.1-mini] #328/836 id=107650078700 ✓ 6.76s (in=1684, out=363)
+RUNNING ITEM 329
+[gpt-4.1-mini] #329/836 id=107650078700 ✓ 7.69s (in=1683, out=377)
+RUNNING ITEM 330
+[gpt-4.1-mini] #330/836 id=MEPALDUO_MAUVE ✓ 6.75s (in=2652, out=445)
+RUNNING ITEM 331
+[gpt-4.1-mini] #331/836 id=107632078700 ✓ 6.14s (in=2488, out=356)
+RUNNING ITEM 332
+[gpt-4.1-mini] #332/836 id=107731078700 ✓ 11.21s (in=2948, out=459)
+RUNNING ITEM 333
+[gpt-4.1-mini] #333/836 id=HK_ROSA ✓ 6.60s (in=1864, out=380)
+RUNNING ITEM 334
+[gpt-4.1-mini] #334/836 id=HK_ROSA ✓ 7.07s (in=1865, out=439)
+RUNNING ITEM 335
+[gpt-4.1-mini] #335/836 id=HK_ROSA ✓ 4.57s (in=1866, out=407)
+RUNNING ITEM 336
+[gpt-4.1-mini] #336/836 id=107632078700 ✓ 6.78s (in=2487, out=422)
+RUNNING ITEM 337
+[gpt-4.1-mini] #337/836 id=107650078700 ✓ 6.45s (in=1681, out=376)
+RUNNING ITEM 338
+[gpt-4.1-mini] #338/836 id=HK_BLAU ✓ 5.22s (in=1863, out=364)
+RUNNING ITEM 339
+[gpt-4.1-mini] #339/836 id=HK-SETBLAU ✓ 13.21s (in=4061, out=651)
+RUNNING ITEM 340
+[gpt-4.1-mini] #340/836 id=HK-SETSAGE ✓ 9.48s (in=3688, out=503)
+RUNNING ITEM 341
+[gpt-4.1-mini] #341/836 id=107632015700 ✓ 8.03s (in=2486, out=483)
+RUNNING ITEM 342
+[gpt-4.1-mini] #342/836 id=HK_GRÜN ✓ 7.37s (in=1863, out=429)
+RUNNING ITEM 343
+[gpt-4.1-mini] #343/836 id=107632078700 ✓ 6.77s (in=2487, out=303)
+RUNNING ITEM 344
+[gpt-4.1-mini] #344/836 id=107632094700 ✓ 11.90s (in=2490, out=469)
+RUNNING ITEM 345
+[gpt-4.1-mini] #345/836 id=107632078700 ✓ 7.14s (in=2489, out=408)
+RUNNING ITEM 346
+[gpt-4.1-mini] #346/836 id=HKROSA-SETROSA ✓ 7.37s (in=3651, out=492)
+RUNNING ITEM 347
+[gpt-4.1-mini] #347/836 id=HK_LACHS ✓ 8.02s (in=1865, out=405)
+RUNNING ITEM 348
+[gpt-4.1-mini] #348/836 id=MEPALDUO_MAUVE ✓ 7.65s (in=2653, out=370)
+RUNNING ITEM 349
+[gpt-4.1-mini] #349/836 id=HK_ROSA ✓ 6.62s (in=1863, out=378)
+RUNNING ITEM 350
+[gpt-4.1-mini] #350/836 id=107632078700 ✓ 5.98s (in=2489, out=358)
+RUNNING ITEM 351
+[gpt-4.1-mini] #351/836 id=107632078700 ✓ 7.22s (in=2490, out=528)
+RUNNING ITEM 352
+[gpt-4.1-mini] #352/836 id=107632078700 ✓ 4.46s (in=2488, out=309)
+RUNNING ITEM 353
+[gpt-4.1-mini] #353/836 id=107632078700 ✓ 7.67s (in=2488, out=499)
+RUNNING ITEM 354
+[gpt-4.1-mini] #354/836 id=WM110_rosa ✓ 6.67s (in=2029, out=336)
+RUNNING ITEM 355
+[gpt-4.1-mini] #355/836 id=107632078700 ✓ 5.31s (in=2487, out=307)
+RUNNING ITEM 356
+[gpt-4.1-mini] #356/836 id=MEPALTRIO_MAUVE ✓ 8.58s (in=1591, out=468)
+RUNNING ITEM 357
+[gpt-4.1-mini] #357/836 id=QS77_roas ✓ 6.48s (in=1510, out=386)
+RUNNING ITEM 358
+[gpt-4.1-mini] #358/836 id=BG544_fuchsia ✓ 8.60s (in=1741, out=430)
+RUNNING ITEM 359
+[gpt-4.1-mini] #359/836 id=7/8-RY6681K_lightpink48 ✓ 11.03s (in=4744, out=473)
+RUNNING ITEM 360
+[gpt-4.1-mini] #360/836 id=107632078700 ✓ 6.01s (in=2490, out=452)
+RUNNING ITEM 361
+[gpt-4.1-mini] #361/836 id=HK_KUPFER ✓ 9.98s (in=1864, out=696)
+RUNNING ITEM 362
+[gpt-4.1-mini] #362/836 id=HK_ROSA ✓ 6.45s (in=1863, out=350)
+RUNNING ITEM 363
+[gpt-4.1-mini] #363/836 id=107632094700 ✓ 6.76s (in=2487, out=455)
+RUNNING ITEM 364
+[gpt-4.1-mini] #364/836 id=107632094700 ✓ 6.96s (in=2489, out=494)
+RUNNING ITEM 365
+[gpt-4.1-mini] #365/836 id=BG544_limegreen ✓ 6.13s (in=1737, out=371)
+RUNNING ITEM 366
+[gpt-4.1-mini] #366/836 id=BG544_orange ✓ 6.26s (in=1741, out=410)
+RUNNING ITEM 367
+[gpt-4.1-mini] #367/836 id=QS77_sky ✓ 5.46s (in=1511, out=365)
+RUNNING ITEM 368
+[gpt-4.1-mini] #368/836 id=HKROSA-SETROSA ✓ 7.44s (in=3652, out=547)
+RUNNING ITEM 369
+[gpt-4.1-mini] #369/836 id=HKROSA-SETROSA ✓ 6.76s (in=3650, out=527)
+RUNNING ITEM 370
+[gpt-4.1-mini] #370/836 id=107632010100 ✓ 4.25s (in=2487, out=266)
+RUNNING ITEM 371
+[gpt-4.1-mini] #371/836 id=107632078700 ✓ 6.50s (in=2489, out=401)
+RUNNING ITEM 372
+[gpt-4.1-mini] #372/836 id=HK_ROSA ✓ 9.11s (in=1864, out=378)
+RUNNING ITEM 373
+[gpt-4.1-mini] #373/836 id=MEPALTRIO_MAUVE ✓ 6.25s (in=1591, out=429)
+RUNNING ITEM 374
+[gpt-4.1-mini] #374/836 id=HKROSA-SETROSA ✓ 15.64s (in=3653, out=537)
+RUNNING ITEM 375
+[gpt-4.1-mini] #375/836 id=107632094700 ✓ 6.48s (in=2487, out=366)
+RUNNING ITEM 376
+[gpt-4.1-mini] #376/836 id=BG544_black ✓ 6.65s (in=1740, out=468)
+RUNNING ITEM 377
+[gpt-4.1-mini] #377/836 id=HK-SETSAGE ✓ 7.61s (in=3687, out=471)
+RUNNING ITEM 378
+[gpt-4.1-mini] #378/836 id=107632078700 ✓ 6.64s (in=2488, out=357)
+RUNNING ITEM 379
+[gpt-4.1-mini] #379/836 id=107731078700 ✓ 6.13s (in=2945, out=365)
+RUNNING ITEM 380
+[gpt-4.1-mini] #380/836 id=107632094700 ✓ 6.45s (in=2487, out=461)
+RUNNING ITEM 381
+[gpt-4.1-mini] #381/836 id=107632094700 ✓ 6.04s (in=2489, out=383)
+RUNNING ITEM 382
+[gpt-4.1-mini] #382/836 id=HK-SETBLAU ✓ 7.77s (in=4063, out=449)
+RUNNING ITEM 383
+[gpt-4.1-mini] #383/836 id=HK-SET4-TIGER-NAME ✓ 8.61s (in=3297, out=564)
+RUNNING ITEM 384
+[gpt-4.1-mini] #384/836 id= ✓ 3.06s (in=581, out=128)
+RUNNING ITEM 385
+[gpt-4.1-mini] #385/836 id=HK_LACHS ✓ 7.21s (in=1864, out=357)
+RUNNING ITEM 386
+[gpt-4.1-mini] #386/836 id=HKBAUFAHRZ-SETBLAU ✓ 14.48s (in=4056, out=617)
+RUNNING ITEM 387
+[gpt-4.1-mini] #387/836 id=MEPALDUO_MAUVE ✓ 11.20s (in=2653, out=419)
+RUNNING ITEM 388
+[gpt-4.1-mini] #388/836 id=HKBAUFAHRZ-SETBLAU ✓ 9.68s (in=4058, out=481)
+RUNNING ITEM 389
+[gpt-4.1-mini] #389/836 id=QS77_sky ✓ 7.72s (in=1514, out=384)
+RUNNING ITEM 390
+[gpt-4.1-mini] #390/836 id=HK_LACHS ✓ 4.66s (in=1865, out=337)
+RUNNING ITEM 391
+[gpt-4.1-mini] #391/836 id=HK_LACHS ✓ 6.35s (in=1864, out=406)
+RUNNING ITEM 392
+[gpt-4.1-mini] #392/836 id=107632015700 ✓ 7.41s (in=2487, out=463)
+RUNNING ITEM 393
+[gpt-4.1-mini] #393/836 id=107731015700 ✓ 12.39s (in=2945, out=429)
+RUNNING ITEM 394
+[gpt-4.1-mini] #394/836 id=HS-BLUE ✓ 13.44s (in=9466, out=515)
+RUNNING ITEM 395
+[gpt-4.1-mini] #395/836 id=HS-BLUE ✓ 8.68s (in=9467, out=572)
+RUNNING ITEM 396
+[gpt-4.1-mini] #396/836 id=HKBAUFAHRZ-SETBLAU ✓ 8.60s (in=4054, out=558)
+RUNNING ITEM 397
+[gpt-4.1-mini] #397/836 id=MEPALDUO_VIVIDBLUE ✓ 4.93s (in=1692, out=373)
+RUNNING ITEM 398
+[gpt-4.1-mini] #398/836 id=HKROSA-SETROSA ✓ 4.76s (in=3652, out=372)
+RUNNING ITEM 399
+[gpt-4.1-mini] #399/836 id=MEPALDUO_MAUVE ✓ 6.90s (in=2652, out=410)
+RUNNING ITEM 400
+[gpt-4.1-mini] #400/836 id=MEPALDUO_MAUVE ✓ 13.52s (in=2649, out=423)
+RUNNING ITEM 401
+[gpt-4.1-mini] #401/836 id=107632041100 ✓ 14.44s (in=2487, out=420)
+RUNNING ITEM 402
+[gpt-4.1-mini] #402/836 id=107632015700 ✓ 7.06s (in=2488, out=343)
+RUNNING ITEM 403
+[gpt-4.1-mini] #403/836 id=107632015700 ✓ 4.61s (in=2487, out=289)
+RUNNING ITEM 404
+[gpt-4.1-mini] #404/836 id=HK_ROSA ✓ 5.77s (in=1866, out=419)
+RUNNING ITEM 405
+[gpt-4.1-mini] #405/836 id=MEPALDUO_MAUVE ✓ 9.29s (in=2653, out=412)
+RUNNING ITEM 406
+[gpt-4.1-mini] #406/836 id=MEPALDUO_MAUVE ✓ 6.44s (in=2653, out=403)
+RUNNING ITEM 407
+[gpt-4.1-mini] #407/836 id=MEPALDUO_MAUVE ✓ 12.90s (in=2652, out=481)
+RUNNING ITEM 408
+[gpt-4.1-mini] #408/836 id=WM110_rosa ✓ 5.84s (in=2035, out=328)
+RUNNING ITEM 409
+[gpt-4.1-mini] #409/836 id=107632078700 ✓ 7.68s (in=2492, out=391)
+RUNNING ITEM 410
+[gpt-4.1-mini] #410/836 id=107632015700 ✓ 6.21s (in=2487, out=361)
+RUNNING ITEM 411
+[gpt-4.1-mini] #411/836 id=107632041100 ✓ 8.21s (in=2488, out=340)
+RUNNING ITEM 412
+[gpt-4.1-mini] #412/836 id=HK_GRÜN ✓ 5.43s (in=1863, out=338)
+RUNNING ITEM 413
+[gpt-4.1-mini] #413/836 id=HK_GRÜN ✓ 8.42s (in=1863, out=433)
+RUNNING ITEM 414
+[gpt-4.1-mini] #414/836 id=HK_KUPFER ✓ 6.67s (in=1867, out=422)
+RUNNING ITEM 415
+[gpt-4.1-mini] #415/836 id=HK_KUPFER ✓ 7.37s (in=1864, out=433)
+RUNNING ITEM 416
+[gpt-4.1-mini] #416/836 id=HK_GRÜN ✓ 10.12s (in=1865, out=359)
+RUNNING ITEM 417
+[gpt-4.1-mini] #417/836 id=HK_GRÜN ✓ 7.74s (in=1863, out=419)
+RUNNING ITEM 418
+[gpt-4.1-mini] #418/836 id=HK_GRÜN ✓ 6.13s (in=1863, out=379)
+RUNNING ITEM 419
+[gpt-4.1-mini] #419/836 id=HK-SETSAGE ✓ 8.01s (in=3685, out=601)
+RUNNING ITEM 420
+[gpt-4.1-mini] #420/836 id=HK_ROSA ✓ 6.16s (in=1866, out=380)
+RUNNING ITEM 421
+[gpt-4.1-mini] #421/836 id=HK_LACHS ✓ 5.82s (in=1864, out=275)
+RUNNING ITEM 422
+[gpt-4.1-mini] #422/836 id=107731010100 ✓ 8.22s (in=2945, out=424)
+RUNNING ITEM 423
+[gpt-4.1-mini] #423/836 id=107632010100 ✓ 5.91s (in=2485, out=352)
+RUNNING ITEM 424
+[gpt-4.1-mini] #424/836 id=HKROSA-SETROSA ✓ 7.07s (in=3650, out=526)
+RUNNING ITEM 425
+[gpt-4.1-mini] #425/836 id=HK-SETROSA ✓ 10.14s (in=3656, out=602)
+RUNNING ITEM 426
+[gpt-4.1-mini] #426/836 id=HK-SET4-AXOKOR-NAME ✓ 20.58s (in=3269, out=533)
+RUNNING ITEM 427
+[gpt-4.1-mini] #427/836 id=HK_BLAU ✓ 7.37s (in=1864, out=407)
+RUNNING ITEM 428
+[gpt-4.1-mini] #428/836 id=HK-SETSAGE ✓ 10.65s (in=3686, out=625)
+RUNNING ITEM 429
+[gpt-4.1-mini] #429/836 id=107632094700-HASE-1 ✓ 5.40s (in=1434, out=270)
+RUNNING ITEM 430
+[gpt-4.1-mini] #430/836 id=HK-SETROSA ✓ 7.92s (in=3658, out=501)
+RUNNING ITEM 431
+[gpt-4.1-mini] #431/836 id=HK_TES ✓ 7.17s (in=1829, out=378)
+RUNNING ITEM 432
+[gpt-4.1-mini] #432/836 id=BAUERNHOF-SETTRAKTOR ✓ 9.42s (in=3275, out=484)
+RUNNING ITEM 433
+[gpt-4.1-mini] #433/836 id=HK4-HAP-ELT-LOE-TIG-NAM ✓ 8.31s (in=3304, out=540)
+RUNNING ITEM 434
+[gpt-4.1-mini] #434/836 id=BG118S_gruen ✓ 5.21s (in=1459, out=381)
+RUNNING ITEM 435
+[gpt-4.1-mini] #435/836 id=HK_LACHS ✓ 5.83s (in=1867, out=371)
+RUNNING ITEM 436
+[gpt-4.1-mini] #436/836 id=MEPALDUO_MAUVE ✓ 7.07s (in=1411, out=441)
+RUNNING ITEM 437
+[gpt-4.1-mini] #437/836 id=MEPALDUO_SAGE ✓ 10.14s (in=1684, out=416)
+RUNNING ITEM 438
+[gpt-4.1-mini] #438/836 id=HK4-HAP-EIN-STR-NAM ✓ 11.67s (in=3302, out=584)
+RUNNING ITEM 439
+[gpt-4.1-mini] #439/836 id=107632094700 ✓ 8.05s (in=2489, out=400)
+RUNNING ITEM 440
+[gpt-4.1-mini] #440/836 id=107731094700 ✓ 6.29s (in=2945, out=350)
+RUNNING ITEM 441
+[gpt-4.1-mini] #441/836 id=HK_LACHS ✓ 7.48s (in=1864, out=401)
+RUNNING ITEM 442
+[gpt-4.1-mini] #442/836 id=107650094700 ✓ 6.15s (in=1682, out=334)
+RUNNING ITEM 443
+[gpt-4.1-mini] #443/836 id=107632078700 ✓ 7.68s (in=2488, out=372)
+RUNNING ITEM 444
+[gpt-4.1-mini] #444/836 id=107632010100 ✓ 9.82s (in=2488, out=323)
+RUNNING ITEM 445
+[gpt-4.1-mini] #445/836 id=HS-APRICOT ✓ 8.79s (in=9477, out=645)
+RUNNING ITEM 446
+[gpt-4.1-mini] #446/836 id=107731078700 ✓ 7.81s (in=2948, out=394)
+RUNNING ITEM 447
+[gpt-4.1-mini] #447/836 id=MEPALTRIO_MAUVE ✓ 8.90s (in=1589, out=420)
+RUNNING ITEM 448
+[gpt-4.1-mini] #448/836 id=SET-SELBSTGESTALTEN_blau ✓ 11.97s (in=4764, out=543)
+RUNNING ITEM 449
+[gpt-4.1-mini] #449/836 id=107632094700 ✓ 7.68s (in=2488, out=367)
+RUNNING ITEM 450
+[gpt-4.1-mini] #450/836 id=WM110_surfeblue ✓ 5.84s (in=2037, out=302)
+RUNNING ITEM 451
+[gpt-4.1-mini] #451/836 id=WM110_surfeblue ✓ 6.43s (in=2034, out=329)
+RUNNING ITEM 452
+[gpt-4.1-mini] #452/836 id=WM110_surfeblue ✓ 5.24s (in=2031, out=352)
+RUNNING ITEM 453
+[gpt-4.1-mini] #453/836 id=WM110_surfeblue ✓ 6.76s (in=2033, out=398)
+RUNNING ITEM 454
+[gpt-4.1-mini] #454/836 id=ROLLTOP-BLUSHPINK ✓ 8.91s (in=8071, out=546)
+RUNNING ITEM 455
+[gpt-4.1-mini] #455/836 id=107632015700 ✓ 6.45s (in=2489, out=344)
+RUNNING ITEM 456
+[gpt-4.1-mini] #456/836 id=107632041100 ✓ 16.29s (in=2489, out=488)
+RUNNING ITEM 457
+[gpt-4.1-mini] #457/836 id=107632041100 ✓ 9.72s (in=2489, out=509)
+RUNNING ITEM 458
+[gpt-4.1-mini] #458/836 id=MEPALTRIO_BLUE ✓ 6.87s (in=1590, out=474)
+RUNNING ITEM 459
+[gpt-4.1-mini] #459/836 id=MEPALDUO_SAGE ✓ 7.67s (in=1686, out=480)
+RUNNING ITEM 460
+[gpt-4.1-mini] #460/836 id=HK_GRÜN ✓ 5.08s (in=1867, out=378)
+RUNNING ITEM 461
+[gpt-4.1-mini] #461/836 id=MEPALTRIO_BLUE ✓ 6.29s (in=1592, out=504)
+RUNNING ITEM 462
+[gpt-4.1-mini] #462/836 id=107632041100 ✓ 7.37s (in=2488, out=391)
+RUNNING ITEM 463
+[gpt-4.1-mini] #463/836 id=107650041100 ✓ 6.72s (in=1685, out=434)
+RUNNING ITEM 464
+[gpt-4.1-mini] #464/836 id=QS77_sky ✓ 9.26s (in=1512, out=344)
+RUNNING ITEM 465
+[gpt-4.1-mini] #465/836 id=BG544_limegreen ✓ 8.73s (in=1741, out=490)
+RUNNING ITEM 466
+[gpt-4.1-mini] #466/836 id=SET-SELBSTGESTALTEN-1 ✓ 13.41s (in=5534, out=545)
+RUNNING ITEM 467
+[gpt-4.1-mini] #467/836 id=107632078700 ✓ 7.96s (in=2490, out=303)
+RUNNING ITEM 468
+[gpt-4.1-mini] #468/836 id=MEPALTRIO_MAUVE ✓ 9.52s (in=1594, out=571)
+RUNNING ITEM 469
+[gpt-4.1-mini] #469/836 id=BG544_red ✓ 8.60s (in=1740, out=359)
+RUNNING ITEM 470
+[gpt-4.1-mini] #470/836 id=HK4-PFERDROSEN-NAMEN ✓ 11.40s (in=3289, out=620)
+RUNNING ITEM 471
+[gpt-4.1-mini] #471/836 id=HK4-HAP-EUL-NAM ✓ 8.22s (in=3282, out=486)
+RUNNING ITEM 472
+[gpt-4.1-mini] #472/836 id=MEPALTRIO_MAUVE ✓ 8.33s (in=1591, out=433)
+RUNNING ITEM 473
+[gpt-4.1-mini] #473/836 id=107632015700 ✓ 8.30s (in=2487, out=369)
+RUNNING ITEM 474
+[gpt-4.1-mini] #474/836 id=QS77_roas ✓ 8.39s (in=1516, out=351)
+RUNNING ITEM 475
+[gpt-4.1-mini] #475/836 id=SPT-KIDS-FUSSBALL-SCHW ✓ 5.51s (in=1531, out=350)
+RUNNING ITEM 476
+[gpt-4.1-mini] #476/836 id=HKBAUFAHRZ-SETBLAU ✓ 9.35s (in=4057, out=542)
+RUNNING ITEM 477
+[gpt-4.1-mini] #477/836 id=MEPALDUO_MAUVE ✓ 6.24s (in=2650, out=372)
+RUNNING ITEM 478
+[gpt-4.1-mini] #478/836 id=MEPALDUO_MAUVE ✓ 12.59s (in=1407, out=432)
+RUNNING ITEM 479
+[gpt-4.1-mini] #479/836 id=MEPALDUO_SAGE ✓ 9.21s (in=1687, out=486)
+RUNNING ITEM 480
+[gpt-4.1-mini] #480/836 id=HK_KUPFER ✓ 33.93s (in=1866, out=366)
+RUNNING ITEM 481
+[gpt-4.1-mini] #481/836 id=SPT-KIDS-WILDBLU-NAVY ✓ 7.84s (in=1532, out=313)
+RUNNING ITEM 482
+[gpt-4.1-mini] #482/836 id=HK_GRÜN ✓ 5.84s (in=1866, out=373)
+RUNNING ITEM 483
+[gpt-4.1-mini] #483/836 id=HK_KUPFER ✓ 5.85s (in=1864, out=405)
+RUNNING ITEM 484
+[gpt-4.1-mini] #484/836 id=HK-SETBLAU ✓ 10.12s (in=4067, out=612)
+RUNNING ITEM 485
+[gpt-4.1-mini] #485/836 id=HKBAUFAHRZ-SETBLAU ✓ 10.75s (in=4056, out=535)
+RUNNING ITEM 486
+[gpt-4.1-mini] #486/836 id=SET-SELBSTGESTALTEN_rosa ✓ 11.06s (in=4791, out=648)
+RUNNING ITEM 487
+[gpt-4.1-mini] #487/836 id=HK_GRÜN ✓ 9.24s (in=1864, out=618)
+RUNNING ITEM 488
+[gpt-4.1-mini] #488/836 id=HK_GRÜN ✓ 6.34s (in=1867, out=398)
+RUNNING ITEM 489
+[gpt-4.1-mini] #489/836 id=HK_GRÜN ✓ 6.22s (in=1867, out=381)
+RUNNING ITEM 490
+[gpt-4.1-mini] #490/836 id=107731094700 ✓ 6.67s (in=2945, out=412)
+RUNNING ITEM 491
+[gpt-4.1-mini] #491/836 id=HK-SETBLAU ✓ 8.34s (in=4068, out=587)
+RUNNING ITEM 492
+[gpt-4.1-mini] #492/836 id=107632015700 ✓ 5.27s (in=2488, out=291)
+RUNNING ITEM 493
+[gpt-4.1-mini] #493/836 id=107632015700 ✓ 5.05s (in=2490, out=338)
+RUNNING ITEM 494
+[gpt-4.1-mini] #494/836 id=HK_BLAU ✓ 7.24s (in=1865, out=358)
+RUNNING ITEM 495
+[gpt-4.1-mini] #495/836 id=HK_ROSA ✓ 6.76s (in=1867, out=391)
+RUNNING ITEM 496
+[gpt-4.1-mini] #496/836 id=HS-BLUE ✓ 12.29s (in=9470, out=636)
+RUNNING ITEM 497
+[gpt-4.1-mini] #497/836 id=HKROSA-SETROSA ✓ 6.76s (in=3654, out=477)
+RUNNING ITEM 498
+[gpt-4.1-mini] #498/836 id=HKROSA-SETROSA ✓ 8.10s (in=3655, out=564)
+RUNNING ITEM 499
+[gpt-4.1-mini] #499/836 id=HK_GRÜN ✓ 6.97s (in=1865, out=383)
+RUNNING ITEM 500
+[gpt-4.1-mini] #500/836 id=SPT-KIDS-FUSSGE-ROT ✓ 7.06s (in=1534, out=298)
+RUNNING ITEM 501
+[gpt-4.1-mini] #501/836 id=SCHULROSA ✓ 8.90s (in=3616, out=333)
+RUNNING ITEM 502
+[gpt-4.1-mini] #502/836 id=SCHULROSA ✓ 5.54s (in=3617, out=323)
+RUNNING ITEM 503
+[gpt-4.1-mini] #503/836 id=HKSCHILD-SETSAGE ✓ 9.82s (in=3730, out=580)
+RUNNING ITEM 504
+[gpt-4.1-mini] #504/836 id=HK-SETSAGE ✓ 6.14s (in=537, out=320)
+RUNNING ITEM 505
+[gpt-4.1-mini] #505/836 id=HAPPYSTYLE_LACHS ✓ 4.73s (in=6683, out=481)
+RUNNING ITEM 506
+[gpt-4.1-mini] #506/836 id=HK-SETSAGE ✓ 8.44s (in=3690, out=536)
+RUNNING ITEM 507
+[gpt-4.1-mini] #507/836 id=HKSCHILD-SETSAGE ✓ 9.25s (in=3731, out=656)
+RUNNING ITEM 508
+[gpt-4.1-mini] #508/836 id=107632015700 ✓ 6.14s (in=2489, out=433)
+RUNNING ITEM 509
+[gpt-4.1-mini] #509/836 id=QS77_black ✓ 7.31s (in=1513, out=388)
+RUNNING ITEM 510
+[gpt-4.1-mini] #510/836 id=QS77_rosa ✓ 6.82s (in=2273, out=404)
+RUNNING ITEM 511
+[gpt-4.1-mini] #511/836 id=QS77_black ✓ 6.75s (in=1559, out=397)
+RUNNING ITEM 512
+[gpt-4.1-mini] #512/836 id=QS77_black ✓ 11.98s (in=1560, out=346)
+RUNNING ITEM 513
+[gpt-4.1-mini] #513/836 id=QS77_black ✓ 7.47s (in=1558, out=408)
+RUNNING ITEM 514
+[gpt-4.1-mini] #514/836 id=107632078700 ✓ 5.73s (in=2488, out=331)
+RUNNING ITEM 515
+[gpt-4.1-mini] #515/836 id=107632041100 ✓ 3.99s (in=2488, out=255)
+RUNNING ITEM 516
+[gpt-4.1-mini] #516/836 id=107632041100 ✓ 4.92s (in=2491, out=279)
+RUNNING ITEM 517
+[gpt-4.1-mini] #517/836 id=107650078700 ✓ 6.73s (in=1682, out=373)
+RUNNING ITEM 518
+[gpt-4.1-mini] #518/836 id=107632078700 ✓ 7.09s (in=2487, out=316)
+RUNNING ITEM 519
+[gpt-4.1-mini] #519/836 id=HK_KUPFER ✓ 6.43s (in=1868, out=382)
+RUNNING ITEM 520
+[gpt-4.1-mini] #520/836 id=QS77_sky ✓ 4.97s (in=1560, out=390)
+RUNNING ITEM 521
+[gpt-4.1-mini] #521/836 id=MEPALDUO_SCHWARZ ✓ 5.50s (in=1684, out=391)
+RUNNING ITEM 522
+[gpt-4.1-mini] #522/836 id=MEPALDUO_SCHWARZ ✓ 6.45s (in=1686, out=427)
+RUNNING ITEM 523
+[gpt-4.1-mini] #523/836 id=BG544_navy ✓ 6.76s (in=1739, out=430)
+RUNNING ITEM 524
+[gpt-4.1-mini] #524/836 id=107632094700 ✓ 5.44s (in=2486, out=308)
+RUNNING ITEM 525
+[gpt-4.1-mini] #525/836 id=107632015700 ✓ 5.92s (in=2488, out=382)
+RUNNING ITEM 526
+[gpt-4.1-mini] #526/836 id=BG544_fuchsia ✓ 6.76s (in=1740, out=371)
+RUNNING ITEM 527
+[gpt-4.1-mini] #527/836 id=SPT-KIDS-KARAT-ORAN ✓ 5.52s (in=1529, out=327)
+RUNNING ITEM 528
+[gpt-4.1-mini] #528/836 id=HKHASE-SETROSA ✓ 7.37s (in=3665, out=557)
+RUNNING ITEM 529
+[gpt-4.1-mini] #529/836 id=BG544_schwarz ✓ 6.77s (in=1319, out=376)
+RUNNING ITEM 530
+[gpt-4.1-mini] #530/836 id=HKHASE-SETROSA ✓ 7.98s (in=3665, out=540)
+RUNNING ITEM 531
+[gpt-4.1-mini] #531/836 id=HKHASE-SETROSA ✓ 10.15s (in=3664, out=621)
+RUNNING ITEM 532
+[gpt-4.1-mini] #532/836 id=HK_GRÜN ✓ 7.21s (in=1866, out=401)
+RUNNING ITEM 533
+[gpt-4.1-mini] #533/836 id=SET-SELBSTGESTALTEN_blau ✓ 7.27s (in=4797, out=533)
+RUNNING ITEM 534
+[gpt-4.1-mini] #534/836 id=SET-SELBSTGESTALTEN_rosa ✓ 12.55s (in=4795, out=514)
+RUNNING ITEM 535
+[gpt-4.1-mini] #535/836 id=SET-SELBSTGESTALTEN_rosa ✓ 8.90s (in=4796, out=579)
+RUNNING ITEM 536
+[gpt-4.1-mini] #536/836 id=MEPALTRIO_MAUVE ✓ 11.98s (in=1592, out=511)
+RUNNING ITEM 537
+[gpt-4.1-mini] #537/836 id=107632094700 ✓ 5.54s (in=2489, out=320)
+RUNNING ITEM 538
+[gpt-4.1-mini] #538/836 id=HK-SETSAGE ✓ 9.21s (in=3689, out=532)
+RUNNING ITEM 539
+[gpt-4.1-mini] #539/836 id=107632094700 ✓ 5.22s (in=2492, out=294)
+RUNNING ITEM 540
+[gpt-4.1-mini] #540/836 id=SET-SELBSTGESTALTEN_rosa ✓ 6.45s (in=4798, out=618)
+RUNNING ITEM 541
+[gpt-4.1-mini] #541/836 id=HS-APRICOT ✓ 10.14s (in=9485, out=663)
+RUNNING ITEM 542
+[gpt-4.1-mini] #542/836 id=HK-SETBLAU ✓ 7.67s (in=4065, out=506)
+RUNNING ITEM 543
+[gpt-4.1-mini] #543/836 id=QS77_rot ✓ 11.98s (in=1560, out=340)
+RUNNING ITEM 544
+[gpt-4.1-mini] #544/836 id=BG544_rot ✓ 5.53s (in=1744, out=449)
+RUNNING ITEM 545
+[gpt-4.1-mini] #545/836 id=107632015700 ✓ 5.20s (in=2488, out=335)
+RUNNING ITEM 546
+[gpt-4.1-mini] #546/836 id=107632015700 ✓ 7.09s (in=2489, out=323)
+RUNNING ITEM 547
+[gpt-4.1-mini] #547/836 id=107632094700 ✓ 6.76s (in=2488, out=442)
+RUNNING ITEM 548
+[gpt-4.1-mini] #548/836 id=107632078700 ✓ 6.12s (in=2488, out=404)
+RUNNING ITEM 549
+[gpt-4.1-mini] #549/836 id=WM810_sage ✓ 5.58s (in=2033, out=335)
+RUNNING ITEM 550
+[gpt-4.1-mini] #550/836 id=107632015700 ✓ 4.82s (in=2489, out=310)
+RUNNING ITEM 551
+[gpt-4.1-mini] #551/836 id=SET-SELBSTGESTALTEN_blau ✓ 10.93s (in=4797, out=553)
+RUNNING ITEM 552
+[gpt-4.1-mini] #552/836 id=HKROSA-SETROSA ✓ 16.92s (in=3655, out=530)
+RUNNING ITEM 553
+[gpt-4.1-mini] #553/836 id=SET-SELBSTGESTALTEN_gruen ✓ 10.01s (in=4799, out=605)
+RUNNING ITEM 554
+[gpt-4.1-mini] #554/836 id=107632094700 ✓ 6.57s (in=2491, out=443)
+RUNNING ITEM 555
+[gpt-4.1-mini] #555/836 id=HS-APRICOT ✓ 6.64s (in=9481, out=576)
+RUNNING ITEM 556
+[gpt-4.1-mini] #556/836 id=107650015700 ✓ 5.22s (in=1682, out=323)
+RUNNING ITEM 557
+[gpt-4.1-mini] #557/836 id=HKHASE-SETROSA ✓ 7.06s (in=3665, out=459)
+RUNNING ITEM 558
+[gpt-4.1-mini] #558/836 id=HK_GRÜN ✓ 6.15s (in=1868, out=412)
+RUNNING ITEM 559
+[gpt-4.1-mini] #559/836 id=HS-APRICOT ✓ 10.45s (in=9483, out=568)
+RUNNING ITEM 560
+[gpt-4.1-mini] #560/836 id=107731078700 ✓ 7.32s (in=2944, out=430)
+RUNNING ITEM 561
+[gpt-4.1-mini] #561/836 id=MEPALDUO_MAUVE ✓ 6.81s (in=2651, out=384)
+RUNNING ITEM 562
+[gpt-4.1-mini] #562/836 id=BG544_fuchsia ✓ 8.15s (in=1739, out=495)
+RUNNING ITEM 563
+[gpt-4.1-mini] #563/836 id=MEPALDUO_MAUVE ✓ 7.31s (in=2653, out=415)
+RUNNING ITEM 564
+[gpt-4.1-mini] #564/836 id=107632094700 ✓ 7.27s (in=3335, out=448)
+RUNNING ITEM 565
+[gpt-4.1-mini] #565/836 id=MEPALDUO_MAUVE ✓ 5.83s (in=2652, out=375)
+RUNNING ITEM 566
+[gpt-4.1-mini] #566/836 id=107632015700 ✓ 8.81s (in=3338, out=383)
+RUNNING ITEM 567
+[gpt-4.1-mini] #567/836 id=107632078700 ✓ 8.02s (in=3336, out=448)
+RUNNING ITEM 568
+[gpt-4.1-mini] #568/836 id=107632094700 ✓ 8.67s (in=3334, out=516)
+RUNNING ITEM 569
+[gpt-4.1-mini] #569/836 id=107632015700 ✓ 7.84s (in=3336, out=347)
+RUNNING ITEM 570
+[gpt-4.1-mini] #570/836 id=107632078700 ✓ 7.56s (in=3338, out=472)
+RUNNING ITEM 571
+[gpt-4.1-mini] #571/836 id=107632015700 ✓ 9.49s (in=3337, out=518)
+RUNNING ITEM 572
+[gpt-4.1-mini] #572/836 id=107632015700 ✓ 10.44s (in=3334, out=482)
+RUNNING ITEM 573
+[gpt-4.1-mini] #573/836 id=107632015700 ✓ 6.83s (in=3335, out=473)
+RUNNING ITEM 574
+[gpt-4.1-mini] #574/836 id=107632015700 ✓ 6.69s (in=3336, out=375)
+RUNNING ITEM 575
+[gpt-4.1-mini] #575/836 id=107632015700 ✓ 7.68s (in=3334, out=500)
+RUNNING ITEM 576
+[gpt-4.1-mini] #576/836 id=107632015700 ✓ 6.90s (in=3336, out=438)
+RUNNING ITEM 577
+[gpt-4.1-mini] #577/836 id=107632094700 ✓ 7.65s (in=3337, out=417)
+RUNNING ITEM 578
+[gpt-4.1-mini] #578/836 id=BG118S_gruen ✓ 5.72s (in=1460, out=389)
+RUNNING ITEM 579
+[gpt-4.1-mini] #579/836 id=107632078700 ✓ 5.48s (in=3335, out=358)
+RUNNING ITEM 580
+[gpt-4.1-mini] #580/836 id=107632078700 ✓ 7.74s (in=3335, out=452)
+RUNNING ITEM 581
+[gpt-4.1-mini] #581/836 id=107632015700 ✓ 7.94s (in=3336, out=534)
+RUNNING ITEM 582
+[gpt-4.1-mini] #582/836 id=107632015700 ✓ 7.43s (in=3335, out=487)
+RUNNING ITEM 583
+[gpt-4.1-mini] #583/836 id=207632415700 ✓ 3.49s (in=647, out=143)
+RUNNING ITEM 584
+[gpt-4.1-mini] #584/836 id=107632015700 ✓ 9.14s (in=3334, out=487)
+RUNNING ITEM 585
+[gpt-4.1-mini] #585/836 id=107632078700 ✓ 7.02s (in=3336, out=459)
+RUNNING ITEM 586
+[gpt-4.1-mini] #586/836 id=107632015700 ✓ 9.08s (in=3336, out=378)
+RUNNING ITEM 587
+[gpt-4.1-mini] #587/836 id=107632015700 ✓ 9.04s (in=3337, out=474)
+RUNNING ITEM 588
+[gpt-4.1-mini] #588/836 id=107632094700 ✓ 7.37s (in=3335, out=434)
+RUNNING ITEM 589
+[gpt-4.1-mini] #589/836 id=107632094700 ✓ 8.01s (in=3337, out=483)
+RUNNING ITEM 590
+[gpt-4.1-mini] #590/836 id=107632094700 ✓ 5.22s (in=3337, out=365)
+RUNNING ITEM 591
+[gpt-4.1-mini] #591/836 id=107632094700 ✓ 7.68s (in=3333, out=466)
+RUNNING ITEM 592
+[gpt-4.1-mini] #592/836 id=107632015700 ✓ 6.75s (in=3337, out=453)
+RUNNING ITEM 593
+[gpt-4.1-mini] #593/836 id=HK_ROSA ✓ 5.94s (in=1865, out=386)
+RUNNING ITEM 594
+[gpt-4.1-mini] #594/836 id=MEPALDUO_MAUVE ✓ 5.43s (in=2650, out=395)
+RUNNING ITEM 595
+[gpt-4.1-mini] #595/836 id=BAUERNHOF-SETBLAU ✓ 4.92s (in=4059, out=499)
+RUNNING ITEM 596
+[gpt-4.1-mini] #596/836 id=HK-SETSAGE ✓ 9.52s (in=3690, out=603)
+RUNNING ITEM 597
+[gpt-4.1-mini] #597/836 id=HK-SETSAGE ✓ 6.35s (in=3687, out=433)
+RUNNING ITEM 598
+[gpt-4.1-mini] #598/836 id=HK-SETSAGE ✓ 8.90s (in=3692, out=654)
+RUNNING ITEM 599
+[gpt-4.1-mini] #599/836 id=HK-SETSAGE ✓ 9.88s (in=3691, out=649)
+RUNNING ITEM 600
+[gpt-4.1-mini] #600/836 id=SET-SELBSTGESTALTEN_blau ✓ 9.60s (in=4795, out=634)
+RUNNING ITEM 601
+[gpt-4.1-mini] #601/836 id=BG544_fuchsia ✓ 9.52s (in=1741, out=429)
+RUNNING ITEM 602
+[gpt-4.1-mini] #602/836 id=MEPALDUO_MAUVE ✓ 5.84s (in=2649, out=377)
+RUNNING ITEM 603
+[gpt-4.1-mini] #603/836 id=MEPALDUO_MAUVE ✓ 10.76s (in=2649, out=462)
+RUNNING ITEM 604
+[gpt-4.1-mini] #604/836 id=107632015700 ✓ 7.06s (in=3336, out=394)
+RUNNING ITEM 605
+[gpt-4.1-mini] #605/836 id=107632078700 ✓ 7.38s (in=3336, out=448)
+RUNNING ITEM 606
+[gpt-4.1-mini] #606/836 id=107632015700 ✓ 6.86s (in=3338, out=492)
+RUNNING ITEM 607
+[gpt-4.1-mini] #607/836 id=107632015700 ✓ 7.58s (in=3336, out=446)
+RUNNING ITEM 608
+[gpt-4.1-mini] #608/836 id=107632015700 ✓ 7.98s (in=3332, out=416)
+RUNNING ITEM 609
+[gpt-4.1-mini] #609/836 id=107632078700 ✓ 7.37s (in=3337, out=520)
+RUNNING ITEM 610
+[gpt-4.1-mini] #610/836 id=107632015700 ✓ 6.46s (in=3334, out=465)
+RUNNING ITEM 611
+[gpt-4.1-mini] #611/836 id=MEPALDUO_MAUVE ✓ 6.66s (in=2649, out=446)
+RUNNING ITEM 612
+[gpt-4.1-mini] #612/836 id=HK4-HAP-DIN-BAG-NAM ✓ 9.63s (in=3285, out=639)
+RUNNING ITEM 613
+[gpt-4.1-mini] #613/836 id=SET-SELBSTGESTALTEN_rosa ✓ 9.21s (in=4797, out=536)
+RUNNING ITEM 614
+[gpt-4.1-mini] #614/836 id=MEPALDUO_MAUVE ✓ 5.84s (in=2652, out=417)
+RUNNING ITEM 615
+[gpt-4.1-mini] #615/836 id=107632010100 ✓ 7.07s (in=3335, out=488)
+RUNNING ITEM 616
+[gpt-4.1-mini] #616/836 id=MEPALDUO_MAUVE ✓ 11.06s (in=2648, out=742)
+RUNNING ITEM 617
+[gpt-4.1-mini] #617/836 id=MEPALDUO_MAUVE ✓ 9.83s (in=2662, out=453)
+RUNNING ITEM 618
+[gpt-4.1-mini] #618/836 id=QS77_black ✓ 4.92s (in=1562, out=285)
+RUNNING ITEM 619
+[gpt-4.1-mini] #619/836 id=HK_BLAU ✓ 8.29s (in=1868, out=416)
+RUNNING ITEM 620
+[gpt-4.1-mini] #620/836 id=107632094700 ✓ 10.76s (in=3335, out=432)
+RUNNING ITEM 621
+[gpt-4.1-mini] #621/836 id=QS77_navy ✓ 5.32s (in=1562, out=328)
+RUNNING ITEM 622
+[gpt-4.1-mini] #622/836 id=HK-SETBLAU ✓ 7.55s (in=535, out=300)
+RUNNING ITEM 623
+[gpt-4.1-mini] #623/836 id=HK-SETBLAU ✓ 4.33s (in=535, out=259)
+RUNNING ITEM 624
+[gpt-4.1-mini] #624/836 id=HK-SETBLAU ✓ 5.22s (in=535, out=302)
+RUNNING ITEM 625
+[gpt-4.1-mini] #625/836 id=HK-SETBLAU ✓ 4.61s (in=535, out=304)
+RUNNING ITEM 626
+[gpt-4.1-mini] #626/836 id=HK-SETBLAU ✓ 6.14s (in=535, out=371)
+RUNNING ITEM 627
+[gpt-4.1-mini] #627/836 id=HK-SETBLAU ✓ 4.91s (in=535, out=292)
+RUNNING ITEM 628
+[gpt-4.1-mini] #628/836 id=HK-SETBLAU ✓ 5.84s (in=535, out=313)
+RUNNING ITEM 629
+[gpt-4.1-mini] #629/836 id=HK-SETBLAU ✓ 5.43s (in=535, out=290)
+RUNNING ITEM 630
+[gpt-4.1-mini] #630/836 id=QS77_royal ✓ 5.33s (in=1562, out=352)
+RUNNING ITEM 631
+[gpt-4.1-mini] #631/836 id=QS77_royal ✓ 6.44s (in=1561, out=369)
+RUNNING ITEM 632
+[gpt-4.1-mini] #632/836 id=BG544_fuchsia ✓ 4.61s (in=1742, out=335)
+RUNNING ITEM 633
+[gpt-4.1-mini] #633/836 id=BG544_black ✓ 5.22s (in=1741, out=399)
+RUNNING ITEM 634
+[gpt-4.1-mini] #634/836 id=MEPALDUO_MAUVE ✓ 7.41s (in=2650, out=466)
+RUNNING ITEM 635
+[gpt-4.1-mini] #635/836 id=MEPALDUO_VIVIDBLUE ✓ 21.82s (in=1692, out=401)
+RUNNING ITEM 636
+[gpt-4.1-mini] #636/836 id=QS77_roas ✓ 9.06s (in=1561, out=340)
+RUNNING ITEM 637
+[gpt-4.1-mini] #637/836 id=HK-SETBLAU ✓ 4.24s (in=535, out=274)
+RUNNING ITEM 638
+[gpt-4.1-mini] #638/836 id=HK-SETBLAU ✓ 5.40s (in=535, out=262)
+RUNNING ITEM 639
+[gpt-4.1-mini] #639/836 id=HK-SETBLAU ✓ 5.53s (in=535, out=291)
+RUNNING ITEM 640
+[gpt-4.1-mini] #640/836 id=HK_ROSA ✓ 7.37s (in=1867, out=425)
+RUNNING ITEM 641
+[gpt-4.1-mini] #641/836 id=HK-SETBLAU ✓ 9.22s (in=535, out=276)
+RUNNING ITEM 642
+[gpt-4.1-mini] #642/836 id=HK-SETBLAU ✓ 4.27s (in=535, out=303)
+RUNNING ITEM 643
+[gpt-4.1-mini] #643/836 id=MEPALDUO_MAUVE ✓ 5.25s (in=2653, out=338)
+RUNNING ITEM 644
+[gpt-4.1-mini] #644/836 id=HK-SETBLAU ✓ 5.22s (in=535, out=332)
+RUNNING ITEM 645
+[gpt-4.1-mini] #645/836 id=HK_ROSA ✓ 6.45s (in=1866, out=432)
+RUNNING ITEM 646
+[gpt-4.1-mini] #646/836 id=HK-SETBLAU ✓ 4.82s (in=535, out=300)
+RUNNING ITEM 647
+[gpt-4.1-mini] #647/836 id=107632094700 ✓ 8.55s (in=3334, out=429)
+RUNNING ITEM 648
+[gpt-4.1-mini] #648/836 id=107632094700 ✓ 6.29s (in=3337, out=472)
+RUNNING ITEM 649
+[gpt-4.1-mini] #649/836 id=HK-SETBLAU ✓ 3.69s (in=535, out=262)
+RUNNING ITEM 650
+[gpt-4.1-mini] #650/836 id=HK-SETBLAU ✓ 3.35s (in=535, out=188)
+RUNNING ITEM 651
+[gpt-4.1-mini] #651/836 id=107632015700 ✓ 6.36s (in=3338, out=394)
+RUNNING ITEM 652
+[gpt-4.1-mini] #652/836 id=SPT-KIDS-TORJ-ROYAL ✓ 6.00s (in=1529, out=394)
+RUNNING ITEM 653
+[gpt-4.1-mini] #653/836 id=SPT-KIDS-PUSTE-PINK ✓ 5.49s (in=1532, out=345)
+RUNNING ITEM 654
+[gpt-4.1-mini] #654/836 id=SPT-KIDS-EULE-LIME ✓ 7.07s (in=1531, out=482)
+RUNNING ITEM 655
+[gpt-4.1-mini] #655/836 id=SPT-KIDS-TANZ-NAVY ✓ 6.91s (in=1530, out=453)
+RUNNING ITEM 656
+[gpt-4.1-mini] #656/836 id=MP3-HAS-SCH-MAU-NAM ✓ 6.91s (in=2424, out=486)
+RUNNING ITEM 657
+[gpt-4.1-mini] #657/836 id=MP3-SCH-NOS-NAM ✓ 6.45s (in=2422, out=466)
+RUNNING ITEM 658
+[gpt-4.1-mini] #658/836 id=MP3-LOE-PKT-NAM ✓ 9.17s (in=2424, out=449)
+RUNNING ITEM 659
+[gpt-4.1-mini] #659/836 id=107731041100 ✓ 7.73s (in=2948, out=386)
+RUNNING ITEM 660
+[gpt-4.1-mini] #660/836 id=HK_KUPFER ✓ 10.14s (in=1864, out=408)
+RUNNING ITEM 661
+[gpt-4.1-mini] #661/836 id=HS-BLUE ✓ 7.99s (in=9471, out=552)
+RUNNING ITEM 662
+[gpt-4.1-mini] #662/836 id=ROLLTOP-SETSAGE ✓ 9.21s (in=8596, out=627)
+RUNNING ITEM 663
+[gpt-4.1-mini] #663/836 id=QS77_royal ✓ 7.99s (in=1562, out=403)
+RUNNING ITEM 664
+[gpt-4.1-mini] #664/836 id=HS-APRICOT ✓ 11.82s (in=9483, out=623)
+RUNNING ITEM 665
+[gpt-4.1-mini] #665/836 id=107731078700 ✓ 6.61s (in=2945, out=390)
+RUNNING ITEM 666
+[gpt-4.1-mini] #666/836 id=MEPALDUO_MAUVE ✓ 6.53s (in=2652, out=397)
+RUNNING ITEM 667
+[gpt-4.1-mini] #667/836 id=107650015700 ✓ 5.76s (in=1682, out=378)
+RUNNING ITEM 668
+[gpt-4.1-mini] #668/836 id=107632094700 ✓ 7.37s (in=3334, out=470)
+RUNNING ITEM 669
+[gpt-4.1-mini] #669/836 id=107632015700 ✓ 7.68s (in=3334, out=459)
+RUNNING ITEM 670
+[gpt-4.1-mini] #670/836 id=QS77_rosa ✓ 8.91s (in=1797, out=394)
+RUNNING ITEM 671
+[gpt-4.1-mini] #671/836 id=QS77_rosa-PFERDROSE ✓ 5.84s (in=1796, out=378)
+RUNNING ITEM 672
+[gpt-4.1-mini] #672/836 id=QS77_skyblue_Soccercity ✓ 6.14s (in=1795, out=388)
+RUNNING ITEM 673
+[gpt-4.1-mini] #673/836 id=QS77_sky_TORJAEGER ✓ 6.14s (in=1796, out=375)
+RUNNING ITEM 674
+[gpt-4.1-mini] #674/836 id=QS77_navy_Wildflower ✓ 7.68s (in=1795, out=439)
+RUNNING ITEM 675
+[gpt-4.1-mini] #675/836 id=QS77_schwarz_Feuerball ✓ 5.22s (in=1796, out=373)
+RUNNING ITEM 676
+[gpt-4.1-mini] #676/836 id=QS77_navy_tropfen ✓ 5.83s (in=1795, out=421)
+RUNNING ITEM 677
+[gpt-4.1-mini] #677/836 id=HK_KUPFER ✓ 6.15s (in=1867, out=362)
+RUNNING ITEM 678
+[gpt-4.1-mini] #678/836 id=SCHULROSA-TAENZERIN ✓ 5.84s (in=1636, out=385)
+RUNNING ITEM 679
+[gpt-4.1-mini] #679/836 id=107650094700 ✓ 10.10s (in=1682, out=600)
+RUNNING ITEM 680
+[gpt-4.1-mini] #680/836 id=107650094700 ✓ 7.27s (in=1682, out=413)
+RUNNING ITEM 681
+[gpt-4.1-mini] #681/836 id=107650094700 ✓ 6.59s (in=1684, out=354)
+RUNNING ITEM 682
+[gpt-4.1-mini] #682/836 id=107650094700 ✓ 7.07s (in=1683, out=423)
+RUNNING ITEM 683
+[gpt-4.1-mini] #683/836 id= ✓ 7.07s (in=1614, out=382)
+RUNNING ITEM 684
+[gpt-4.1-mini] #684/836 id=HK_BLAU ✓ 6.76s (in=1866, out=398)
+RUNNING ITEM 685
+[gpt-4.1-mini] #685/836 id=HS-BLUE ✓ 9.99s (in=9471, out=582)
+RUNNING ITEM 686
+[gpt-4.1-mini] #686/836 id=207632415700 ✓ 2.93s (in=648, out=155)
+RUNNING ITEM 687
+[gpt-4.1-mini] #687/836 id=QS77_royal ✓ 6.35s (in=1562, out=320)
+RUNNING ITEM 688
+[gpt-4.1-mini] #688/836 id=SCHULROSA ✓ 9.92s (in=3627, out=355)
+RUNNING ITEM 689
+[gpt-4.1-mini] #689/836 id=MEPALDUO_SAGE ✓ 7.58s (in=1684, out=392)
+RUNNING ITEM 690
+[gpt-4.1-mini] #690/836 id=MEPALDUO_SAGE ✓ 6.86s (in=1686, out=390)
+RUNNING ITEM 691
+[gpt-4.1-mini] #691/836 id=WM110_rosa ✓ 5.02s (in=2031, out=367)
+RUNNING ITEM 692
+[gpt-4.1-mini] #692/836 id=107632078700 ✓ 7.27s (in=3338, out=489)
+RUNNING ITEM 693
+[gpt-4.1-mini] #693/836 id=107731078700 ✓ 12.60s (in=2945, out=440)
+RUNNING ITEM 694
+[gpt-4.1-mini] #694/836 id=5/6-RY6681K_hellblau ✓ 7.68s (in=5271, out=438)
+RUNNING ITEM 695
+[gpt-4.1-mini] #695/836 id=5/6-RY6681K_hellblau ✓ 10.44s (in=5270, out=430)
+RUNNING ITEM 696
+[gpt-4.1-mini] #696/836 id=107731078700 ✓ 6.76s (in=2948, out=385)
+RUNNING ITEM 697
+[gpt-4.1-mini] #697/836 id=WM110_rosa ✓ 7.37s (in=2032, out=359)
+RUNNING ITEM 698
+[gpt-4.1-mini] #698/836 id=SET-SELBSTGESTALTEN_rosa ✓ 8.29s (in=4797, out=506)
+RUNNING ITEM 699
+[gpt-4.1-mini] #699/836 id=ROLLTOP-BLUSHPINK ✓ 12.73s (in=8071, out=504)
+RUNNING ITEM 700
+[gpt-4.1-mini] #700/836 id=BG118S_gruen ✓ 6.76s (in=1457, out=371)
+RUNNING ITEM 701
+[gpt-4.1-mini] #701/836 id=SET-SELBSTGESTALTEN_gruen ✓ 9.70s (in=4796, out=516)
+RUNNING ITEM 702
+[gpt-4.1-mini] #702/836 id=107731078700 ✓ 8.92s (in=2947, out=413)
+RUNNING ITEM 703
+[gpt-4.1-mini] #703/836 id=HK_ROSA ✓ 8.59s (in=1866, out=406)
+RUNNING ITEM 704
+[gpt-4.1-mini] #704/836 id=SET-MEP-BAGGER-MVNB ✓ 6.45s (in=1133, out=339)
+RUNNING ITEM 705
+[gpt-4.1-mini] #705/836 id=107650015700 ✓ 7.19s (in=1681, out=357)
+RUNNING ITEM 706
+[gpt-4.1-mini] #706/836 id=107632094700 ✓ 7.14s (in=3336, out=452)
+RUNNING ITEM 707
+[gpt-4.1-mini] #707/836 id=107632015700 ✓ 8.00s (in=3336, out=420)
+RUNNING ITEM 708
+[gpt-4.1-mini] #708/836 id=207632415700 ✓ 4.09s (in=650, out=130)
+RUNNING ITEM 709
+[gpt-4.1-mini] #709/836 id=207632494700 ✓ 3.69s (in=647, out=141)
+RUNNING ITEM 710
+[gpt-4.1-mini] #710/836 id=107632094700_BAGGERGELB ✓ 7.07s (in=1434, out=412)
+RUNNING ITEM 711
+[gpt-4.1-mini] #711/836 id=107632094700_Schildkroete ✓ 10.44s (in=1436, out=346)
+RUNNING ITEM 712
+[gpt-4.1-mini] #712/836 id=107632094700_Regenbogen ✓ 8.30s (in=1436, out=463)
+RUNNING ITEM 713
+[gpt-4.1-mini] #713/836 id=107632094700_Traktor ✓ 5.83s (in=1434, out=278)
+RUNNING ITEM 714
+[gpt-4.1-mini] #714/836 id=107632078700 ✓ 8.01s (in=3334, out=434)
+RUNNING ITEM 715
+[gpt-4.1-mini] #715/836 id=107632010100 ✓ 9.69s (in=3335, out=454)
+RUNNING ITEM 716
+[gpt-4.1-mini] #716/836 id=HK_GRÜN ✓ 7.84s (in=1865, out=366)
+RUNNING ITEM 717
+[gpt-4.1-mini] #717/836 id=ROLLTOP-NAVYDUSK ✓ 11.44s (in=8594, out=645)
+RUNNING ITEM 718
+[gpt-4.1-mini] #718/836 id=ROLLTOP-NAVYDUSK ✓ 10.03s (in=8594, out=640)
+RUNNING ITEM 719
+[gpt-4.1-mini] #719/836 id=107632015700 ✓ 7.53s (in=3337, out=459)
+RUNNING ITEM 720
+[gpt-4.1-mini] #720/836 id=207632410100 ✓ 3.23s (in=649, out=123)
+RUNNING ITEM 721
+[gpt-4.1-mini] #721/836 id=SET-SELBSTGESTALTEN_rosa ✓ 9.53s (in=4797, out=585)
+RUNNING ITEM 722
+[gpt-4.1-mini] #722/836 id=WM810_sage ✓ 5.83s (in=2032, out=368)
+RUNNING ITEM 723
+[gpt-4.1-mini] #723/836 id=WM110_violett ✓ 7.07s (in=2031, out=353)
+RUNNING ITEM 724
+[gpt-4.1-mini] #724/836 id=HK_ROSA ✓ 8.89s (in=1871, out=344)
+RUNNING ITEM 725
+[gpt-4.1-mini] #725/836 id=MEPALDUO_VIVIDBLUE-1 ✓ 14.15s (in=1749, out=453)
+RUNNING ITEM 726
+[gpt-4.1-mini] #726/836 id=QS77_royal ✓ 6.15s (in=1559, out=366)
+RUNNING ITEM 727
+[gpt-4.1-mini] #727/836 id=BG544_limegreen ✓ 4.92s (in=1739, out=290)
+RUNNING ITEM 728
+[gpt-4.1-mini] #728/836 id=BG544_fuchsia ✓ 8.28s (in=1742, out=471)
+RUNNING ITEM 729
+[gpt-4.1-mini] #729/836 id=HK_GRÜN ✓ 6.02s (in=1868, out=361)
+RUNNING ITEM 730
+[gpt-4.1-mini] #730/836 id=HK_GRÜN ✓ 8.44s (in=1866, out=397)
+RUNNING ITEM 731
+[gpt-4.1-mini] #731/836 id=SET-SELBSTGESTALTEN_gruen ✓ 9.22s (in=4798, out=568)
+RUNNING ITEM 732
+[gpt-4.1-mini] #732/836 id=SET-SELBSTGESTALTEN_gruen ✓ 11.08s (in=4796, out=618)
+RUNNING ITEM 733
+[gpt-4.1-mini] #733/836 id=QS77_black ✓ 8.28s (in=1557, out=436)
+RUNNING ITEM 734
+[gpt-4.1-mini] #734/836 id=HK_GRÜN ✓ 9.00s (in=1869, out=385)
+RUNNING ITEM 735
+[gpt-4.1-mini] #735/836 id=WM810_sage ✓ 6.36s (in=2033, out=355)
+RUNNING ITEM 736
+[gpt-4.1-mini] #736/836 id=SET-SELBSTGESTALTEN_gruen ✓ 10.13s (in=4796, out=582)
+RUNNING ITEM 737
+[gpt-4.1-mini] #737/836 id=107632094700 ✓ 9.84s (in=3337, out=495)
+RUNNING ITEM 738
+[gpt-4.1-mini] #738/836 id=207632494700 ✓ 3.07s (in=651, out=164)
+RUNNING ITEM 739
+[gpt-4.1-mini] #739/836 id=207632410100 ✓ 3.31s (in=647, out=131)
+RUNNING ITEM 740
+[gpt-4.1-mini] #740/836 id=SET-SELBSTGESTALTEN_gruen ✓ 9.30s (in=4797, out=578)
+RUNNING ITEM 741
+[gpt-4.1-mini] #741/836 id=SET-SELBSTGESTALTEN_gruen ✓ 13.18s (in=4799, out=673)
+RUNNING ITEM 742
+[gpt-4.1-mini] #742/836 id=HAPPYSTYLE_NAV ✓ 9.54s (in=6683, out=381)
+RUNNING ITEM 743
+[gpt-4.1-mini] #743/836 id=MEPALDUO_VIVIDBLUE-3 ✓ 9.21s (in=1746, out=379)
+RUNNING ITEM 744
+[gpt-4.1-mini] #744/836 id=107632015700 ✓ 7.38s (in=3337, out=452)
+RUNNING ITEM 745
+[gpt-4.1-mini] #745/836 id=107731015700 ✓ 7.98s (in=4481, out=411)
+RUNNING ITEM 746
+[gpt-4.1-mini] #746/836 id=AR071_ROSA ✓ 6.70s (in=2968, out=414)
+RUNNING ITEM 747
+[gpt-4.1-mini] #747/836 id=107731041100 ✓ 15.42s (in=4482, out=724)
+RUNNING ITEM 748
+[gpt-4.1-mini] #748/836 id=WM810_sage ✓ 6.08s (in=2031, out=335)
+RUNNING ITEM 749
+[gpt-4.1-mini] #749/836 id=WM810_sage ✓ 5.59s (in=2029, out=326)
+RUNNING ITEM 750
+[gpt-4.1-mini] #750/836 id=ROLLTOP-NAVYDUSK ✓ 10.53s (in=8594, out=710)
+RUNNING ITEM 751
+[gpt-4.1-mini] #751/836 id=ROLLTOP-NAVYDUSK ✓ 9.14s (in=8594, out=638)
+RUNNING ITEM 752
+[gpt-4.1-mini] #752/836 id=MEPALDUO_VIVIDBLUE-4 ✓ 9.42s (in=1748, out=452)
+RUNNING ITEM 753
+[gpt-4.1-mini] #753/836 id=HK_LACHS ✓ 7.09s (in=1866, out=380)
+RUNNING ITEM 754
+[gpt-4.1-mini] #754/836 id=107650078700 ✓ 6.56s (in=1683, out=357)
+RUNNING ITEM 755
+[gpt-4.1-mini] #755/836 id=107632078700 ✓ 7.35s (in=3336, out=452)
+RUNNING ITEM 756
+[gpt-4.1-mini] #756/836 id=107731015700 ✓ 7.36s (in=4482, out=435)
+RUNNING ITEM 757
+[gpt-4.1-mini] #757/836 id=107731015700 ✓ 7.44s (in=4483, out=443)
+RUNNING ITEM 758
+[gpt-4.1-mini] #758/836 id=107632015700 ✓ 7.70s (in=3337, out=504)
+RUNNING ITEM 759
+[gpt-4.1-mini] #759/836 id=HK_GRÜN ✓ 4.52s (in=1867, out=287)
+RUNNING ITEM 760
+[gpt-4.1-mini] #760/836 id=HK_GRÜN ✓ 6.78s (in=1867, out=382)
+RUNNING ITEM 761
+[gpt-4.1-mini] #761/836 id=107731015700 ✓ 7.67s (in=4483, out=421)
+RUNNING ITEM 762
+[gpt-4.1-mini] #762/836 id=107632078700 ✓ 5.43s (in=3334, out=355)
+RUNNING ITEM 763
+[gpt-4.1-mini] #763/836 id=WM810_sage ✓ 6.55s (in=2031, out=369)
+RUNNING ITEM 764
+[gpt-4.1-mini] #764/836 id=BG544_orange ✓ 7.98s (in=1739, out=447)
+RUNNING ITEM 765
+[gpt-4.1-mini] #765/836 id=SET-SELBSTGESTALTEN_blau ✓ 13.83s (in=4796, out=635)
+RUNNING ITEM 766
+[gpt-4.1-mini] #766/836 id=HK_GRÜN ✓ 11.07s (in=1867, out=383)
+RUNNING ITEM 767
+[gpt-4.1-mini] #767/836 id=SET-SELBSTGESTALTEN_blau ✓ 14.12s (in=4797, out=515)
+RUNNING ITEM 768
+[gpt-4.1-mini] #768/836 id=MEPALTRIO_SAGE ✓ 10.75s (in=1592, out=532)
+RUNNING ITEM 769
+[gpt-4.1-mini] #769/836 id=MEPALDUO_VIVIDBLUE-5 ✓ 6.77s (in=1749, out=405)
+RUNNING ITEM 770
+[gpt-4.1-mini] #770/836 id=ROLLTOP-NAVYDUSK ✓ 12.16s (in=8594, out=570)
+RUNNING ITEM 771
+[gpt-4.1-mini] #771/836 id=107632094700 ✓ 7.19s (in=3337, out=448)
+RUNNING ITEM 772
+[gpt-4.1-mini] #772/836 id=107731094700 ✓ 8.91s (in=4480, out=468)
+RUNNING ITEM 773
+[gpt-4.1-mini] #773/836 id=107632078700 ✓ 8.34s (in=3334, out=443)
+RUNNING ITEM 774
+[gpt-4.1-mini] #774/836 id=HK_GRÜN ✓ 6.71s (in=1868, out=410)
+RUNNING ITEM 775
+[gpt-4.1-mini] #775/836 id=SET-SELBSTGESTALTEN_rosa ✓ 19.08s (in=4795, out=515)
+RUNNING ITEM 776
+[gpt-4.1-mini] #776/836 id=SET-SELBSTGESTALTEN_blau ✓ 8.81s (in=4797, out=591)
+RUNNING ITEM 777
+[gpt-4.1-mini] #777/836 id=SET-MEP-HASCHN-MVNB ✓ 10.22s (in=3393, out=656)
+RUNNING ITEM 778
+[gpt-4.1-mini] #778/836 id=HK_GRÜN ✓ 8.74s (in=1867, out=385)
+RUNNING ITEM 779
+[gpt-4.1-mini] #779/836 id=BG118S_rosa ✓ 6.52s (in=1468, out=377)
+RUNNING ITEM 780
+[gpt-4.1-mini] #780/836 id=BG544_red ✓ 8.08s (in=1739, out=518)
+RUNNING ITEM 781
+[gpt-4.1-mini] #781/836 id=HS-BLUE ✓ 9.35s (in=9472, out=556)
+RUNNING ITEM 782
+[gpt-4.1-mini] #782/836 id=SET-SELBSTGESTALTEN_blau ✓ 10.61s (in=4798, out=607)
+RUNNING ITEM 783
+[gpt-4.1-mini] #783/836 id=WM810_sage ✓ 6.35s (in=2035, out=369)
+RUNNING ITEM 784
+[gpt-4.1-mini] #784/836 id=BG118S_senf ✓ 6.55s (in=1466, out=372)
+RUNNING ITEM 785
+[gpt-4.1-mini] #785/836 id=BG118S_gruen ✓ 7.19s (in=1462, out=379)
+RUNNING ITEM 786
+[gpt-4.1-mini] #786/836 id=BG118S_senf ✓ 7.52s (in=1464, out=362)
+RUNNING ITEM 787
+[gpt-4.1-mini] #787/836 id=107632015700 ✓ 8.33s (in=3331, out=495)
+RUNNING ITEM 788
+[gpt-4.1-mini] #788/836 id=QS77_black ✓ 6.25s (in=1562, out=300)
+RUNNING ITEM 789
+[gpt-4.1-mini] #789/836 id=ERSATZHK_BLAU ✓ 5.73s (in=1186, out=381)
+RUNNING ITEM 790
+[gpt-4.1-mini] #790/836 id=HK_GRÜN ✓ 7.84s (in=1875, out=384)
+RUNNING ITEM 791
+[gpt-4.1-mini] #791/836 id=HK_ROSA ✓ 7.88s (in=1876, out=417)
+RUNNING ITEM 792
+[gpt-4.1-mini] #792/836 id=MEPALDUO_VIVIDBLUE-4 ✓ 7.64s (in=1752, out=382)
+RUNNING ITEM 793
+[gpt-4.1-mini] #793/836 id=SET-SELBSTGESTALTEN_gruen ✓ 9.52s (in=4801, out=589)
+RUNNING ITEM 794
+[gpt-4.1-mini] #794/836 id=3/4-RY6681K_hellblau ✓ 7.33s (in=5272, out=444)
+RUNNING ITEM 795
+[gpt-4.1-mini] #795/836 id=SET-SELBSTGESTALTEN_gruen ✓ 8.95s (in=4799, out=551)
+RUNNING ITEM 796
+[gpt-4.1-mini] #796/836 id=SET-SELBSTGESTALTEN_gruen ✓ 9.11s (in=4797, out=528)
+RUNNING ITEM 797
+[gpt-4.1-mini] #797/836 id=107632094700 ✓ 12.09s (in=3333, out=464)
+RUNNING ITEM 798
+[gpt-4.1-mini] #798/836 id=107632094700-BOH0HASE-1 ✓ 9.83s (in=1433, out=465)
+RUNNING ITEM 799
+[gpt-4.1-mini] #799/836 id=WM110_rosa ✓ 7.99s (in=2034, out=378)
+RUNNING ITEM 800
+[gpt-4.1-mini] #800/836 id=HK_LACHS ✓ 5.84s (in=1872, out=382)
+RUNNING ITEM 801
+[gpt-4.1-mini] #801/836 id=BG544_black ✓ 7.84s (in=1741, out=480)
+RUNNING ITEM 802
+[gpt-4.1-mini] #802/836 id=WM110beige ✓ 6.30s (in=2032, out=382)
+RUNNING ITEM 803
+[gpt-4.1-mini] #803/836 id=107632010100 ✓ 10.75s (in=3332, out=471)
+RUNNING ITEM 804
+[gpt-4.1-mini] #804/836 id=107632015700 ✓ 8.60s (in=3334, out=481)
+RUNNING ITEM 805
+[gpt-4.1-mini] #805/836 id=HK_LACHS ✓ 7.07s (in=1869, out=454)
+RUNNING ITEM 806
+[gpt-4.1-mini] #806/836 id=HS-APRICOT ✓ 7.99s (in=9485, out=471)
+RUNNING ITEM 807
+[gpt-4.1-mini] #807/836 id=107632078700 ✓ 8.31s (in=3331, out=457)
+RUNNING ITEM 808
+[gpt-4.1-mini] #808/836 id=107632015700 ✓ 8.59s (in=3329, out=449)
+RUNNING ITEM 809
+[gpt-4.1-mini] #809/836 id=TB-WM110-RE-RS ✓ 7.06s (in=1596, out=380)
+RUNNING ITEM 810
+[gpt-4.1-mini] #810/836 id=107632094700 ✓ 7.02s (in=3336, out=475)
+RUNNING ITEM 811
+[gpt-4.1-mini] #811/836 id=107632094700 ✓ 6.50s (in=3330, out=437)
+RUNNING ITEM 812
+[gpt-4.1-mini] #812/836 id=107632015700 ✓ 7.68s (in=3335, out=452)
+RUNNING ITEM 813
+[gpt-4.1-mini] #813/836 id=107632094700 ✓ 7.38s (in=3334, out=473)
+RUNNING ITEM 814
+[gpt-4.1-mini] #814/836 id=TB-WM110-FW-RS ✓ 9.09s (in=1422, out=338)
+RUNNING ITEM 815
+[gpt-4.1-mini] #815/836 id=SET-SELBSTGESTALTEN_blau ✓ 8.42s (in=4799, out=493)
+RUNNING ITEM 816
+[gpt-4.1-mini] #816/836 id=107632094700 ✓ 7.85s (in=3333, out=432)
+RUNNING ITEM 817
+[gpt-4.1-mini] #817/836 id=HK_LACHS ✓ 8.12s (in=1868, out=396)
+RUNNING ITEM 818
+[gpt-4.1-mini] #818/836 id=107632078700 ✓ 12.91s (in=3330, out=462)
+RUNNING ITEM 819
+[gpt-4.1-mini] #819/836 id=SET-SELBSTGESTALTEN_blau ✓ 6.14s (in=4801, out=538)
+RUNNING ITEM 820
+[gpt-4.1-mini] #820/836 id=107731078700 ✓ 5.24s (in=4479, out=387)
+RUNNING ITEM 821
+[gpt-4.1-mini] #821/836 id=107632078700 ✓ 7.28s (in=3330, out=453)
+RUNNING ITEM 822
+[gpt-4.1-mini] #822/836 id=107731015700 ✓ 6.84s (in=4480, out=390)
+RUNNING ITEM 823
+[gpt-4.1-mini] #823/836 id=107650010100 ✓ 8.30s (in=1686, out=329)
+RUNNING ITEM 824
+[gpt-4.1-mini] #824/836 id=107650078700 ✓ 5.50s (in=1686, out=334)
+RUNNING ITEM 825
+[gpt-4.1-mini] #825/836 id=HK_BLAU ✓ 12.61s (in=1868, out=398)
+RUNNING ITEM 826
+[gpt-4.1-mini] #826/836 id=SET-SELBSTGESTALTEN_blau ✓ 13.18s (in=4799, out=752)
+RUNNING ITEM 827
+[gpt-4.1-mini] #827/836 id=HK-RUCKSACK-EINHORN-NAME ✓ 6.10s (in=2216, out=436)
+RUNNING ITEM 828
+[gpt-4.1-mini] #828/836 id=HK-RUCKSACK-LOEWPUNKTE-NAME ✓ 6.22s (in=2225, out=340)
+RUNNING ITEM 829
+[gpt-4.1-mini] #829/836 id=HK-R-FW-NAME ✓ 10.13s (in=2221, out=364)
+RUNNING ITEM 830
+[gpt-4.1-mini] #830/836 id=HK-RUCKSACK-EICHHORN-NAME ✓ 4.91s (in=2226, out=315)
+RUNNING ITEM 831
+[gpt-4.1-mini] #831/836 id=HK-RUCKSACK-EICHSCHAF-NAME ✓ 14.75s (in=2230, out=870)
+RUNNING ITEM 832
+[gpt-4.1-mini] #832/836 id=3/4-SHIRT-SCHULKIND-NAME-ROSA ✓ 6.45s (in=1643, out=285)
+RUNNING ITEM 833
+[gpt-4.1-mini] #833/836 id=HAPPYSTYLE_LACHS ✓ 7.22s (in=3446, out=370)
+RUNNING ITEM 834
+[gpt-4.1-mini] #834/836 id= ✓ 6.90s (in=576, out=314)
+RUNNING ITEM 835
+[gpt-4.1-mini] #835/836 id=HK-SET4-HASE-NAME ✓ 6.15s (in=538, out=280)
+✓ Wrote output/result_gpt-4.1-mini_1757494328929.34.json (836 items)
+
+--- Summary for gpt-4.1-mini ---
+Wrote: output/result_gpt-4.1-mini_1757494328929.34.json (836 items)
+Success: 836 | Fail: 0
+Total time: 6467.79s
+Avg latency/item: 7.74s
+Throughput: 0.13 items/sec
+Total tokens: in=2351632, out=355611, sum=2707243
+
+=== All models done. Grand total: 6467.79s ===

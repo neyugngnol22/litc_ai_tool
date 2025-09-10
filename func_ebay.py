@@ -1,12 +1,16 @@
 # title, description, variant attribute, item specifics 
-
+import pandas as pd 
+from pathlib import Path 
 from openai import OpenAI 
 import json, os, time, math
-from typing import Dict, Any, List  
+from typing import Dict, Any, List, Optional 
 from decouple import config 
+from concurrent.futures import ThreadPoolExecutor, as_completed 
 
-input_path = 'data/shopify_data.json'
-models = ['gpt-4.1-mini', 'gpt-4.1-nano']
+# input_path = 'data/shopify_data.json'
+input_path = 'data/ExportData104223.xlsx'
+# models = ['gpt-4.1-mini', 'gpt-4.1-nano']
+models = ['gpt-4.1-mini']
 
 system_prompt = (
     "You are an eBay listing optimizer. "
@@ -31,12 +35,17 @@ tools = [
           "maxLength": 80,
           "minLength": 10,
           "description": (
-            "Rules:\n"
-            "- ≤ 80 characters; one line (no newline).\n"
-            "- Start with brand/product; add 1–2 key details (model/size/color/material).\n"
-            "- No spammy phrases (e.g., FREE, BEST DEAL, 100%, GUARANTEED, SALE), no emojis.\n"
-            "- Avoid ALL-CAPS except model codes; no duplicate spaces.\n"
-            "- Natural, relevant keywords only."
+            "eBay Title Rules:\n"
+            "- Max 80 characters, one line only.\n"
+            "- Start with brand or product name.\n"
+            "- Include 1–2 key attributes (model, size, color, material).\n"
+            "- Include top-searched keywords (SEO-friendly).\n"
+            "- No ALL CAPS (except model codes like XR123).\n"
+            "- No emojis or symbols (| / + ~ * ™ ® ©).\n"
+            "- No spammy words (e.g., FREE, GUARANTEED, 100%, BEST DEAL).\n"
+            "- No duplicate spaces.\n"
+            "- Avoid shipping/returns info (e.g., 'Fast Shipping').\n"
+            "- Title must read naturally and match buyer's search intent."
           )
         },
         "ebay_description_html": {
@@ -44,14 +53,17 @@ tools = [
           "maxLength": 4000,
           "minLength": 40,
           "description": (
-            "Rules:\n"
-            "- ≤ 4000 characters; mobile-friendly HTML.\n"
-            "- Structure: short lead paragraph (2–3 sentences) + 3–8 bullet points; optional simple specs table.\n"
-            "- Allowed tags only: <p>, <b>, <strong>, <br>, <ol>, <ul>, <li>, <table>, <tr>, <td>, "
+            "eBay Description Rules:\n"
+            "- Max 4000 characters. Must be HTML, mobile-friendly.\n"
+            "- Start with 1–2 sentence summary paragraph.\n"
+            "- Follow with 4–6 bullet points describing key features.\n"
+            "- Optional: Add specs table if 3 or more specs are available.\n"
+            "- Allowed tags only: <b>, <strong>, <br>, <ol>, <ul>, <li>, <table>, <tr>, <td>, "
             "<th>, <thead>, <tbody>, <tfoot>, <caption>, <colgroup>, <col>.\n"
-            "- Do NOT use active content or disallowed tags: script, iframe, object, embed, applet, form, "
-            "input, button, video, audio, canvas, svg, style, link, meta.\n"
-            "- Accurate, non-promotional language; no external links/contact info."
+            "<p> is NOT allowed. Do not use <p> for paragraphs. "
+            "- Forbidden: Any active content (e.g., <script>, <iframe>, <form>, <video>, etc.).\n"
+            "- No external links or contact info.\n"
+            "- Clear, non-promotional language. Use buyer-relevant keywords."
           )
         }
       },
@@ -62,13 +74,32 @@ tools = [
 ]
 
 
-def load_products(path: str) -> List[Dict[str, Any]]:
-    with open(path, "r", encoding='utf-8') as f:
-        data = json.load(f)
-    if isinstance(data, dict) and 'items' in data:
-        return data['items']
-    if isinstance(data, list):
-        return data 
+def load_products(path: str, sheet: Optional[str|int]=0) -> List[Dict[str, Any]]:
+    ext = Path(path).suffix.lower()
+
+    if ext == '.json':
+        with open(path, "r", encoding='utf-8') as f:
+            data = json.load(f)
+        if isinstance(data, dict) and 'items' in data:
+            return data['items']
+        if isinstance(data, list):
+            return data
+
+    if ext in ('.xlsx', '.xls'):
+        df = pd.read_excel(path, sheet_name=sheet, dtype=str)
+        df = df.fillna("")  
+        records: List[Dict[str, Any]] = []
+        for _, row in df.iterrows():
+            item = {
+                "id": row.get("Sku", "").strip(),
+                "name": row.get("Title", "").strip(),
+                "brand": "",  # sheet không có brand, để trống cũng được
+                "description": row.get("Description", "").strip(),
+                "attributes": row.get("Attributes", "").strip(),  # nếu muốn giữ thêm
+            }
+            records.append(item)
+        return records
+        
     
 
 def make_user_prompt(item: Dict[str, Any]) -> str:
@@ -79,7 +110,8 @@ def make_user_prompt(item: Dict[str, Any]) -> str:
         if s: lines.append(f"{k}: {s}")
     
     add("Title", item.get('name'))
-    add("Brand", item.get('brand'))
+    if item.get('brand'):
+        add("Brand", item.get('brand'))
     add("Description", item.get('description'))
 
     return "Convert this Shopify product into an eBay-ready Title & HTML Description.\n" + "\n".join(lines)
@@ -153,28 +185,64 @@ def main():
         fail = 0
         latencies = []
 
-        for idx, item in enumerate(items):
+        def process_item(item: Dict[str, Any], model: str, client: OpenAI) -> Dict:
             prompt = make_user_prompt(item)
             r = call_once(client, model, prompt)
-            print(f"RUNNING ITEM {idx}")
-            r["input_id"] = item.get("id", idx)  
+            r["input_id"] = item.get("id")
             r['shopify_title'] = item.get('name')
             r['shopify_description'] = item.get('description')
             r['shopify_brand'] = item.get('brand')
-            results.append(r)
+            return r
 
-            lat = r.get("latency_sec", 0.0)
-            latencies.append(lat)
+        MAX_WORKERS = 10 
 
-            if r.get("ok"):
-                success += 1
-                total_in_tok += r.get("input_tokens", 0) or 0
-                total_out_tok += r.get("output_tokens", 0) or 0
-                print(f"[{model}] #{idx}/{len(items)} id={r['input_id']} ✓ {lat:.2f}s "
-                      f"(in={r.get('input_tokens',0)}, out={r.get('output_tokens',0)})")
-            else:
-                fail += 1
-                print(f"[{model}] #{idx}/{len(items)} id={r['input_id']} ✗ {lat:.2f}s ERROR: {r.get('error')}")
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+            futures = [
+                executor.submit(process_item, item, model, client)
+                for item in items[:100]
+            ]
+
+            for idx, future in enumerate(as_completed(futures)):
+                r = future.result()
+                lat = r.get("latency_sec", 0.0)
+                results.append(r)
+                latencies.append(lat)
+
+                if r.get("ok"):
+                    success += 1
+                    total_in_tok += r.get("input_tokens", 0) or 0
+                    total_out_tok += r.get("output_tokens", 0) or 0
+                    print(f"[{model}] #{idx}/{len(items)} id={r['input_id']} ✓ {lat:.2f}s "
+                        f"(in={r.get('input_tokens',0)}, out={r.get('output_tokens',0)})")
+                else:
+                    fail += 1
+                    print(f"[{model}] #{idx}/{len(items)} id={r['input_id']} ✗ {lat:.2f}s ERROR: {r.get('error')}")
+
+        # for idx, item in enumerate(items):
+
+        #     prompt = make_user_prompt(item)
+        #     r = call_once(client, model, prompt)
+        #     print(f"RUNNING ITEM {idx}")
+        #     r["input_id"] = item.get("id", idx)  
+        #     r['shopify_title'] = item.get('name')
+        #     r['shopify_description'] = item.get('description')
+        #     r['shopify_brand'] = item.get('brand')
+        #     results.append(r)
+
+        #     lat = r.get("latency_sec", 0.0)
+        #     latencies.append(lat)
+
+        #     if r.get("ok"):
+        #         success += 1
+        #         total_in_tok += r.get("input_tokens", 0) or 0
+        #         total_out_tok += r.get("output_tokens", 0) or 0
+        #         print(f"[{model}] #{idx}/{len(items)} id={r['input_id']} ✓ {lat:.2f}s "
+        #               f"(in={r.get('input_tokens',0)}, out={r.get('output_tokens',0)})")
+        #     else:
+        #         fail += 1
+        #         print(f"[{model}] #{idx}/{len(items)} id={r['input_id']} ✗ {lat:.2f}s ERROR: {r.get('error')}")
+
+            # break
 
         out_path = f"output/result_{model}_{time.time() * 1000}.json"
         with open(out_path, "w", encoding='utf-8') as f:

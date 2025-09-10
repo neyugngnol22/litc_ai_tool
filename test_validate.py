@@ -34,7 +34,7 @@ DISALLOWED_TAGS = {
     "canvas","svg","style","link","meta"
 }
 ALLOWED_TAGS = {
-    "p","b","strong","br","ol","ul","li","table","tr","td","th","thead","tbody","tfoot",
+    "b","strong","br","ol","ul","li","table","tr","td","th","thead","tbody","tfoot",
     "caption","colgroup","col"
 }
 # BeautifulSoup may insert html/body; ignore them in checks:
@@ -261,4 +261,6 @@ if __name__ == "__main__":
     main()
 
 # python test_validate.py output/result_gpt-4.1-mini_1757470771701.1294.json
-# python test_validate.py output/result_gpt-4.1-nano_1757471188303.1316.json
+# python test_validate.py output/result_gpt-4.1-nano_1757471188303.1316.
+# python test_validate.py output/result_gpt-4.1-mini_1757493896251.0146.json
+# python test_validate.py output/result_gpt-4.1-mini_1757494328929.34.json

@@ -1,0 +1,114 @@
+[
+    {
+        "ok": true,
+        "model": "gpt-4.1-nano",
+        "ebay_title": "Prio+ Fast Shipping Priority Order Processing",
+        "ebay_description_html": "<p>Enjoy fast and prioritized shipping with your Prio+ order. We process and dispatch your order quickly to ensure prompt delivery.</p><ul><li>Priority order processing for quick shipment</li><li>Reliable and swift shipping service</li><li>Ideal for urgent purchases</li><li>Track your order easily</li><li>Customer satisfaction guaranteed</li></ul>",
+        "input_tokens": 486,
+        "output_tokens": 244,
+        "total_tokens": 730,
+        "raw": {
+            "id": "resp_68c11fe14edc8199b09d636f90a004bd0924cd2fb1c7363c",
+            "created_at": 1757487073.0,
+            "error": null,
+            "incomplete_details": null,
+            "instructions": null,
+            "metadata": {},
+            "model": "gpt-4.1-nano-2025-04-14",
+            "object": "response",
+            "output": [
+                {
+                    "arguments": "{\"ebay_title\":\"Prio+ Fast Shipping Priority Order Processing\",\"ebay_description_html\":\"<p>Enjoy fast and prioritized shipping with your Prio+ order. We process and dispatch your order quickly to ensure prompt delivery.</p><ul><li>Priority order processing for quick shipment</li><li>Reliable and swift shipping service</li><li>Ideal for urgent purchases</li><li>Track your order easily</li><li>Customer satisfaction guaranteed</li></ul>\"}",
+                    "call_id": "call_xjGtermyEYNEbALFt5rHh3l1",
+                    "name": "optimize_for_ebay_title_description",
+                    "type": "function_call",
+                    "id": "fc_68c11fe3ce0c81998a45497896aea0fe0924cd2fb1c7363c",
+                    "status": "completed"
+                },
+                {
+                    "arguments": "{\"ebay_title\":\"Prio+ Fast Shipping Priority Order Processing\",\"ebay_description_html\":\"<p>Enjoy fast and prioritized shipping with your Prio+ order. We process and dispatch your order quickly to ensure prompt delivery.</p><ul><li>Priority order processing for quick shipment</li><li>Reliable and swift shipping service</li><li>Ideal for urgent purchases</li><li>Track your order easily</li><li>Customer satisfaction guaranteed</li></ul>\"}",
+                    "call_id": "call_u8bLG3s1cpUgO1NeXjQVV5cM",
+                    "name": "optimize_for_ebay_title_description",
+                    "type": "function_call",
+                    "id": "fc_68c11fe67120819997d1a89e4fe68cc40924cd2fb1c7363c",
+                    "status": "completed"
+                }
+            ],
+            "parallel_tool_calls": true,
+            "temperature": 1.0,
+            "tool_choice": "auto",
+            "tools": [
+                {
+                    "name": "optimize_for_ebay_title_description",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "ebay_title": {
+                                "type": "string",
+                                "maxLength": 80,
+                                "minLength": 10,
+                                "description": "Rules:\n- ≤ 80 characters; one line (no newline).\n- Start with brand/product; add 1–2 key details (model/size/color/material).\n- No spammy phrases (e.g., FREE, BEST DEAL, 100%, GUARANTEED, SALE), no emojis.\n- Avoid ALL-CAPS except model codes; no duplicate spaces.\n- Natural, relevant keywords only."
+                            },
+                            "ebay_description_html": {
+                                "type": "string",
+                                "maxLength": 4000,
+                                "minLength": 40,
+                                "description": "Rules:\n- ≤ 4000 characters; mobile-friendly HTML.\n- Structure: short lead paragraph (2–3 sentences) + 3–8 bullet points; optional simple specs table.\n- Allowed tags only: <p>, <b>, <strong>, <br>, <ol>, <ul>, <li>, <table>, <tr>, <td>, <th>, <thead>, <tbody>, <tfoot>, <caption>, <colgroup>, <col>.\n- Do NOT use active content or disallowed tags: script, iframe, object, embed, applet, form, input, button, video, audio, canvas, svg, style, link, meta.\n- Accurate, non-promotional language; no external links/contact info."
+                            }
+                        },
+                        "required": [
+                            "ebay_title",
+                            "ebay_description_html"
+                        ],
+                        "additionalProperties": false
+                    },
+                    "strict": true,
+                    "type": "function",
+                    "description": "Return an eBay-optimized title (<=80 chars) and a compliant HTML description (<=4000 chars, no active content)."
+                }
+            ],
+            "top_p": 1.0,
+            "background": false,
+            "conversation": null,
+            "max_output_tokens": null,
+            "max_tool_calls": null,
+            "previous_response_id": null,
+            "prompt": null,
+            "prompt_cache_key": null,
+            "reasoning": {
+                "effort": null,
+                "generate_summary": null,
+                "summary": null
+            },
+            "safety_identifier": null,
+            "service_tier": "default",
+            "status": "completed",
+            "text": {
+                "format": {
+                    "type": "text"
+                },
+                "verbosity": "medium"
+            },
+            "top_logprobs": 0,
+            "truncation": "disabled",
+            "usage": {
+                "input_tokens": 486,
+                "input_tokens_details": {
+                    "cached_tokens": 0
+                },
+                "output_tokens": 244,
+                "output_tokens_details": {
+                    "reasoning_tokens": 0
+                },
+                "total_tokens": 730
+            },
+            "user": null,
+            "store": true
+        },
+        "latency_sec": 8.879730799999379,
+        "input_id": "",
+        "shopify_title": "Prio+",
+        "shopify_description": "Deine Bestellung wird als erstes verschickt",
+        "shopify_brand": ""
+    }
+]
