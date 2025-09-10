@@ -1,0 +1,4612 @@
+[
+  {
+    "input_id": "68be3a24612d8e07d6d6ea30",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Quinn Men's Trousers Ice Slim Fit Size 50",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 551,
+      "value_preview": "<p>Experience the perfect blend of style and comfort with Scuzzatti Quinn Men's Trousers in Ice. These slim fit trousers are designed to provide a modern and sl…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 203,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 601,
+      "output_tokens": 178,
+      "total_tokens": 779
+    }
+  },
+  {
+    "input_id": "68be3a25612d8e07d6d6ea3b",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Quinn Men's Slim Fit Trousers Mint Color Size 51",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 475,
+      "value_preview": "<p>Experience the refined elegance of Scuzzatti Quinn Men's Trousers in a refreshing mint color. These slim fit trousers offer a modern and tailored silhouette …",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 204,
+      "bullet_count": 5
+    },
+    "tokens": {
+      "input_tokens": 623,
+      "output_tokens": 148,
+      "total_tokens": 771
+    }
+  },
+  {
+    "input_id": "68be3a28612d8e07d6d6ea54",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Quinn Men's Jacket Ice Slim Fit Poly Viscose Stretch 50",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 588,
+      "value_preview": "<p>Discover the Scuzzatti Quinn Men's Jacket in Ice, designed for a refined slim fit and crafted from a durable poly viscose blend with added stretch. Perfect f…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 231,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 601,
+      "output_tokens": 185,
+      "total_tokens": 786
+    }
+  },
+  {
+    "input_id": "68be3a2a612d8e07d6d6ea5f",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Quinn Men's Jacket Slim Fit Mint Poly Viscose Stretch",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 585,
+      "value_preview": "<p>The Scuzzatti Quinn Men's Jacket in Mint features a slim fit design with a high-quality poly viscose blend fabric that includes stretch for comfort and mobil…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 243,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 594,
+      "output_tokens": 180,
+      "total_tokens": 774
+    }
+  },
+  {
+    "input_id": "68be3a2b612d8e07d6d6ea6a",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Quinn Men's Jacket Pink Slim Fit Poly Viscose Stretch",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 457,
+      "value_preview": "<p>The Scuzzatti Quinn Men's Jacket in Pink combines style and comfort with a slim tailored fit perfect for various occasions.</p>\n<ul>\n<li>Color: Pink</li>\n<li…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 123,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 590,
+      "output_tokens": 150,
+      "total_tokens": 740
+    }
+  },
+  {
+    "input_id": "68be3a2c612d8e07d6d6ea76",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Urban Behavior Men's Slim Fit Chino Jacket Olive Size 34-56",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 557,
+      "value_preview": "<p>Discover the Men's Chino Jacket by Urban Behavior, featuring a slim fit design that blends style and comfort for everyday wear. Perfect for city days or casu…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 242,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 680,
+      "output_tokens": 187,
+      "total_tokens": 867
+    }
+  },
+  {
+    "input_id": "68be3a2d612d8e07d6d6ea83",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Urban Behavior Men's Chino Jacket Slim Fit Latte Size 34-56",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 604,
+      "value_preview": "<p>Discover the Urban Behavior Men's Chino Jacket in Latte, combining style and comfort for everyday wear. Designed with a tailored slim fit, this jacket is per…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 207,
+      "bullet_count": 8
+    },
+    "tokens": {
+      "input_tokens": 680,
+      "output_tokens": 202,
+      "total_tokens": 882
+    }
+  },
+  {
+    "input_id": "68be3a2e612d8e07d6d6ea90",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": false,
+    "title": {
+      "value": "Urban Behavior Men's Chino Jacket Khaki Slim Fit Size 34-56",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 659,
+      "value_preview": "<p>Discover the Men's Chino Jacket by Urban Behavior, designed to combine style and comfort for any occasion. Perfect for city life or casual outings, this khak…",
+      "pass": false,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": false,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [
+        "bullet_count_3_to_8"
+      ],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 254,
+      "bullet_count": 9
+    },
+    "tokens": {
+      "input_tokens": 681,
+      "output_tokens": 216,
+      "total_tokens": 897
+    }
+  },
+  {
+    "input_id": "68be3a2f612d8e07d6d6ea9d",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": false,
+    "title": {
+      "value": "Urban Behavior Men's Chino Jacket Charcoal Slim Fit Size 34-56",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 615,
+      "value_preview": "<p>Discover the Urban Behavior Men's Chino Jacket in charcoal, designed for men who value both style and comfort. This slim fit jacket is crafted with premium m…",
+      "pass": false,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": false,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [
+        "bullet_count_3_to_8"
+      ],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 213,
+      "bullet_count": 9
+    },
+    "tokens": {
+      "input_tokens": 681,
+      "output_tokens": 208,
+      "total_tokens": 889
+    }
+  },
+  {
+    "input_id": "68be3a31612d8e07d6d6eaaa",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": false,
+    "title": {
+      "value": "Urban Behavior Men's Chino Jacket Navy Slim Fit Size 34-56",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 568,
+      "value_preview": "<p>Discover the Urban Behavior Men's Chino Jacket in navy, combining smart style with everyday comfort. Designed for the modern man, this slim fit jacket is cra…",
+      "pass": false,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": false,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [
+        "bullet_count_3_to_8"
+      ],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 217,
+      "bullet_count": 9
+    },
+    "tokens": {
+      "input_tokens": 680,
+      "output_tokens": 187,
+      "total_tokens": 867
+    }
+  },
+  {
+    "input_id": "68be3a33612d8e07d6d6eab9",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Peak Lapel Burgundy Dinner Jacket, 1 Button, Sizes 34-54",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 514,
+      "value_preview": "<p>Elevate your formal wardrobe with the Scuzzatti Peak Lapel Jacket in a rich burgundy shade. This dinner jacket combines tailored elegance with comfort, suita…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 177,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 625,
+      "output_tokens": 171,
+      "total_tokens": 796
+    }
+  },
+  {
+    "input_id": "68be3a34612d8e07d6d6eac5",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Peak Lapel Jacket Navy Single Button Satin Formal Blazer",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 529,
+      "value_preview": "<p>Discover timeless elegance with the Scuzzatti Peak Lapel Jacket in navy. This sleek dinner jacket combines classic styling with modern tailoring, perfect for…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 172,
+      "bullet_count": 5
+    },
+    "tokens": {
+      "input_tokens": 634,
+      "output_tokens": 158,
+      "total_tokens": 792
+    }
+  },
+  {
+    "input_id": "68be3a36612d8e07d6d6ead1",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Asher 2B Jacket Navy Poly-Viscose Blend Stretch Tailored Fit",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 556,
+      "value_preview": "<p>The Scuzzatti Asher 2B Jacket in Navy offers a sleek, versatile design suitable for professional and formal events. Crafted from a durable poly-viscose blend…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 225,
+      "bullet_count": 5
+    },
+    "tokens": {
+      "input_tokens": 593,
+      "output_tokens": 175,
+      "total_tokens": 768
+    }
+  },
+  {
+    "input_id": "68be3a37612d8e07d6d6eade",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Asher 2B Jacket Grey Poly-Viscose Stretch Tailored Fit",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 593,
+      "value_preview": "<p>The Scuzzatti Asher 2B Jacket in grey combines style and comfort with its premium poly-viscose blend fabric and added stretch. Designed with a classic two-bu…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 250,
+      "bullet_count": 8
+    },
+    "tokens": {
+      "input_tokens": 600,
+      "output_tokens": 196,
+      "total_tokens": 796
+    }
+  },
+  {
+    "input_id": "68be3a38612d8e07d6d6eaeb",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Asher 2B Jacket Black Poly-Viscose Stretch Blend",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 595,
+      "value_preview": "<p>The Scuzzatti Asher 2B Jacket in Black is crafted from a high-quality poly-viscose blend with stretch for comfort and durability. Designed with a classic two…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 253,
+      "bullet_count": 8
+    },
+    "tokens": {
+      "input_tokens": 598,
+      "output_tokens": 195,
+      "total_tokens": 793
+    }
+  },
+  {
+    "input_id": "68be3a3a612d8e07d6d6eaf9",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Hendrix Shawl Lapel Jacket Red Gold Elegant Formal Wear",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 619,
+      "value_preview": "<p>The Varce Italia Hendrix Shawl Lapel Jacket in Red and Gold offers a refined blend of bold color and classic design. Perfect for formal and stylish occasions…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 207,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 681,
+      "output_tokens": 173,
+      "total_tokens": 854
+    }
+  },
+  {
+    "input_id": "68be3a3b612d8e07d6d6eb04",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Hendrix Shawl Lapel Jacket Yellow Silver Modern Fit",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 682,
+      "value_preview": "<p>Discover the Varce Italia Hendrix Shawl Lapel Jacket in Yellow and Silver, a perfect mix of modern design and classic elegance. This jacket is crafted for th…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 209,
+      "bullet_count": 5
+    },
+    "tokens": {
+      "input_tokens": 670,
+      "output_tokens": 205,
+      "total_tokens": 875
+    }
+  },
+  {
+    "input_id": "68be3a3d612d8e07d6d6eb0f",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Hendrix Shawl Lapel Jacket Navy Green Tailored Fit",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 456,
+      "value_preview": "<p>Discover the Varce Italia Hendrix Shawl Lapel Jacket in a striking navy and green combination. This jacket expertly combines refined style with a tailored fi…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 190,
+      "bullet_count": 4
+    },
+    "tokens": {
+      "input_tokens": 696,
+      "output_tokens": 139,
+      "total_tokens": 835
+    }
+  },
+  {
+    "input_id": "68be3a3e612d8e07d6d6eb1a",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Hendrix Shawl Lapel Jacket Grey Green Formal Blazer",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 536,
+      "value_preview": "<p>Discover the refined elegance of the Varce Italia Hendrix Shawl Lapel Jacket in a sophisticated grey and green color combination. Perfect for formal events a…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 235,
+      "bullet_count": 5
+    },
+    "tokens": {
+      "input_tokens": 664,
+      "output_tokens": 157,
+      "total_tokens": 821
+    }
+  },
+  {
+    "input_id": "68be3a40612d8e07d6d6eb25",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Hendrix Shawl Lapel Jacket Black Red Tailored Fit",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 855,
+      "value_preview": "<p>Elevate your wardrobe with the Varce Italia Hendrix Shawl Lapel Jacket in striking black and red. This jacket combines classic sophistication with modern sty…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 179,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 687,
+      "output_tokens": 236,
+      "total_tokens": 923
+    }
+  },
+  {
+    "input_id": "68be3a41612d8e07d6d6eb31",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Havana Pure Linen Jacket Sand Slim Fit Size 38",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 697,
+      "value_preview": "<p>Experience timeless elegance with the Varce Italia Havana Pure Linen Jacket in Sand. Crafted from 100% pure linen, this jacket offers a slim fit that flatter…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 250,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 601,
+      "output_tokens": 192,
+      "total_tokens": 793
+    }
+  },
+  {
+    "input_id": "68be3a42612d8e07d6d6eb3f",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Patterned Black Dinner Jacket Slim Fit Polyester Viscose",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 667,
+      "value_preview": "<p>Discover the Varce Italia Patterned Dinner Jacket in Black, designed for formal occasions with a blend of style and comfort. This slim-fit jacket is made fro…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 243,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 644,
+      "output_tokens": 195,
+      "total_tokens": 839
+    }
+  },
+  {
+    "input_id": "68be3a44612d8e07d6d6eb4b",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Massimo Arlo Double Breasted Black Jacket No Satin Lapel",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 662,
+      "value_preview": "<p>Discover the Massimo Arlo Double Breasted Jacket in black, crafted for a tailored yet comfortable fit. This jacket features a modern no satin lapel design, o…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 225,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 609,
+      "output_tokens": 184,
+      "total_tokens": 793
+    }
+  },
+  {
+    "input_id": "68be3a46612d8e07d6d6eb58",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Massimo Arlo Double Breasted Jacket Black Satin Lapel Formal",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 612,
+      "value_preview": "<p>Elevate your formal wardrobe with the Massimo Arlo Double Breasted Jacket in Black, featuring a refined satin lapel for sophisticated style. Expertly tailore…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 290,
+      "bullet_count": 8
+    },
+    "tokens": {
+      "input_tokens": 580,
+      "output_tokens": 196,
+      "total_tokens": 776
+    }
+  },
+  {
+    "input_id": "68be3a47612d8e07d6d6eb65",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Men's Peak Lapel Jacket Ivory Formal Tailored Blazer",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 637,
+      "value_preview": "<p>Discover elegance with the Varce Italia Men's Peak Lapel Jacket in ivory. This tailored blazer combines sharp design with comfort, perfect for formal events …",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 185,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 665,
+      "output_tokens": 185,
+      "total_tokens": 850
+    }
+  },
+  {
+    "input_id": "68be3a48612d8e07d6d6eb74",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Luca Jacket Navy for Men Elegant Fit Casual and Formal",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 521,
+      "value_preview": "<p>The Varce Italia Luca Jacket in navy offers a refined and elegant addition to your wardrobe. Designed with a sleek silhouette, this jacket suits various occa…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 201,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 609,
+      "output_tokens": 161,
+      "total_tokens": 770
+    }
+  },
+  {
+    "input_id": "68be3a49612d8e07d6d6eb81",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Brando Men's Navy Two-Button Jacket Tailored Fit",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 611,
+      "value_preview": "<p>The Scuzzatti Brando Men's Jacket in Navy offers a sharp, tailored look with classic styling for versatile wear. Designed to enhance your silhouette while pr…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 241,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 590,
+      "output_tokens": 186,
+      "total_tokens": 776
+    }
+  },
+  {
+    "input_id": "68be3a4a612d8e07d6d6eb8d",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Waston Men's Peak Lapel Jacket Slim Fit Coral Pink",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 646,
+      "value_preview": "<p>The Scuzzatti Waston Men's Peak Lapel Jacket in Coral Pink combines style and comfort with a refined slim fit design. Made from a durable blend of polyester,…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 242,
+      "bullet_count": 8
+    },
+    "tokens": {
+      "input_tokens": 621,
+      "output_tokens": 214,
+      "total_tokens": 835
+    }
+  },
+  {
+    "input_id": "68be3a4c612d8e07d6d6eb9b",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Oliver Jacket Moss Premium Blend Comfort Flexibility",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 541,
+      "value_preview": "<p>The Scuzzatti Oliver Jacket Moss combines durability, comfort, and style in one versatile piece. Ideal for casual or active wear, this jacket offers a tailor…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 187,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 588,
+      "output_tokens": 166,
+      "total_tokens": 754
+    }
+  },
+  {
+    "input_id": "68be3a4d612d8e07d6d6ebae",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Sebastian Men's Black Morning Tails Jacket Regular Fit",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 571,
+      "value_preview": "<p>The Varce Italia Sebastian Men's Morning Tails Jacket in Black delivers a sophisticated look with a comfortable, tailored fit. Expertly designed for formal o…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 225,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 579,
+      "output_tokens": 178,
+      "total_tokens": 757
+    }
+  },
+  {
+    "input_id": "68be3a4e612d8e07d6d6ebba",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Riley Peak Lapel Jacket in Bottle Green Classic Fit",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 571,
+      "value_preview": "<p>Experience timeless style with the Scuzzatti Riley Peak Lapel Jacket in a distinctive bottle green color. This jacket offers a classic fit, blending traditio…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 209,
+      "bullet_count": 8
+    },
+    "tokens": {
+      "input_tokens": 579,
+      "output_tokens": 173,
+      "total_tokens": 752
+    }
+  },
+  {
+    "input_id": "68be3a4f612d8e07d6d6ebc7",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Riley Peak Lapel Jacket Khaki Classic Tailored Fit Outerwear",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 475,
+      "value_preview": "<p>The Scuzzatti Riley Peak Lapel Jacket in Khaki combines timeless tailoring with modern comfort for a versatile addition to your wardrobe.</p>\n<ul>\n<li>Classi…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 137,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 583,
+      "output_tokens": 159,
+      "total_tokens": 742
+    }
+  },
+  {
+    "input_id": "68be3a50612d8e07d6d6ebd4",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Beige Brown Classic Fit Jacket for Men and Women",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 563,
+      "value_preview": "<p>Step into sophistication with the Scuzzatti beige and brown jacket, designed for a classic fit that flatters all silhouettes. The versatile muted tones blend…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 207,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 603,
+      "output_tokens": 177,
+      "total_tokens": 780
+    }
+  },
+  {
+    "input_id": "68be3a51612d8e07d6d6ebde",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti White and Black Jacket Classic Fit Tailored for Versatility",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 453,
+      "value_preview": "<p>Discover the Scuzzatti White and Black Jacket, a timeless essential that combines style and sophistication with a classic fit.</p><ul><li>Designed for versat…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 126,
+      "bullet_count": 5
+    },
+    "tokens": {
+      "input_tokens": 617,
+      "output_tokens": 140,
+      "total_tokens": 757
+    }
+  },
+  {
+    "input_id": "68be3a52612d8e07d6d6ebe8",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Double Breasted Jacket Beige Brown Elegant Tailored Coat",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 510,
+      "value_preview": "<p>Experience timeless elegance with the Scuzzatti Double Breasted Jacket in beige and brown. Crafted to enhance your silhouette, this jacket combines sophistic…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 184,
+      "bullet_count": 5
+    },
+    "tokens": {
+      "input_tokens": 619,
+      "output_tokens": 150,
+      "total_tokens": 769
+    }
+  },
+  {
+    "input_id": "68be3a53612d8e07d6d6ebf2",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Double Breasted Jacket in White and Black Tailored Fit",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 525,
+      "value_preview": "<p>Elevate your wardrobe with the Scuzzatti Double Breasted Jacket in white and black. This tailored jacket combines timeless design with modern style, perfect …",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 194,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 612,
+      "output_tokens": 169,
+      "total_tokens": 781
+    }
+  },
+  {
+    "input_id": "68be3a56612d8e07d6d6ec09",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Wool Blend Check Sports Jacket Grey Slim Fit Tailored",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 545,
+      "value_preview": "<p>Upgrade your wardrobe with the Varce Italia Wool Blend Check Sports Jacket in Grey. Designed for a refined slim fit, this jacket blends style and comfort eff…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 167,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 581,
+      "output_tokens": 163,
+      "total_tokens": 744
+    }
+  },
+  {
+    "input_id": "68be3a58612d8e07d6d6ec13",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Dion Jacket Pink Slim Fit Polyester Viscose Spandex Blend",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 578,
+      "value_preview": "<p>The Scuzzatti Dion Jacket in Pink offers a slim fit design made from a durable and comfortable blend of polyester, viscose, and spandex. This jacket is perfe…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 227,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 594,
+      "output_tokens": 185,
+      "total_tokens": 779
+    }
+  },
+  {
+    "input_id": "68be3a59612d8e07d6d6ec21",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Wool Blend Check Sports Jacket Slim Fit Burgundy",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 501,
+      "value_preview": "<p>Discover the Varce Italia Wool Blend Check Sports Jacket in a rich burgundy tone. This slim-fit jacket offers a sophisticated and polished look suitable for …",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 175,
+      "bullet_count": 5
+    },
+    "tokens": {
+      "input_tokens": 581,
+      "output_tokens": 150,
+      "total_tokens": 731
+    }
+  },
+  {
+    "input_id": "68be3a5b612d8e07d6d6ec2b",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": false,
+    "title": {
+      "value": "Varce Italia Rocco Paisley Peak Lapel Dinner Jacket Aqua Black Tailored Fit",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 488,
+      "value_preview": "<p>This Varce Italia dinner jacket is crafted from a viscose blend brocade fabric, combining elegance and refined style. It features a tailored fit, perfect for…",
+      "pass": false,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": false,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [
+        "bullet_count_3_to_8"
+      ],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 175,
+      "bullet_count": 9
+    },
+    "tokens": {
+      "input_tokens": 568,
+      "output_tokens": 185,
+      "total_tokens": 753
+    }
+  },
+  {
+    "input_id": "68be3a5c612d8e07d6d6ec38",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Rainbow Peak Lapel Jacket Rainbow One Button Poly-Viscose",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 662,
+      "value_preview": "<p>Discover the Varce Italia Rainbow Peak Lapel Jacket, featuring a vibrant rainbow color and a sleek one-button closure. Crafted from a premium poly-viscose bl…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 205,
+      "bullet_count": 8
+    },
+    "tokens": {
+      "input_tokens": 634,
+      "output_tokens": 204,
+      "total_tokens": 838
+    }
+  },
+  {
+    "input_id": "68be3a5e612d8e07d6d6ec45",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Rainbow Peak Lapel Jacket Black One-Button Poly-Viscose",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 673,
+      "value_preview": "<p>Discover the Varce Italia Rainbow Peak Lapel Jacket in Black, a refined choice for formal occasions and business settings. This jacket combines classic tailo…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 202,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 654,
+      "output_tokens": 192,
+      "total_tokens": 846
+    }
+  },
+  {
+    "input_id": "68be3a60612d8e07d6d6ec52",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Rainbow Peak Lapel White Jacket with Black Satin Lapel",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 714,
+      "value_preview": "<p>Discover the Varce Italia Rainbow Peak Lapel Jacket in white, designed for a sophisticated and polished look. This jacket features a sleek one-button closure…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 212,
+      "bullet_count": 5
+    },
+    "tokens": {
+      "input_tokens": 650,
+      "output_tokens": 197,
+      "total_tokens": 847
+    }
+  },
+  {
+    "input_id": "68be3a61612d8e07d6d6ec5f",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Gotti Olivero Men's Black Satin Peak Lapel Slim Fit Formal Jacket",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 499,
+      "value_preview": "<p>Upgrade your formal attire with the Gotti Olivero Men's Satin Peak Lapel Jacket in black. This jacket features a sleek slim fit design and luxurious satin pe…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 192,
+      "bullet_count": 8
+    },
+    "tokens": {
+      "input_tokens": 597,
+      "output_tokens": 171,
+      "total_tokens": 768
+    }
+  },
+  {
+    "input_id": "68be3a63612d8e07d6d6ec6c",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Rowan Birdseye Jacket Grey Tailored Fit Durable Weave",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 628,
+      "value_preview": "<p>The Scuzzatti Rowan Birdseye Jacket in Grey offers a perfect balance of style and durability with its distinctive birdseye weave pattern. Designed to provide…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 251,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 562,
+      "output_tokens": 178,
+      "total_tokens": 740
+    }
+  },
+  {
+    "input_id": "68be3a64612d8e07d6d6ec79",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Rowan Birdseye Jacket Black Polyester Viscose Spandex Blend",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 551,
+      "value_preview": "<p>The Scuzzatti Rowan Birdseye Jacket in Black blends style and function with a premium fabric mix designed for comfort and durability.</p>\n<ul>\n<li>Made from …",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 133,
+      "bullet_count": 5
+    },
+    "tokens": {
+      "input_tokens": 598,
+      "output_tokens": 173,
+      "total_tokens": 771
+    }
+  },
+  {
+    "input_id": "68be3a65612d8e07d6d6ec86",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Theo Men's 2B Jacket Brown Classic Tailored Fit",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 516,
+      "value_preview": "<p>The Scuzzatti Theo Men's 2B Jacket in brown offers a timeless tailored look with modern comfort. This jacket is designed to bring style and versatility to yo…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 196,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 567,
+      "output_tokens": 164,
+      "total_tokens": 731
+    }
+  },
+  {
+    "input_id": "68be3a67612d8e07d6d6ec93",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Black Jacket Tailored Elegance for Men and Women",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 514,
+      "value_preview": "<p>Elevate your wardrobe with the timeless sophistication of the Varce Italia Black Jacket. This impeccably tailored piece offers a sleek silhouette that enhanc…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 188,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 602,
+      "output_tokens": 159,
+      "total_tokens": 761
+    }
+  },
+  {
+    "input_id": "68be3a74612d8e07d6d6ec9f",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Ridge Sparkle Dinner Jacket Black Slim Fit Poly-Viscose",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 607,
+      "value_preview": "<p>The Scuzzatti Ridge Sparkle Dinner Jacket in Black blends modern style with classic elegance. Made from a premium poly-viscose blend, this slim fit jacket is…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 234,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 584,
+      "output_tokens": 195,
+      "total_tokens": 779
+    }
+  },
+  {
+    "input_id": "68be3a75612d8e07d6d6ecac",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Ivory Jacket, Tailored Fit, Versatile Elegant Outerwear",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 478,
+      "value_preview": "<p>Discover the Varce Italia Ivory Jacket, a refined and versatile addition to your wardrobe designed with precision and premium materials.</p><ul><li>Elegant i…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 136,
+      "bullet_count": 5
+    },
+    "tokens": {
+      "input_tokens": 678,
+      "output_tokens": 140,
+      "total_tokens": 818
+    }
+  },
+  {
+    "input_id": "68be3a77612d8e07d6d6ecb8",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Navy Jacket Tailored Fit Durable Comfort Outerwear",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 819,
+      "value_preview": "<p>Discover the Varce Italia Navy Jacket, a versatile and stylish piece designed to enhance your wardrobe with elegance and comfort.</p><ul><li><strong>Color:</…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 129,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 658,
+      "output_tokens": 224,
+      "total_tokens": 882
+    }
+  },
+  {
+    "input_id": "68be3a78612d8e07d6d6ecc4",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Cayden Jacket Blue Slim Fit Polyester Blend with Stretch",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 745,
+      "value_preview": "<p>The Scuzzatti Cayden Jacket in blue presents a refined slim fit silhouette designed to enhance your profile with a modern one-button closure for a sleek, str…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 295,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 602,
+      "output_tokens": 209,
+      "total_tokens": 811
+    }
+  },
+  {
+    "input_id": "68be3a7a612d8e07d6d6ecce",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Cayden Grey Slim Fit Jacket with Stretch Fabric",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 714,
+      "value_preview": "<p>Experience the refined style of the Cayden Jacket in grey by Scuzzatti, designed with a slim fit to enhance your silhouette. Crafted from a durable and comfo…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 254,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 610,
+      "output_tokens": 210,
+      "total_tokens": 820
+    }
+  },
+  {
+    "input_id": "68be3a7c612d8e07d6d6ecd8",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Cayden Jacket Charcoal Slim Fit Polyester Blend Blazer",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 821,
+      "value_preview": "<p>The Scuzzatti Cayden Jacket in Charcoal features a slim fit design tailored to enhance your silhouette with a modern one-button closure for a sleek and minim…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 168,
+      "bullet_count": 8
+    },
+    "tokens": {
+      "input_tokens": 609,
+      "output_tokens": 230,
+      "total_tokens": 839
+    }
+  },
+  {
+    "input_id": "68be3a7e612d8e07d6d6ece2",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Cayden Jacket Navy Slim Fit One-Button Closure Double Vents",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 565,
+      "value_preview": "<p>Discover the refined elegance of the Scuzzatti Cayden Jacket in navy. This slim fit jacket is designed to elevate your wardrobe with its sophisticated detail…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 179,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 597,
+      "output_tokens": 170,
+      "total_tokens": 767
+    }
+  },
+  {
+    "input_id": "68be3a7f612d8e07d6d6ecec",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Anthony Fine Twill Dinner Jacket Ivory Black Slim Fit",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 584,
+      "value_preview": "<p>Step up your formalwear with the Varce Italia Anthony Fine Twill Dinner Jacket, designed for elegance and refined style. This slim fit jacket is ideal for bl…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 194,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 579,
+      "output_tokens": 175,
+      "total_tokens": 754
+    }
+  },
+  {
+    "input_id": "68be3a80612d8e07d6d6ecf9",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Atticus Fine Twill Shawl Lapel Jacket Black Tailored Fit",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 616,
+      "value_preview": "<p>Discover timeless elegance with the Scuzzatti Atticus Fine Twill Shawl Lapel Jacket in Black. Designed for versatility, this jacket suits both formal and cas…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 171,
+      "bullet_count": 8
+    },
+    "tokens": {
+      "input_tokens": 628,
+      "output_tokens": 199,
+      "total_tokens": 827
+    }
+  },
+  {
+    "input_id": "68be3a82612d8e07d6d6ed07",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Bradley Birdseye Jacket Navy Wool Blend Slim Fit Sizes 34R-60R",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 777,
+      "value_preview": "<p>The Scuzzatti Bradley Birdseye Jacket in Navy is a refined and contemporary slim-fit jacket made from a premium wool blend with distinctive birdseye texture.…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 255,
+      "bullet_count": 8
+    },
+    "tokens": {
+      "input_tokens": 638,
+      "output_tokens": 243,
+      "total_tokens": 881
+    }
+  },
+  {
+    "input_id": "68be3a83612d8e07d6d6ed16",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Bradley Birdseye Wool Blend Slim-Fit Jacket Taupe Size 34R-60R",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 458,
+      "value_preview": "<p>This slim-fit jacket from Scuzzatti is crafted in a wool blend birdseye fabric, perfect for a refined tailored look.</p>\n<ul>\n<li>Brand: Scuzzatti</li>\n<li>M…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 116,
+      "bullet_count": 8
+    },
+    "tokens": {
+      "input_tokens": 582,
+      "output_tokens": 192,
+      "total_tokens": 774
+    }
+  },
+  {
+    "input_id": "68be3a84612d8e07d6d6ed25",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Bradley Birdseye Wool Blend Slim-Fit Jacket Charcoal Two-Button",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 531,
+      "value_preview": "<p>This slim-fit Scuzzatti jacket is crafted from a quality wool blend Birdseye fabric in charcoal. Featuring a two-button notch lapel design, it offers a sleek…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 203,
+      "bullet_count": 8
+    },
+    "tokens": {
+      "input_tokens": 568,
+      "output_tokens": 201,
+      "total_tokens": 769
+    }
+  },
+  {
+    "input_id": "68be3a86612d8e07d6d6ed34",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Gotti Broderick Fine Twill Plain Jacket Charcoal Slim Fit 2-Button",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 603,
+      "value_preview": "<p>Discover the Broderick Fine Twill Plain Jacket in Charcoal by Gotti London, designed for timeless elegance and a sleek silhouette.</p><ul><li>Classic 2-butto…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 130,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 611,
+      "output_tokens": 184,
+      "total_tokens": 795
+    }
+  },
+  {
+    "input_id": "68be3a87612d8e07d6d6ed41",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Capone Crepe Weave Slim Fit Black One-Button Jacket",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 471,
+      "value_preview": "<p>Experience refined elegance with the Scuzzatti Capone Crepe Weave jacket in black. This slim fit, one-button jacket offers a modern yet timeless style perfec…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 191,
+      "bullet_count": 5
+    },
+    "tokens": {
+      "input_tokens": 605,
+      "output_tokens": 150,
+      "total_tokens": 755
+    }
+  },
+  {
+    "input_id": "68be3a89612d8e07d6d6ed4e",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Charles Fine Twill Plain Jacket Slim Fit Bottle Green",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 490,
+      "value_preview": "<p>Discover sophisticated style with the Scuzzatti Charles Fine Twill Plain Jacket in bottle green. This slim fit jacket offers a modern, elegant look suitable …",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 179,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 593,
+      "output_tokens": 171,
+      "total_tokens": 764
+    }
+  },
+  {
+    "input_id": "68be3a8b612d8e07d6d6ed5b",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Carson Floral Check Dinner Jacket Grey Tailored 1 Button Notch Lapel",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 618,
+      "value_preview": "<p>Step into sophistication with the Scuzzatti Carson Floral Check Dinner Jacket in Grey. This refined jacket features a subtle floral check pattern perfect for…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 194,
+      "bullet_count": 8
+    },
+    "tokens": {
+      "input_tokens": 634,
+      "output_tokens": 207,
+      "total_tokens": 841
+    }
+  },
+  {
+    "input_id": "68be3a8d612d8e07d6d6ed67",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Carson Floral Check Dinner Jacket Beige Sky 34-54",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 452,
+      "value_preview": "<p>Discover the Scuzzatti Carson Floral Check Dinner Jacket in Beige/Sky, a perfect blend of classic and modern elegance. Crafted for sophistication, this jacke…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 210,
+      "bullet_count": 5
+    },
+    "tokens": {
+      "input_tokens": 607,
+      "output_tokens": 152,
+      "total_tokens": 759
+    }
+  },
+  {
+    "input_id": "68be3a8f612d8e07d6d6ed73",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Charles Fine Twill Shawl Lapel Jacket Bottle Green Slim Fit",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 610,
+      "value_preview": "<p>The Scuzzatti Charles Fine Twill Shawl Lapel Jacket in Bottle Green features a refined slim fit and premium fabric blend for a sophisticated look. Perfect fo…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 200,
+      "bullet_count": 8
+    },
+    "tokens": {
+      "input_tokens": 606,
+      "output_tokens": 204,
+      "total_tokens": 810
+    }
+  },
+  {
+    "input_id": "68be3a90612d8e07d6d6ed80",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Constellation Blue Shawl Lapel Dinner Jacket Tailored Fit",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 662,
+      "value_preview": "<p>Discover the Varce Italia Constellation Dinner Jacket in a rich blue hue, featuring a classic shawl lapel design. This elegant jacket offers a tailored fit, …",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 211,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 680,
+      "output_tokens": 206,
+      "total_tokens": 886
+    }
+  },
+  {
+    "input_id": "68be3a92612d8e07d6d6ed8b",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Dallas Brocade Jacket White Black Satin Peak Lapel",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 732,
+      "value_preview": "<p>Discover the Varce Italia Dallas Brocade Jacket in White and Black, blending elegance with modern tailoring. This jacket features a single button closure and…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 213,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 642,
+      "output_tokens": 197,
+      "total_tokens": 839
+    }
+  },
+  {
+    "input_id": "68be3a93612d8e07d6d6ed98",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Dallas Brocade Jacket Silver Black Satin Lapel Single Button",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 631,
+      "value_preview": "<p>Experience sophistication with the Varce Italia Dallas Brocade Jacket in Silver/Black. This elegant jacket features a refined single button design paired wit…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 230,
+      "bullet_count": 8
+    },
+    "tokens": {
+      "input_tokens": 658,
+      "output_tokens": 188,
+      "total_tokens": 846
+    }
+  },
+  {
+    "input_id": "68be3a95612d8e07d6d6eda5",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Dallas Brocade Jacket Pink Black Satin Peak Lapel",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 689,
+      "value_preview": "<p>Discover the Varce Italia Dallas Brocade Jacket in elegant pink and black, designed to add sophistication to your formal wardrobe. This jacket features a sin…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 229,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 665,
+      "output_tokens": 191,
+      "total_tokens": 856
+    }
+  },
+  {
+    "input_id": "68be3a97612d8e07d6d6edb2",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Dallas Brocade Jacket Light Gold Black Satin One-Button",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 538,
+      "value_preview": "<p>Discover the Varce Italia Dallas Brocade Jacket in elegant light gold and black. This one-button satin jacket features a peak lapel and a sleek, polished des…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 182,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 624,
+      "output_tokens": 165,
+      "total_tokens": 789
+    }
+  },
+  {
+    "input_id": "68be3a98612d8e07d6d6edbf",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Dallas Brocade Jacket Ivory Black Satin Peak Lapel",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 560,
+      "value_preview": "<p>Discover the elegance of the Varce Italia Dallas Brocade Jacket in a refined ivory and black color scheme. Designed with a single satin peak lapel button, th…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 220,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 622,
+      "output_tokens": 169,
+      "total_tokens": 791
+    }
+  },
+  {
+    "input_id": "68be3a9a612d8e07d6d6edcc",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Dallas Brocade Jacket Gold Black Satin Peak Lapel Single Button",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 657,
+      "value_preview": "<p>Elevate your formal wardrobe with the Varce Italia Dallas Brocade Jacket in gold and black. This jacket combines luxurious materials with refined design, per…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 190,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 645,
+      "output_tokens": 199,
+      "total_tokens": 844
+    }
+  },
+  {
+    "input_id": "68be3a9c612d8e07d6d6edd9",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Dallas Brocade Jacket Black with Satin Peak Lapel",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 685,
+      "value_preview": "<p>Discover the Varce Italia Dallas Brocade Jacket in Black, a refined jacket designed for the modern gentleman. This elegant piece features a 1-button closure …",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 238,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 629,
+      "output_tokens": 193,
+      "total_tokens": 822
+    }
+  },
+  {
+    "input_id": "68be3a9e612d8e07d6d6ede6",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Deacon Hospac Weave Check Sports Jacket Rust 2 Button Notch Lapel",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 764,
+      "value_preview": "<p>Discover the refined elegance of the Scuzzatti Deacon Hospac Weave Check Sports Jacket in a captivating rust color. Designed with a classic 2-button notch la…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 240,
+      "bullet_count": 8
+    },
+    "tokens": {
+      "input_tokens": 608,
+      "output_tokens": 232,
+      "total_tokens": 840
+    }
+  },
+  {
+    "input_id": "68be3aa0612d8e07d6d6edf2",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Deacon Hospac Pink Weave Check Sports Jacket, Sizes 34-54",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 531,
+      "value_preview": "<p>Discover the Scuzzatti Deacon Hospac Weave Check Sports Jacket in a stylish pink rust tone. Crafted with a viscose blend and elastane, this jacket combines c…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 197,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 582,
+      "output_tokens": 183,
+      "total_tokens": 765
+    }
+  },
+  {
+    "input_id": "68be3aa1612d8e07d6d6edfe",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Edison Windowpane Check Jacket Blue Wool Blend Slim Fit",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 745,
+      "value_preview": "<p>Experience a blend of traditional tailoring and modern comfort with the Scuzzatti Edison Windowpane Check Jacket in blue. Designed with a premium wool blend …",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 254,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 599,
+      "output_tokens": 206,
+      "total_tokens": 805
+    }
+  },
+  {
+    "input_id": "68be3aa2612d8e07d6d6ee0b",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Edison Windowpane Check Jacket Garnet Wool Blend Slim Fit",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 693,
+      "value_preview": "<p>The Scuzzatti Edison Windowpane Check Jacket in Garnet offers a blend of classic style and modern comfort. Made from a premium wool blend with stretch, this …",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 240,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 583,
+      "output_tokens": 201,
+      "total_tokens": 784
+    }
+  },
+  {
+    "input_id": "68be3aa4612d8e07d6d6ee18",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Edison Windowpane Check Wool Blend Jacket in Biscuit, Slim Fit",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 657,
+      "value_preview": "<p>This Scuzzatti Edison Windowpane Check Jacket in Biscuit combines timeless style with modern comfort. Crafted from a premium wool blend with stretch, it is d…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 199,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 594,
+      "output_tokens": 189,
+      "total_tokens": 783
+    }
+  },
+  {
+    "input_id": "68be3aa5612d8e07d6d6ee25",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Edward Black Satin Lapel Pin Dot Fine Texture Slim Fit Jacket",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 646,
+      "value_preview": "<p>Discover the Scuzzatti Edward Jacket in black, featuring a fine pin dot texture and satin lapel for a sharp formal look.</p><ul><li>Slim fit design with a si…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 120,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 696,
+      "output_tokens": 191,
+      "total_tokens": 887
+    }
+  },
+  {
+    "input_id": "68be3aa7612d8e07d6d6ee37",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Edward Pin Dot Fine Texture Black Plain Lapel Jacket Slim Fit",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 711,
+      "value_preview": "<p>Discover the Scuzzatti Edward Jacket in black, featuring a fine pin dot texture and a sleek slim fit. This elegant plain lapel jacket is crafted from a comfo…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 225,
+      "bullet_count": 8
+    },
+    "tokens": {
+      "input_tokens": 696,
+      "output_tokens": 227,
+      "total_tokens": 923
+    }
+  },
+  {
+    "input_id": "68be3aa8612d8e07d6d6ee45",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Plain Textured Slim Fit Jacket One Button Silver",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 503,
+      "value_preview": "<p>Discover timeless elegance with the Scuzzatti Plain Textured Jacket in Silver. This slim fit, one-button jacket offers a refined silhouette suitable for vers…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 168,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 608,
+      "output_tokens": 153,
+      "total_tokens": 761
+    }
+  },
+  {
+    "input_id": "68be3aaa612d8e07d6d6ee50",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Grey Plain Textured Slim Fit Jacket One-Button Closure",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 507,
+      "value_preview": "<p>Experience timeless style with the Scuzzatti Grey Plain Textured Jacket, designed for a slim fit and elegant appearance.</p>\n<ul>\n<li>Slim fit design for a m…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 120,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 611,
+      "output_tokens": 161,
+      "total_tokens": 772
+    }
+  },
+  {
+    "input_id": "68be3aab612d8e07d6d6ee5b",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Plain Textured Sky Jacket Slim Fit One-Button Design",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 565,
+      "value_preview": "<p>Elevate your wardrobe with the Scuzzatti Plain Textured Jacket in Sky. This slim fit, one-button jacket offers a sophisticated look with a tailored silhouett…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 159,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 590,
+      "output_tokens": 171,
+      "total_tokens": 761
+    }
+  },
+  {
+    "input_id": "68be3aad612d8e07d6d6ee66",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Plain Textured Blue Jacket Slim Fit One-Button Blazer",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 471,
+      "value_preview": "<p>Elevate your style with the Scuzzatti Plain Textured Blue Jacket. This slim fit blazer features a one-button closure and a textured finish for refined, under…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 199,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 574,
+      "output_tokens": 164,
+      "total_tokens": 738
+    }
+  },
+  {
+    "input_id": "68be3aae612d8e07d6d6ee71",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Plain Textured Navy Slim Fit One-Button Jacket",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 421,
+      "value_preview": "<p>Experience refined style with the Scuzzatti Plain Textured Navy Jacket. This slim-fit, one-button jacket offers a modern silhouette, perfect for both profess…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 181,
+      "bullet_count": 5
+    },
+    "tokens": {
+      "input_tokens": 607,
+      "output_tokens": 137,
+      "total_tokens": 744
+    }
+  },
+  {
+    "input_id": "68be3aaf612d8e07d6d6ee7c",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Floral Jacquard Lounge Jacket Rose Elegant Comfort Style",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 464,
+      "value_preview": "<p>Experience refined elegance with the Varce Italia Floral Jacquard Lounge Jacket in rose, designed for comfort and style whether at home or out casually.</p><…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 152,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 608,
+      "output_tokens": 155,
+      "total_tokens": 763
+    }
+  },
+  {
+    "input_id": "68be3ab1612d8e07d6d6ee88",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Varce Italia Floral Jacquard Lounge Jacket Coffee Elegant Comfort Wear",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 501,
+      "value_preview": "<p>Discover the refined elegance of the Varce Italia Floral Jacquard Lounge Jacket in Coffee. Perfect for both casual relaxation and elegant gatherings, this ja…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 205,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 583,
+      "output_tokens": 163,
+      "total_tokens": 746
+    }
+  },
+  {
+    "input_id": "68be3ab2612d8e07d6d6ee94",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Greyson Fine Twill Jacket Black Two-Button Notch Lapel",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 674,
+      "value_preview": "<p>The Scuzzatti Greyson Fine Twill Jacket in Black combines durability with a refined look, crafted from a high-quality polyester blend. This classic two-butto…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 268,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 587,
+      "output_tokens": 207,
+      "total_tokens": 794
+    }
+  },
+  {
+    "input_id": "68be3ab4612d8e07d6d6eeab",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti George Windowpane Check Jacket Grey Slim Fit Poly-Wool Blend",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 730,
+      "value_preview": "<p>The Scuzzatti George Windowpane Check Jacket in grey is crafted from a refined poly-wool blend, offering a sophisticated slim fit for a modern silhouette. Th…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 295,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 592,
+      "output_tokens": 206,
+      "total_tokens": 798
+    }
+  },
+  {
+    "input_id": "68be3ab6612d8e07d6d6eeb6",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti George Windowpane Check Jacket Slim Fit Sky Blue Poly Wool",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 568,
+      "value_preview": "<p>The Scuzzatti George Windowpane Check Jacket in sky blue offers a refined slim fit designed to enhance your silhouette. Made from a durable poly wool blend, …",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 201,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 570,
+      "output_tokens": 177,
+      "total_tokens": 747
+    }
+  },
+  {
+    "input_id": "68be3ab7612d8e07d6d6eec1",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Greyson Fine Twill Navy Jacket Two-Button Notch Lapel",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 683,
+      "value_preview": "<p>The Scuzzatti Greyson Fine Twill Jacket in Navy is designed with a high-quality poly blend for durability and a polished appearance. Its classic two-button c…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 246,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 596,
+      "output_tokens": 209,
+      "total_tokens": 805
+    }
+  },
+  {
+    "input_id": "68be3ab9612d8e07d6d6eed8",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti George Windowpane Check Jacket Silver Slim Fit Poly Wool",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 647,
+      "value_preview": "<p>Upgrade your wardrobe with the Scuzzatti George Windowpane Check Jacket in Silver, made from a durable and comfortable poly wool blend. This slim-fit jacket …",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 234,
+      "bullet_count": 8
+    },
+    "tokens": {
+      "input_tokens": 595,
+      "output_tokens": 201,
+      "total_tokens": 796
+    }
+  },
+  {
+    "input_id": "68be3aba612d8e07d6d6eee3",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Harry Maroon Super Fine Twill Shawl Lapel Detachable Jacket",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 725,
+      "value_preview": "<p>Experience refined style with the Scuzzatti Harry Super Fine Twill Detachable Shawl Lapel Jacket. Crafted from a premium polyester and viscose blend, this ma…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 219,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 621,
+      "output_tokens": 221,
+      "total_tokens": 842
+    }
+  },
+  {
+    "input_id": "68be3abd612d8e07d6d6eefd",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": false,
+    "title": {
+      "value": "Gotti Harrison Plain Textured Wool Blend Jacket Blue Slim Fit 34R-56R",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 602,
+      "value_preview": "<p>Discover the refined style of the Gotti Harrison jacket, crafted from a wool blend with a plain textured fabric. This jacket offers a slim fit and a sophisti…",
+      "pass": false,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": false,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [
+        "bullet_count_3_to_8"
+      ],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 190,
+      "bullet_count": 9
+    },
+    "tokens": {
+      "input_tokens": 574,
+      "output_tokens": 211,
+      "total_tokens": 785
+    }
+  },
+  {
+    "input_id": "68be3abf612d8e07d6d6ef0a",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Gotti Harrison Plain Textured Wool Blend Jacket Fawn Slim Fit",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 603,
+      "value_preview": "<p>This Gotti Harrison jacket features a plain textured fabric crafted from a wool blend, offering a slim fit silhouette. Designed for a refined and tailored lo…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 206,
+      "bullet_count": 8
+    },
+    "tokens": {
+      "input_tokens": 574,
+      "output_tokens": 199,
+      "total_tokens": 773
+    }
+  },
+  {
+    "input_id": "68be3ac0612d8e07d6d6ef17",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Harry Slim Fit Super Fine Twill Plain Jacket French Blue",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 625,
+      "value_preview": "<p>Discover the elegance of the Scuzzatti Harry jacket made from super fine twill plain fabric in a refined French Blue color. Crafted from a viscose blend, thi…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 244,
+      "bullet_count": 8
+    },
+    "tokens": {
+      "input_tokens": 594,
+      "output_tokens": 217,
+      "total_tokens": 811
+    }
+  },
+  {
+    "input_id": "68be3acd612d8e07d6d6ef25",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Harry Super Fine Twill Slim Fit Jacket Maroon",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 675,
+      "value_preview": "<p>The Scuzzatti Harry Super Fine Twill Jacket in Maroon combines elegance with durable craftsmanship, perfect for formal and professional wear.</p>\n<ul>\n<li>Ma…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 141,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 619,
+      "output_tokens": 203,
+      "total_tokens": 822
+    }
+  },
+  {
+    "input_id": "68be3ace612d8e07d6d6ef33",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Harry Super Fine Twill Black Slim Fit Two-Button Jacket",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 591,
+      "value_preview": "<p>This Scuzzatti Harry jacket is tailored from super fine twill plain fabric made of a viscose blend, combining texture and style. It offers a slim fit with cl…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 206,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 593,
+      "output_tokens": 198,
+      "total_tokens": 791
+    }
+  },
+  {
+    "input_id": "68be3ad0612d8e07d6d6ef41",
+    "model": "gpt-4.1-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Harry Super Fine Twill Jacket Ocean Slim Fit Viscose Blend",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 628,
+      "value_preview": "<p>This Scuzzatti Harry jacket is crafted from a super fine twill plain fabric blending viscose for comfort. It offers a slim fit tailored silhouette, perfect f…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 173,
+      "bullet_count": 6
+    },
+    "tokens": {
+      "input_tokens": 594,
+      "output_tokens": 208,
+      "total_tokens": 802
+    }
+  }
+]

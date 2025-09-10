@@ -1,0 +1,110 @@
+[
+    {
+        "ok": true,
+        "model": "gpt-5-mini",
+        "ebay_title": "Scuzzatti Quinn Men's Trousers Ice - Slim Fit Size 50",
+        "ebay_description_html": "<p>Discover the sophistication of Quinn Men's Trousers in Ice. These slim-fit trousers (Size 50) are designed to deliver a modern, tailored silhouette with comfortable wear suitable for both professional and casual settings.</p>\n<ul>\n  <li><strong>Brand:</strong> Scuzzatti</li>\n  <li><strong>Model:</strong> Quinn (Men's Trousers)</li>\n  <li><strong>Color:</strong> Ice</li>\n  <li><strong>Fit:</strong> Slim fit for a tailored silhouette</li>\n  <li><strong>Size:</strong> 50 — check measurements to confirm fit</li>\n  <li>Versatile styling: pairs well with shirts or knitwear for day-to-night wear</li>\n  <li><strong>Care:</strong> Follow garment label; material information not specified</li>\n</ul>\n<table>\n  <thead>\n    <tr>\n      <th>Specification</th>\n      <th>Details</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Brand</td>\n      <td>Scuzzatti</td>\n    </tr>\n    <tr>\n      <td>Model</td>\n      <td>Quinn</td>\n    </tr>\n    <tr>\n      <td>Size</td>\n      <td>50</td>\n    </tr>\n    <tr>\n      <td>Color</td>\n      <td>Ice</td>\n    </tr>\n    <tr>\n      <td>Fit</td>\n      <td>Slim fit</td>\n    </tr>\n    <tr>\n      <td>Material</td>\n      <td>Not specified</td>\n    </tr>\n  </tbody>\n</table>",
+        "input_tokens": 606,
+        "output_tokens": 1685,
+        "total_tokens": 2291,
+        "raw": {
+            "id": "resp_68c01f491c00819696e2eead71034494055cc26689342296",
+            "created_at": 1757421385.0,
+            "error": null,
+            "incomplete_details": null,
+            "instructions": null,
+            "metadata": {},
+            "model": "gpt-5-mini-2025-08-07",
+            "object": "response",
+            "output": [
+                {
+                    "id": "rs_68c01f4a52508196ad7e4a2b1c5b51af055cc26689342296",
+                    "summary": [],
+                    "type": "reasoning",
+                    "content": null,
+                    "encrypted_content": null,
+                    "status": null
+                },
+                {
+                    "arguments": "{\"ebay_title\":\"Scuzzatti Quinn Men's Trousers Ice - Slim Fit Size 50\",\"ebay_description_html\":\"<p>Discover the sophistication of Quinn Men's Trousers in Ice. These slim-fit trousers (Size 50) are designed to deliver a modern, tailored silhouette with comfortable wear suitable for both professional and casual settings.</p>\\n<ul>\\n  <li><strong>Brand:</strong> Scuzzatti</li>\\n  <li><strong>Model:</strong> Quinn (Men's Trousers)</li>\\n  <li><strong>Color:</strong> Ice</li>\\n  <li><strong>Fit:</strong> Slim fit for a tailored silhouette</li>\\n  <li><strong>Size:</strong> 50 — check measurements to confirm fit</li>\\n  <li>Versatile styling: pairs well with shirts or knitwear for day-to-night wear</li>\\n  <li><strong>Care:</strong> Follow garment label; material information not specified</li>\\n</ul>\\n<table>\\n  <thead>\\n    <tr>\\n      <th>Specification</th>\\n      <th>Details</th>\\n    </tr>\\n  </thead>\\n  <tbody>\\n    <tr>\\n      <td>Brand</td>\\n      <td>Scuzzatti</td>\\n    </tr>\\n    <tr>\\n      <td>Model</td>\\n      <td>Quinn</td>\\n    </tr>\\n    <tr>\\n      <td>Size</td>\\n      <td>50</td>\\n    </tr>\\n    <tr>\\n      <td>Color</td>\\n      <td>Ice</td>\\n    </tr>\\n    <tr>\\n      <td>Fit</td>\\n      <td>Slim fit</td>\\n    </tr>\\n    <tr>\\n      <td>Material</td>\\n      <td>Not specified</td>\\n    </tr>\\n  </tbody>\\n</table>\"}",
+                    "call_id": "call_LPHp3TzJczN9rR3Jx20eNdLT",
+                    "name": "optimize_for_ebay_title_description",
+                    "type": "function_call",
+                    "id": "fc_68c01f5df9048196b1df4644c758b7f9055cc26689342296",
+                    "status": "completed"
+                }
+            ],
+            "parallel_tool_calls": true,
+            "temperature": 1.0,
+            "tool_choice": "auto",
+            "tools": [
+                {
+                    "name": "optimize_for_ebay_title_description",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "ebay_title": {
+                                "type": "string",
+                                "maxLength": 80,
+                                "minLength": 10,
+                                "description": "Rules:\n- ≤ 80 characters; one line (no newline).\n- Start with brand/product; add 1–2 key details (model/size/color/material).\n- No spammy phrases (e.g., FREE, BEST DEAL, 100%, GUARANTEED, SALE), no emojis.\n- Avoid ALL-CAPS except model codes; no duplicate spaces.\n- Natural, relevant keywords only."
+                            },
+                            "ebay_description_html": {
+                                "type": "string",
+                                "maxLength": 4000,
+                                "minLength": 40,
+                                "description": "Rules:\n- ≤ 4000 characters; mobile-friendly HTML.\n- Structure: short lead paragraph (2–3 sentences) + 3–8 bullet points; optional simple specs table.\n- Allowed tags only: <p>, <b>, <strong>, <br>, <ol>, <ul>, <li>, <table>, <tr>, <td>, <th>, <thead>, <tbody>, <tfoot>, <caption>, <colgroup>, <col>.\n- Do NOT use active content or disallowed tags: script, iframe, object, embed, applet, form, input, button, video, audio, canvas, svg, style, link, meta.\n- Accurate, non-promotional language; no external links/contact info."
+                            }
+                        },
+                        "required": [
+                            "ebay_title",
+                            "ebay_description_html"
+                        ],
+                        "additionalProperties": false
+                    },
+                    "strict": true,
+                    "type": "function",
+                    "description": "Return an eBay-optimized title (<=80 chars) and a compliant HTML description (<=4000 chars, no active content)."
+                }
+            ],
+            "top_p": 1.0,
+            "background": false,
+            "conversation": null,
+            "max_output_tokens": null,
+            "max_tool_calls": null,
+            "previous_response_id": null,
+            "prompt": null,
+            "prompt_cache_key": null,
+            "reasoning": {
+                "effort": "medium",
+                "generate_summary": null,
+                "summary": null
+            },
+            "safety_identifier": null,
+            "service_tier": "default",
+            "status": "completed",
+            "text": {
+                "format": {
+                    "type": "text"
+                },
+                "verbosity": "medium"
+            },
+            "top_logprobs": 0,
+            "truncation": "disabled",
+            "usage": {
+                "input_tokens": 606,
+                "input_tokens_details": {
+                    "cached_tokens": 0
+                },
+                "output_tokens": 1685,
+                "output_tokens_details": {
+                    "reasoning_tokens": 1216
+                },
+                "total_tokens": 2291
+            },
+            "user": null,
+            "store": true
+        },
+        "input_id": "68be3a24612d8e07d6d6ea30"
+    }
+]

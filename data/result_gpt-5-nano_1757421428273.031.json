@@ -1,0 +1,110 @@
+[
+    {
+        "ok": true,
+        "model": "gpt-5-nano",
+        "ebay_title": "Scuzzatti Quinn Men's Trousers Ice 50 Slim Fit",
+        "ebay_description_html": "<p>Discover Quinn Men's Trousers in Ice from Scuzzatti. These trousers offer a sleek silhouette and a slim fit for all-day comfort, suitable for professional and casual settings.</p><ul><li><strong>Brand:</strong> Scuzzatti</li><li><strong>Model:</strong> Quinn Men's Trousers</li><li><strong>Color:</strong> Ice</li><li><strong>Size:</strong> 50</li><li><strong>Fit:</strong> Slim</li><li><strong>Intended use:</strong> Professional and casual wear</li><li><strong>Design notes:</strong> Sleek silhouette with all-day comfort</li><li><strong>Styling options:</strong> Pairs well with a crisp shirt or lightweight sweater</li></ul>",
+        "input_tokens": 606,
+        "output_tokens": 2007,
+        "total_tokens": 2613,
+        "raw": {
+            "id": "resp_68c01f6636d48197923340a9ba6f77df02137c5152a5e6f5",
+            "created_at": 1757421414.0,
+            "error": null,
+            "incomplete_details": null,
+            "instructions": null,
+            "metadata": {},
+            "model": "gpt-5-nano-2025-08-07",
+            "object": "response",
+            "output": [
+                {
+                    "id": "rs_68c01f66e4e881979d79744c1b0e47ba02137c5152a5e6f5",
+                    "summary": [],
+                    "type": "reasoning",
+                    "content": null,
+                    "encrypted_content": null,
+                    "status": null
+                },
+                {
+                    "arguments": "{\"ebay_title\":\"Scuzzatti Quinn Men's Trousers Ice 50 Slim Fit\",\"ebay_description_html\":\"<p>Discover Quinn Men's Trousers in Ice from Scuzzatti. These trousers offer a sleek silhouette and a slim fit for all-day comfort, suitable for professional and casual settings.</p><ul><li><strong>Brand:</strong> Scuzzatti</li><li><strong>Model:</strong> Quinn Men's Trousers</li><li><strong>Color:</strong> Ice</li><li><strong>Size:</strong> 50</li><li><strong>Fit:</strong> Slim</li><li><strong>Intended use:</strong> Professional and casual wear</li><li><strong>Design notes:</strong> Sleek silhouette with all-day comfort</li><li><strong>Styling options:</strong> Pairs well with a crisp shirt or lightweight sweater</li></ul>\"}",
+                    "call_id": "call_HMoWjCtaXOxiZoG3EoHJ75Wl",
+                    "name": "optimize_for_ebay_title_description",
+                    "type": "function_call",
+                    "id": "fc_68c01f71dc1c8197b14d8fa9a6fd9cb602137c5152a5e6f5",
+                    "status": "completed"
+                }
+            ],
+            "parallel_tool_calls": true,
+            "temperature": 1.0,
+            "tool_choice": "auto",
+            "tools": [
+                {
+                    "name": "optimize_for_ebay_title_description",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "ebay_title": {
+                                "type": "string",
+                                "maxLength": 80,
+                                "minLength": 10,
+                                "description": "Rules:\n- ≤ 80 characters; one line (no newline).\n- Start with brand/product; add 1–2 key details (model/size/color/material).\n- No spammy phrases (e.g., FREE, BEST DEAL, 100%, GUARANTEED, SALE), no emojis.\n- Avoid ALL-CAPS except model codes; no duplicate spaces.\n- Natural, relevant keywords only."
+                            },
+                            "ebay_description_html": {
+                                "type": "string",
+                                "maxLength": 4000,
+                                "minLength": 40,
+                                "description": "Rules:\n- ≤ 4000 characters; mobile-friendly HTML.\n- Structure: short lead paragraph (2–3 sentences) + 3–8 bullet points; optional simple specs table.\n- Allowed tags only: <p>, <b>, <strong>, <br>, <ol>, <ul>, <li>, <table>, <tr>, <td>, <th>, <thead>, <tbody>, <tfoot>, <caption>, <colgroup>, <col>.\n- Do NOT use active content or disallowed tags: script, iframe, object, embed, applet, form, input, button, video, audio, canvas, svg, style, link, meta.\n- Accurate, non-promotional language; no external links/contact info."
+                            }
+                        },
+                        "required": [
+                            "ebay_title",
+                            "ebay_description_html"
+                        ],
+                        "additionalProperties": false
+                    },
+                    "strict": true,
+                    "type": "function",
+                    "description": "Return an eBay-optimized title (<=80 chars) and a compliant HTML description (<=4000 chars, no active content)."
+                }
+            ],
+            "top_p": 1.0,
+            "background": false,
+            "conversation": null,
+            "max_output_tokens": null,
+            "max_tool_calls": null,
+            "previous_response_id": null,
+            "prompt": null,
+            "prompt_cache_key": null,
+            "reasoning": {
+                "effort": "medium",
+                "generate_summary": null,
+                "summary": null
+            },
+            "safety_identifier": null,
+            "service_tier": "default",
+            "status": "completed",
+            "text": {
+                "format": {
+                    "type": "text"
+                },
+                "verbosity": "medium"
+            },
+            "top_logprobs": 0,
+            "truncation": "disabled",
+            "usage": {
+                "input_tokens": 606,
+                "input_tokens_details": {
+                    "cached_tokens": 0
+                },
+                "output_tokens": 2007,
+                "output_tokens_details": {
+                    "reasoning_tokens": 1792
+                },
+                "total_tokens": 2613
+            },
+            "user": null,
+            "store": true
+        },
+        "input_id": "68be3a24612d8e07d6d6ea30"
+    }
+]

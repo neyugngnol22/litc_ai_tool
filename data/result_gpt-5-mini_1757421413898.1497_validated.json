@@ -1,0 +1,48 @@
+[
+  {
+    "input_id": "68be3a24612d8e07d6d6ea30",
+    "model": "gpt-5-mini",
+    "ok_original": true,
+    "overall_pass": true,
+    "title": {
+      "value": "Scuzzatti Quinn Men's Trousers Ice - Slim Fit Size 50",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_le_80": true,
+        "length_ge_10": true,
+        "one_line": true,
+        "no_double_spaces": true,
+        "no_emoji": true,
+        "no_spam_words": true,
+        "not_all_caps": true,
+        "starts_with_brand": "not_evaluated"
+      },
+      "violations": []
+    },
+    "description": {
+      "length": 1206,
+      "value_preview": "<p>Discover the sophistication of Quinn Men's Trousers in Ice. These slim-fit trousers (Size 50) are designed to deliver a modern, tailored silhouette with comf…",
+      "pass": true,
+      "checks": {
+        "present": true,
+        "length_40_to_4000": true,
+        "lead_paragraph_ok": true,
+        "bullet_count_3_to_8": true,
+        "no_disallowed_tags": true,
+        "only_allowed_tags": true,
+        "no_external_links": true
+      },
+      "violations": [],
+      "found_disallowed_tags": [],
+      "found_non_whitelisted_tags": [],
+      "lead_paragraph_length": 221,
+      "bullet_count": 7
+    },
+    "tokens": {
+      "input_tokens": 606,
+      "output_tokens": 1685,
+      "total_tokens": 2291
+    }
+  }
+]

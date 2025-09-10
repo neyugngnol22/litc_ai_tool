@@ -1,0 +1,69 @@
+https://platform.openai.com/docs/guides/tools?lang=python
+
+https://platform.openai.com/docs/guides/function-calling
+
+
+MCP Server: Model Context Protocol Server 
+
+Tools – functionality we give the model
+ex: convert_product_data_to_ebay(shopify_product_data)
+
+Tool calls – requests from the model to use tools
+ex: 
+
+Tool call outputs – output we generate for the model
+
+Functions versus tools (Định nghĩa sâu về schema input và output -> số lượng token lớn)
+
+
+Tool: function tool 
+Tool call: request use function tool 
+Tool call output: execute function tool return output response 
+Function: một loại định nghĩa bằng json schema để đảm bảo input/output rõ ràng 
+
+Flow:
+1: Make request to model with tools 
+2. Receive tool call from model 
+3. Execute code 
+4. Tool output 
+5. Final response 
+
+https://cdn.openai.com/API/docs/images/function-calling-diagram-steps.png
+
+https://export.ebay.com/en/growth/promotion-strategies/how-to-optimize-your-listings/#Write-an-informative-title
+
+https://developer.ebay.com/api-docs/sell/inventory/resources/inventory_item/methods/bulkCreateOrReplaceInventoryItem
+
+https://export.ebay.com/en/growth/promotion-strategies/how-to-optimize-your-listings/#Write-a-clear-description-of-your-item
+
+
+pip install beautifulsoup4
+
+
+python validate_ebay_results.py data/result_gpt-5-mini_*.json
+
+python validate_ebay_results.py data/result_gpt-5-mini_*.json --products data/shopify_data.json
+
+
+
+func ebay flow: 
+define data path, models, system_prompt (role system)
+define tool 
+loop and call open AI for each product -> write to output 
+
+test_validate:
+validate follow rule ebay 
+origin
+
+https://export.ebay.com/en/growth/promotion-strategies/how-to-optimize-your-listings/#Write-an-informative-title
+
+https://developer.ebay.com/api-docs/sell/inventory/resources/inventory_item/methods/bulkCreateOrReplaceInventoryItem
+
+https://export.ebay.com/en/growth/promotion-strategies/how-to-optimize-your-listings/#Write-a-clear-description-of-your-item
+
+
+
+RAG Chatbot: 
+Collect data and clean data 
+Auto Detect language 
+
