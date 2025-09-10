@@ -1,0 +1,30 @@
+=== Running model: gpt-4o on 836 items ===
+[gpt-4o] #0/836 id=WM110_rosa_Reh ✓ 3.86s (in=1774, out=268)
+[gpt-4o] #1/836 id=BG544_royal ✓ 4.72s (in=1740, out=168)
+[gpt-4o] #2/836 id=107650078700 ✓ 4.73s (in=1682, out=253)
+[gpt-4o] #3/836 id= ✓ 4.74s (in=563, out=120)
+[gpt-4o] #4/836 id=QS77_royal ✓ 5.34s (in=1559, out=319)
+[gpt-4o] #5/836 id=HF7777 ✓ 3.31s (in=2552, out=212)
+[gpt-4o] #6/836 id=SCHULROSA ✓ 8.40s (in=3623, out=236)
+[gpt-4o] #7/836 id=BG118S_gruen ✓ 8.72s (in=1461, out=347)
+[gpt-4o] #8/836 id=HK_ROSA ✓ 8.72s (in=1866, out=327)
+[gpt-4o] #9/836 id=107632094700 ✓ 9.01s (in=3330, out=367)
+[gpt-4o] #10/836 id=107731015700 ✓ 9.94s (in=4479, out=284)
+[gpt-4o] #11/836 id=207632494700 ✓ 3.69s (in=646, out=131)
+[gpt-4o] #12/836 id= ✓ 4.00s (in=888, out=313)
+[gpt-4o] #13/836 id=207639515800 ✓ 9.52s (in=619, out=141)
+[gpt-4o] #14/836 id=HAPPYSTYLE_NAV ✓ 13.31s (in=3478, out=695)
+[gpt-4o] #15/836 id= ✗ 20.27s ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-M6Mu4IooeFqChN7GDblVdRIt on tokens per min (TPM): Limit 30000, Used 26129, Requested 8848. Please try again in 9.954s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+[gpt-4o] #16/836 id= ✗ 20.57s ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-M6Mu4IooeFqChN7GDblVdRIt on tokens per min (TPM): Limit 30000, Used 29018, Requested 9608. Please try again in 17.252s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+[gpt-4o] #17/836 id=3/4-RY6681K_lightpink48 ✗ 20.27s ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-M6Mu4IooeFqChN7GDblVdRIt on tokens per min (TPM): Limit 30000, Used 28865, Requested 4577. Please try again in 6.884s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+[gpt-4o] #18/836 id=3/4-RY6681K_hellblau ✗ 19.36s ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-M6Mu4IooeFqChN7GDblVdRIt on tokens per min (TPM): Limit 30000, Used 27578, Requested 5485. Please try again in 6.126s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+[gpt-4o] #19/836 id=JH030K_R_5-6 ✓ 22.11s (in=2905, out=280)
+✓ Wrote output/result_gpt-4o_1757497942513.9045.json (20 items)
+
+--- Summary for gpt-4o ---
+Wrote: output/result_gpt-4o_1757497942513.9045.json (20 items)
+Success: 16 | Fail: 4
+Total time: 30.83s
+Avg latency/item: 10.23s
+Throughput: 27.11 items/sec
+Total tokens: in=33165, out=4461, sum=37626

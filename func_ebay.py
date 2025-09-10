@@ -10,7 +10,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # input_path = 'data/shopify_data.json'
 input_path = 'data/ExportData104223.xlsx'
 # models = ['gpt-4.1-mini', 'gpt-4.1-nano']
-models = ['gpt-4.1-mini']
+# models = ['gpt-4.1-mini']
+models = ['gpt-4o']
 
 system_prompt = (
     "You are an eBay listing optimizer. "
@@ -199,7 +200,7 @@ def main():
         with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
             futures = [
                 executor.submit(process_item, item, model, client)
-                for item in items[:100]
+                for item in items[:20]
             ]
 
             for idx, future in enumerate(as_completed(futures)):
