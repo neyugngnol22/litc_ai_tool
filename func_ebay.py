@@ -45,14 +45,15 @@ tools = [
           "maxLength": 4000,
           "minLength": 40,
           "description": (
-            "An HTML-formatted product description that must comply with eBay's mobile and listing standards. "
-            "It must begin with a short summary paragraph, followed by 4–6 bullet points that highlight the product’s key features. "
-            "If three or more structured attributes are available, a specification table must be included. "
-            "Only the following HTML tags are allowed: <b>, <strong>, <br>, <ol>, <ul>, <li>, <table>, <tr>, <td>, "
-            "<th>, <thead>, <tbody>, <tfoot>, <caption>, <colgroup>, <col>. "
-            "The use of <p> tags is not permitted. All forms of active content (e.g., <script>, <iframe>, <form>, <video>, etc.) are strictly forbidden. "
-            "The description must be written in clear, user-friendly language and must not contain promotional phrases, contact details, or external links. "
-            "The output must be in the same language as the input; detect and match language automatically."
+            "A detailed, HTML-formatted eBay product description that complies with eBay's mobile and listing standards."
+            "Fully utilize the 4000-character limit to provide all relevant product details."
+            "Begin with a clear, informative summary paragraph that highlights product value and key customer-facing information." 
+            "Then add 4–6 bullet points outlining important features." 
+            "If 3 or more structured specs are present, include a clean HTML table." 
+            "Only use allowed tags: <b>, <strong>, <br>, <ol>, <ul>, <li>, <table>, <tr>, <td>, <th>, <thead>, <tbody>, <tfoot>, <caption>, <colgroup>, <col>." 
+            "Do not use <p> tags or any form of active content, links, or contact info."
+            "Use clear, non-promotional language with buyer-relevant keywords that match real search behavior (e.g., use case, compatibility, target users, or problem-solution terms)." 
+            "The output must be in the same language as the input; detect and match language automatically"
           )
         }
       },

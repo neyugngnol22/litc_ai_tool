@@ -2,6 +2,13 @@ import pandas as  pd
 from pathlib import Path 
 import json, csv
 from typing import Union, List, Dict 
+import re 
+
+
+def clean_illegal_excel_chars(value: str) -> str:
+    if not isinstance(value, str):
+        return str(value)
+    return re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', value)
 
 
 def convert_json_to_file(
@@ -23,7 +30,7 @@ def convert_json_to_file(
     processed_data: List[Dict[str, str]] = []
     for item in data:
         mapped_item = {
-            export_field: item.get(source_field, "")
+            export_field: clean_illegal_excel_chars(item.get(source_field, ""))
             for source_field, export_field in field_mapping.items()
         }
         processed_data.append(mapped_item)

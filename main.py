@@ -3,8 +3,8 @@ from libs.utils import *
 
 if __name__ == '__main__':
     convert_json_to_file(
-        input_path="output/result_gpt-4o_1757556217252.5955.json",
-        output_path="export/products_4o_new.xlsx",
+        input_path="output/result_gpt-4o_1757592432313.8174.json",
+        output_path=f"export/products_result_gpt-4o_1757592432313.8174.xlsx",
         field_mapping={
             "input_id": "sku",
             "shopify_title": "shopify_title",
