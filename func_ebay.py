@@ -14,19 +14,15 @@ input_path = 'data/ExportData104223.xlsx'
 models = ['gpt-4o']
 
 system_prompt = (
-    "You are an eBay listing optimizer. "
-    "Rules: Title <=80 chars, one line, no spam or all-caps. "
-    "Description <=4000 chars, mobile-friendly HTML with lead + bullets; "
-    "Allowed tags: <b>, <strong>, <br>, <ol>, <ul>, <li>, <table>, <tr>, <td>, <th>, <thead>, <tbody>, <tfoot>, <caption>, <colgroup>, <col>. "
-    "No active content (script/iframe/object/embed/applet/form/input/button/video/audio/canvas/svg/style). "
-    "Return results strictly via function call."
+    "You are an eBay listing optimizer."
+    "Detect the input language and generate the output (title and description) in the same language. "
 )
 
 tools = [
   {
     "type": "function",
     "name": "optimize_for_ebay_title_description",
-    "description": "Return an eBay-optimized title (<=80 chars) and a compliant HTML description (<=4000 chars, no active content).",
+    "description": "Return an eBay-optimized title and a compliant HTML description.",
     "strict": True,
     "parameters": {
       "type": "object",
@@ -36,17 +32,11 @@ tools = [
           "maxLength": 80,
           "minLength": 10,
           "description": (
-            "eBay Title Rules:\n"
-            "- Max 80 characters, one line only.\n"
-            "- Start with brand or product name.\n"
-            "- Include 1–2 key attributes (model, size, color, material).\n"
-            "- Include top-searched keywords (SEO-friendly).\n"
-            "- No ALL CAPS (except model codes like XR123).\n"
-            "- No emojis or symbols (| / + ~ * ™ ® ©).\n"
-            "- No spammy words (e.g., FREE, GUARANTEED, 100%, BEST DEAL).\n"
-            "- No duplicate spaces.\n"
-            "- Avoid shipping/returns info (e.g., 'Fast Shipping').\n"
-            "- Title must read naturally and match buyer's search intent."
+            "A concise, SEO-optimized eBay title that strictly follows platform rules. "
+            "It must be a single line (max 80 characters), starting with the brand or product name, "
+            "and include one or two key attributes such as model, size, or color. "
+            "Avoid all caps (except model codes), emojis, special symbols, duplicate spaces, and promotional or shipping language. "
+            "The title should read naturally and match buyer search intent."
           )
         },
         "ebay_description_html": {
@@ -54,17 +44,14 @@ tools = [
           "maxLength": 4000,
           "minLength": 40,
           "description": (
-            "eBay Description Rules:\n"
-            "- Max 4000 characters. Must be HTML, mobile-friendly.\n"
-            "- Start with 1–2 sentence summary paragraph.\n"
-            "- Follow with 4–6 bullet points describing key features.\n"
-            "- Optional: Add specs table if 3 or more specs are available.\n"
-            "- Allowed tags only: <b>, <strong>, <br>, <ol>, <ul>, <li>, <table>, <tr>, <td>, "
-            "<th>, <thead>, <tbody>, <tfoot>, <caption>, <colgroup>, <col>.\n"
-            "<p> is NOT allowed. Do not use <p> for paragraphs. "
-            "- Forbidden: Any active content (e.g., <script>, <iframe>, <form>, <video>, etc.).\n"
-            "- No external links or contact info.\n"
-            "- Clear, non-promotional language. Use buyer-relevant keywords."
+            "An HTML-formatted product description that must comply with eBay's mobile and listing standards. "
+            "It must begin with a short summary paragraph, followed by 4–6 bullet points that highlight the product’s key features. "
+            "If three or more structured attributes are available, a specification table must be included. "
+            "Only the following HTML tags are allowed: <b>, <strong>, <br>, <ol>, <ul>, <li>, <table>, <tr>, <td>, "
+            "<th>, <thead>, <tbody>, <tfoot>, <caption>, <colgroup>, <col>. "
+            "The use of <p> tags is not permitted. All forms of active content (e.g., <script>, <iframe>, <form>, <video>, etc.) are strictly forbidden. "
+            "The description must be written in clear, user-friendly language and must not contain promotional phrases, contact details, or external links. "
+            "The output must be in the same language as the input; detect and match language automatically."
           )
         }
       },
@@ -115,7 +102,13 @@ def make_user_prompt(item: Dict[str, Any]) -> str:
         add("Brand", item.get('brand'))
     add("Description", item.get('description'))
 
-    return "Convert this Shopify product into an eBay-ready Title & HTML Description.\n" + "\n".join(lines)
+    return (
+        "Convert the following Shopify product into an eBay-ready Title and HTML Description. "
+        "Return the result using the function `optimize_for_ebay_title_description`.\n\n"
+        + "\n".join(lines)
+    )
+
+    # return "Convert this Shopify product into an eBay-ready Title & HTML Description.\n" + "\n".join(lines)
 
 
 def call_once(client: OpenAI, model: str, user_prompt: str) -> Dict:
@@ -152,13 +145,13 @@ def call_once(client: OpenAI, model: str, user_prompt: str) -> Dict:
         return {
             "ok": True,
             "model": model,
-            "ebay_title": ebay_title,
-            "ebay_description_html": ebay_desc,
             "input_tokens": in_tok,
             "output_tokens": out_tok,
             "total_tokens": total_tok,
             "raw": resp.model_dump() if hasattr(resp, "model_dump") else None,
-            "latency_sec": end_t - start_t
+            "latency_sec": end_t - start_t,
+            "ebay_title": ebay_title,
+            "ebay_description_html": ebay_desc,
         }
     except Exception as e:
         # time.sleep(0.7 * (2 ** attempt))
