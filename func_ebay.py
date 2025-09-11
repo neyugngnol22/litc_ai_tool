@@ -11,7 +11,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 input_path = 'data/ExportData104223.xlsx'
 # models = ['gpt-4.1-mini', 'gpt-4.1-nano']
 # models = ['gpt-4.1-mini']
-models = ['gpt-4o']
+# models = ['gpt-4o']
+models = ['gpt-4.1-mini', 'gpt-4o']
 
 system_prompt = (
     "You are an eBay listing optimizer."
