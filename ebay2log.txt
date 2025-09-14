@@ -1,0 +1,63 @@
+=== Running model: gpt-4.1-mini on 836 items ===
+[gpt-4.1-mini] #0/836 id= ✓ 4.32s (in=446, out=235)
+[gpt-4.1-mini] #1/836 id=107650078700 ✓ 8.87s (in=1565, out=696)
+[gpt-4.1-mini] #2/836 id=BG544_royal ✓ 9.75s (in=1623, out=785)
+[gpt-4.1-mini] #3/836 id=QS77_royal ✓ 10.72s (in=1442, out=777)
+[gpt-4.1-mini] #4/836 id=WM110_rosa_Reh ✓ 10.83s (in=1657, out=843)
+[gpt-4.1-mini] #5/836 id=HK_ROSA ✓ 12.27s (in=1749, out=757)
+[gpt-4.1-mini] #6/836 id=HF7777 ✓ 8.32s (in=2435, out=1004)
+[gpt-4.1-mini] #7/836 id=107632094700 ✓ 12.89s (in=3213, out=852)
+[gpt-4.1-mini] #8/836 id=BG118S_gruen ✓ 13.28s (in=1344, out=794)
+[gpt-4.1-mini] #9/836 id=107731015700 ✓ 14.33s (in=4362, out=975)
+[gpt-4.1-mini] #10/836 id=SCHULROSA ✓ 15.39s (in=3506, out=1234)
+[gpt-4.1-mini] #11/836 id=207632494700 ✓ 7.63s (in=529, out=588)
+[gpt-4.1-mini] #12/836 id=207639515800 ✓ 7.92s (in=502, out=345)
+[gpt-4.1-mini] #13/836 id=JH030K_R_5-6 ✓ 10.97s (in=2788, out=722)
+[gpt-4.1-mini] #14/836 id=3/4-RY6681K_lightpink48 ✓ 15.15s (in=4243, out=960)
+[gpt-4.1-mini] #15/836 id= ✓ 16.82s (in=771, out=924)
+[gpt-4.1-mini] #16/836 id=3/4-RY6681K_hellblau ✓ 16.18s (in=5151, out=992)
+[gpt-4.1-mini] #17/836 id= ✓ 20.95s (in=9274, out=1526)
+[gpt-4.1-mini] #18/836 id=HAPPYSTYLE_NAV ✓ 20.03s (in=3361, out=1708)
+[gpt-4.1-mini] #19/836 id= ✓ 22.32s (in=8514, out=1312)
+✓ Wrote output/result_gpt-4.1-mini_1757863063369.2273.json (20 items)
+
+--- Summary for gpt-4.1-mini ---
+Wrote: output/result_gpt-4.1-mini_1757863063369.2273.json (20 items)
+Success: 20 | Fail: 0
+Total time: 31.20s
+Avg latency/item: 12.95s
+Throughput: 26.79 items/sec
+Total tokens: in=58475, out=18029, sum=76504
+
+=== Running model: gpt-4o on 836 items ===
+[gpt-4o] #0/836 id= ✓ 5.97s (in=446, out=369)
+[gpt-4o] #1/836 id=QS77_royal ✓ 7.19s (in=1442, out=605)
+[gpt-4o] #2/836 id=107650078700 ✓ 8.83s (in=1565, out=653)
+[gpt-4o] #3/836 id=WM110_rosa_Reh ✓ 9.85s (in=1657, out=909)
+[gpt-4o] #4/836 id=HK_ROSA ✓ 10.62s (in=1749, out=704)
+[gpt-4o] #5/836 id=BG544_royal ✓ 11.25s (in=1623, out=808)
+[gpt-4o] #6/836 id=BG118S_gruen ✓ 11.51s (in=1344, out=610)
+[gpt-4o] #7/836 id=207639515800 ✓ 5.17s (in=502, out=286)
+[gpt-4o] #8/836 id=107731015700 ✓ 20.65s (in=4362, out=843)
+[gpt-4o] #9/836 id=HF7777 ✓ 15.15s (in=2435, out=531)
+[gpt-4o] #10/836 id=207632494700 ✓ 12.98s (in=528, out=990)
+[gpt-4o] #11/836 id=SCHULROSA ✓ 26.36s (in=3506, out=661)
+[gpt-4o] #12/836 id=107632094700 ✓ 26.41s (in=3213, out=920)
+[gpt-4o] #13/836 id= ✗ 19.69s ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-JirKvE5Bwlj7bteYYAuz6uM7 on tokens per min (TPM): Limit 30000, Used 29539, Requested 8731. Please try again in 16.54s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+[gpt-4o] #14/836 id= ✗ 18.80s ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-JirKvE5Bwlj7bteYYAuz6uM7 on tokens per min (TPM): Limit 30000, Used 30000, Requested 9491. Please try again in 18.982s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+[gpt-4o] #15/836 id=3/4-RY6681K_hellblau ✗ 20.03s ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-JirKvE5Bwlj7bteYYAuz6uM7 on tokens per min (TPM): Limit 30000, Used 28084, Requested 5368. Please try again in 6.904s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+[gpt-4o] #16/836 id=3/4-RY6681K_lightpink48 ✓ 31.62s (in=4243, out=811)
+[gpt-4o] #17/836 id= ✓ 25.89s (in=771, out=567)
+[gpt-4o] #18/836 id=HAPPYSTYLE_NAV ✓ 32.94s (in=3361, out=858)
+[gpt-4o] #19/836 id=JH030K_R_5-6 ✓ 37.67s (in=2788, out=657)
+✓ Wrote output/result_gpt-4o_1757863121719.495.json (20 items)
+
+--- Summary for gpt-4o ---
+Wrote: output/result_gpt-4o_1757863121719.495.json (20 items)
+Success: 17 | Fail: 3
+Total time: 58.34s
+Avg latency/item: 17.93s
+Throughput: 14.33 items/sec
+Total tokens: in=35535, out=11782, sum=47317
+
+=== All models done. Grand total: 89.55s ===

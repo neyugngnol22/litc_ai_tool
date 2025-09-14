@@ -67,3 +67,58 @@ RAG Chatbot:
 Collect data and clean data 
 Auto Detect language 
 
+
+
+Phần prompt cho tile
+Phần prompt cho description sửa lại xíu chỗ này
+Fully utilize the 4000-character limit without exceeding it. Must be HTML, mobile-friendly. (yêu cầu AI tận dụng tối đa 4000 chars limit để tránh AI lược đi quá nhiều nội dung)
+Start with few sentences summary paragraph (keep the core information from the input text) - (không nên limit AI start với 1-2 câu vì original text của khách hàng có thể có nhiều ND muốn truyền tải)
+Clear, non-promotional language. Use buyer-relevant keywords that reflect actual search behavior, such as product type, use case, compatibility, model names, target users, or problem-solution terms (e.g., 'wireless charger for iPhone', 'eco-friendly lunchbox', 'replacement filter for Dyson'). Avoid vague adjectives and focus on specific purchase-driven phrases. - (cần chi tiết hơn phần buyer-relevant keywords để guide AI xác định possible keywords mà có thể match với buyer intent)
+
+-> optimize description 
+
+
+Đầu ra khá ổn (4.1 mini) nếu xét về nội dung viết. Nếu muốn tối ưu chi phí thì model 4.1
+Tuy nhiên có 1 vấn đề xảy ra là:
+Xét so với old desc --> new desc bị lược ND nhiều quá
+4o - 1152/4000 chars
+4.1 mini - 1317/4000 chars
+---> AI ko thể gen mass text nếu số lượng sản phẩm nhiều. (nếu kiểu chỉ 2-3 sản phẩm chắc chắn chất lượng đầu ra sẽ tốt hơn rất nhiều)
+
+-> mỗi listing xử lý ở đây sẽ là riêng biệt, tức là sẽ không gộp 20 sản phẩm 
+mà mỗi sản phẩm là một request riêng biệt và AI sẽ gen ra riêng 
+-> nếu mà chỉ test khoảng 1,2 sản phẩm thì cái mức độ bao quát để mình đánh giá chưa cao 
+
+
+Ngoài ra, phần description thì nó đa dạng lắm, ko có chung 1 format cụ thể, 
+Đối với sellers bán international (not local), thì input đầu ra ko có version tiếng anh, check các listing khi bật VPN Đức thì hầu như các listing đều là bản tiếng anh. -> nên có bản en 
+
+Nếu check 1 vài listing trên eBay thì sẽ để ý cách đặt tên title trên ebay rất khác so với bản mình generate ra (như ảnh) --> cần chỉnh thêm prompt cho nó tối ưu với sàn
+
+Gợi ý: đưa ra 1 format và bảo AI follow theo
+Yêu cầu viết title theo 1 cấu trúc (tối ưu 80 kí tự): [Color/Type], [Product Name], [Main Use or Feature], [Target Audience], [Extra Features]
+
+-> Tối ưu description -> k cho phép lược giản nội dung quá nhiều 
+-> description chung format 
+-> Song ngữ -> translate từ ngôn ngữ gốc sang tiếng Anh 
+
+Format: mở đầu giới thiệu, tóm tắt sản phẩm, công dụng, tác dụng, lợi ích chính, tại sao nên mua? 
+Key features: Các tính năng chính 
+Specs table: Thông số kỹ thuật 
+
+Chính sách và hướng dẫn về sản phẩm, bảo quản 
+
+
+buhlig369@gmail.com
+https://www.ebay.com/itm/196619545564
+
+Top seller 
+-> phần description nó chứa khá nhiều thông tin gồm ảnh, 
+
+https://www.ebay.com/itm/267399863991?_trkparms=amclksrc%3DITM%26aid%3D777008%26algo%3DPERSONAL.TOPIC%26ao%3D1%26asc%3D20250324084645%26meid%3D92d6d56a27cc4f278b5235c8f4048382%26pid%3D101959%26rk%3D1%26rkt%3D1%26itm%3D267399863991%26pmt%3D0%26noa%3D1%26pg%3D4375194%26algv%3DRecentlyViewedItemsV2WithMLRPboosterAndUpdatedFeatures_BP%26brand%3DGildan&_trksid=p4375194.c101959.m146925&_trkparms=parentrq%3A48aea1e51990a88d0319a79efffef474%7Cpageci%3A392e9613-9179-11f0-beeb-62aca574e49d%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+
+Những phần description trên ebay rất đa dạng chứa cả ảnh brand, title, T-Shirt Sizing table 
+,... 
+
+
+https://docs.google.com/spreadsheets/d/10nirB3MhVGT8NYROM8ORP-TrxGHLfvZBft2vfIc7isE/edit?usp=sharing
