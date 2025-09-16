@@ -1,0 +1,64 @@
+
+=== Running model: gpt-4.1-mini on 836 items ===
+[gpt-4.1-mini] #0/836 id=107731015700 ✓ 71.23s (in=4366, out=3824)
+[gpt-4.1-mini] #1/836 id=HK_ROSA ✓ 86.84s (in=1753, out=7086)
+[gpt-4.1-mini] #2/836 id=107632094700 ✓ 123.10s (in=3217, out=7406)
+[gpt-4.1-mini] #3/836 id=HF7777 ✓ 56.93s (in=2439, out=4391)
+[gpt-4.1-mini] #4/836 id=BG118S_gruen ✓ 155.04s (in=1348, out=9982)
+[gpt-4.1-mini] #5/836 id= ✓ 37.78s (in=9278, out=2857)
+[gpt-4.1-mini] #6/836 id=HAPPYSTYLE_NAV ✓ 38.25s (in=3365, out=2708)
+[gpt-4.1-mini] #7/836 id=BG544_royal ✓ 201.43s (in=1627, out=13792)
+[gpt-4.1-mini] #8/836 id=SCHULROSA ✓ 218.35s (in=3510, out=14813)
+[gpt-4.1-mini] #9/836 id= ✓ 153.61s (in=8518, out=10811)
+[gpt-4.1-mini] #10/836 id=3/4-RY6681K_lightpink48 ✓ 166.69s (in=4247, out=9483)
+[gpt-4.1-mini] #11/836 id= ✓ 374.08s (in=450, out=23276)
+[gpt-4.1-mini] #12/836 id= ✓ 199.99s (in=775, out=13255)
+[gpt-4.1-mini] #13/836 id=107650078700 ✓ 421.33s (in=1569, out=3736)
+[gpt-4.1-mini] #14/836 id=207639515800 ✗ 265.87s ERROR: 'ResponseUsage' object has no attribute 'get'
+[gpt-4.1-mini] #15/836 id=WM110_rosa_Reh ✓ 445.63s (in=1661, out=4673)
+[gpt-4.1-mini] #16/836 id=207632494700 ✓ 560.45s (in=533, out=31233)
+[gpt-4.1-mini] #17/836 id=QS77_royal ✓ 729.85s (in=1446, out=13502)
+[gpt-4.1-mini] #18/836 id=3/4-RY6681K_hellblau ✓ 497.53s (in=5155, out=4405)
+[gpt-4.1-mini] #19/836 id=JH030K_R_5-6 ✓ 595.49s (in=2792, out=15840)
+✓ Wrote output/result_gpt-4.1-mini_1758008977421.7446.json (20 items)
+
+--- Summary for gpt-4.1-mini ---
+Wrote: output/result_gpt-4.1-mini_1758008977421.7446.json (20 items)
+Success: 19 | Fail: 1
+Total time: 813.87s
+Avg latency/item: 269.97s
+Throughput: 1.03 items/sec
+Total tokens: in=58049, out=197073, sum=255122
+
+=== Running model: gpt-4o on 836 items ===
+[gpt-4o] #0/836 id=BG118S_gruen ✓ 41.29s (in=1348, out=2064)
+[gpt-4o] #1/836 id= ✓ 46.21s (in=450, out=2567)
+[gpt-4o] #2/836 id=BG544_royal ✓ 46.93s (in=1627, out=3572)
+[gpt-4o] #3/836 id=107650078700 ✓ 50.29s (in=1569, out=5243)
+[gpt-4o] #4/836 id=HK_ROSA ✓ 52.05s (in=1753, out=3552)
+[gpt-4o] #5/836 id=HAPPYSTYLE_NAV ✗ 25.04s ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-JirKvE5Bwlj7bteYYAuz6uM7 on tokens per min (TPM): Limit 30000, Used 28563, Requested 3582. Please try again in 4.29s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+[gpt-4o] #6/836 id=107632094700 ✓ 90.84s (in=3217, out=2325)
+[gpt-4o] #7/836 id=SCHULROSA ✓ 120.74s (in=3510, out=2631)
+[gpt-4o] #8/836 id=207639515800 ✓ 33.59s (in=506, out=1976)
+[gpt-4o] #9/836 id=107731015700 ✓ 129.43s (in=4366, out=2576)
+[gpt-4o] #10/836 id= ✓ 110.19s (in=9278, out=2789)
+[gpt-4o] #11/836 id= ✓ 41.92s (in=775, out=1787)
+[gpt-4o] #12/836 id=HF7777 ✓ 131.61s (in=2439, out=4058)
+[gpt-4o] #13/836 id=QS77_royal ✓ 181.10s (in=1446, out=14728)
+[gpt-4o] #14/836 id=WM110_rosa_Reh ✗ 200.41s ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-JirKvE5Bwlj7bteYYAuz6uM7 on tokens per min (TPM): Limit 30000, Used 30000, Requested 1878. Please try again in 3.756s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+[gpt-4o] #15/836 id=207632494700 ✓ 125.08s (in=533, out=4112)
+[gpt-4o] #16/836 id=JH030K_R_5-6 ✓ 188.56s (in=2792, out=4658)
+[gpt-4o] #17/836 id=3/4-RY6681K_lightpink48 ✓ 271.15s (in=4247, out=6249)
+[gpt-4o] #18/836 id=3/4-RY6681K_hellblau ✓ 249.15s (in=5154, out=5512)
+[gpt-4o] #19/836 id= ✓ 641.41s (in=8518, out=2006)
+✓ Wrote output/result_gpt-4o_1758009665065.4521.json (20 items)
+
+--- Summary for gpt-4o ---
+Wrote: output/result_gpt-4o_1758009665065.4521.json (20 items)
+Success: 18 | Fail: 2
+Total time: 687.64s
+Avg latency/item: 138.85s
+Throughput: 1.22 items/sec
+Total tokens: in=53528, out=72405, sum=125933
+
+=== All models done. Grand total: 1501.51s ===

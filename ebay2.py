@@ -30,26 +30,26 @@ tools = [
       "properties": {
         "ebay_description_html": {
           "type": "string",
-          "maxLength": 4000,
-          "minLength": 100,
+          "maxLength": 500000,
+          "minLength": 3500,
           "description": (
             "A detailed, HTML-formatted eBay product description that complies with eBay's mobile and listing standards."
-            "Fully utilize the 4000-character limit to provide all relevant product details."
+            "Fully utilize the content space (up to 500,000 characters) to provide all relevant product details. "
             "Do NOT shorten or oversimplify content. "
             "The description format must follow this structure: "
             "1. An opening summary paragraph highlighting product value, use-case, benefits, and why to buy. "
             "2. A bullet-point section listing 4–6 key features using <ul><li> tags. "
             "3. A specs table (<table>) if 3 or more structured specs are available. "
             "Only use allowed tags: <b>, <strong>, <br>, <ol>, <ul>, <li>, <table>, <tr>, <td>, <th>, <thead>, <tbody>, <tfoot>, <caption>, <colgroup>, <col>." 
-            "Do not use <p> tags or any form of active content, links, or contact info."
+            "Do not use any form of active content, links, or contact info."
             "Use clear, non-promotional language with buyer-relevant keywords that match real search behavior (e.g., use case, compatibility, target users, or problem-solution terms)." 
             "The output must be in the same language as the input; detect and match language automatically"
           ),
         },
         "translated_description_en": {
             "type": "string",
-            "maxLength": 4000,
-            "minLength": 100,
+            "maxLength": 500000,
+            "minLength": 3500,
             "description": (
                 "Translate the full optimized HTML description into English. Preserve formatting, structure, and tags. "
                 "Do not localize. Translate only."
