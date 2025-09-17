@@ -1,0 +1,67 @@
+=== Running model: gpt-4.1-mini on 836 items ===
+[gpt-4.1-mini] #0/836 id= ✓ 7.88s (in=452, out=418)
+[gpt-4.1-mini] #1/836 id=107650078700 ✓ 8.88s (in=1571, out=642)
+[gpt-4.1-mini] #2/836 id=SCHULROSA ✓ 12.12s (in=3512, out=864)
+[gpt-4.1-mini] #3/836 id=WM110_rosa_Reh ✓ 13.27s (in=1663, out=1085)
+[gpt-4.1-mini] #4/836 id=QS77_royal ✓ 13.94s (in=1448, out=842)
+[gpt-4.1-mini] #5/836 id=HK_ROSA ✓ 14.13s (in=1755, out=869)
+[gpt-4.1-mini] #6/836 id=107731015700 ✓ 14.92s (in=4368, out=996)
+[gpt-4.1-mini] #7/836 id=BG544_royal ✓ 16.72s (in=1629, out=1052)
+[gpt-4.1-mini] #8/836 id=207632494700 ✓ 5.06s (in=535, out=319)
+[gpt-4.1-mini] #9/836 id=HF7777 ✓ 11.93s (in=2441, out=813)
+[gpt-4.1-mini] #10/836 id=107632094700 ✓ 20.93s (in=3219, out=921)
+[gpt-4.1-mini] #11/836 id=BG118S_gruen ✓ 21.29s (in=1350, out=1446)
+[gpt-4.1-mini] #12/836 id=207639515800 ✓ 7.44s (in=508, out=514)
+[gpt-4.1-mini] #13/836 id= ✓ 11.23s (in=777, out=767)
+[gpt-4.1-mini] #14/836 id=3/4-RY6681K_lightpink48 ✓ 16.74s (in=4249, out=819)
+[gpt-4.1-mini] #15/836 id=JH030K_R_5-6 ✓ 11.89s (in=2794, out=799)
+[gpt-4.1-mini] #16/836 id= ✓ 24.91s (in=8520, out=2277)
+[gpt-4.1-mini] #17/836 id=3/4-RY6681K_hellblau ✓ 16.35s (in=5157, out=1044)
+[gpt-4.1-mini] #18/836 id= ✓ 24.70s (in=9280, out=1614)
+[gpt-4.1-mini] #19/836 id=HAPPYSTYLE_NAV ✓ 24.98s (in=3367, out=1974)
+✓ Wrote output/result_gpt-4.1-mini_1758081162706.6309.json (20 items)
+
+--- Summary for gpt-4.1-mini ---
+Wrote: output/result_gpt-4.1-mini_1758081162706.6309.json (20 items)
+Success: 20 | Fail: 0
+Total time: 38.26s
+Avg latency/item: 14.96s
+Throughput: 21.85 items/sec
+Total tokens: in=58595, out=20075, sum=78670
+
+=== Running model: gpt-4o on 836 items ===
+[gpt-4o] #0/836 id= ✓ 8.11s (in=452, out=398)
+[gpt-4o] #1/836 id=107650078700 ✓ 8.24s (in=1571, out=595)
+[gpt-4o] #2/836 id=BG118S_gruen ✓ 9.00s (in=1350, out=823)
+[gpt-4o] #3/836 id=QS77_royal ✓ 8.99s (in=1448, out=495)
+[gpt-4o] #4/836 id=BG544_royal ✓ 10.40s (in=1629, out=741)
+[gpt-4o] #5/836 id=HK_ROSA ✓ 11.85s (in=1755, out=847)
+[gpt-4o] #6/836 id=HF7777 ✓ 8.56s (in=2441, out=569)
+[gpt-4o] #7/836 id=107632094700 ✓ 19.05s (in=3219, out=901)
+[gpt-4o] #8/836 id=WM110_rosa_Reh ✓ 26.24s (in=1663, out=734)
+Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-JirKvE5Bwlj7bteYYAuz6uM7 on tokens per min (TPM): Limit 30000, Used 30000, Requested 4466. Please try again in 8.932s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+[gpt-4o] #9/836 id=3/4-RY6681K_lightpink48 ✗ 19.57s ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-JirKvE5Bwlj7bteYYAuz6uM7 on tokens per min (TPM): Limit 30000, Used 30000, Requested 4466. Please try again in 8.932s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-JirKvE5Bwlj7bteYYAuz6uM7 on tokens per min (TPM): Limit 30000, Used 30000, Requested 9497. Please try again in 18.994s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+[gpt-4o] #10/836 id= ✗ 22.06s ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-JirKvE5Bwlj7bteYYAuz6uM7 on tokens per min (TPM): Limit 30000, Used 30000, Requested 9497. Please try again in 18.994s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-JirKvE5Bwlj7bteYYAuz6uM7 on tokens per min (TPM): Limit 30000, Used 29921, Requested 752. Please try again in 1.346s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+[gpt-4o] #11/836 id=207632494700 ✗ 19.86s ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-JirKvE5Bwlj7bteYYAuz6uM7 on tokens per min (TPM): Limit 30000, Used 29921, Requested 752. Please try again in 1.346s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+[gpt-4o] #12/836 id= ✓ 16.27s (in=776, out=976)
+[gpt-4o] #13/836 id=107731015700 ✓ 40.91s (in=4368, out=777)
+[gpt-4o] #14/836 id=207639515800 ✓ 30.11s (in=508, out=388)
+Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-JirKvE5Bwlj7bteYYAuz6uM7 on tokens per min (TPM): Limit 30000, Used 27302, Requested 5374. Please try again in 5.352s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+[gpt-4o] #15/836 id=3/4-RY6681K_hellblau ✗ 17.86s ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-JirKvE5Bwlj7bteYYAuz6uM7 on tokens per min (TPM): Limit 30000, Used 27302, Requested 5374. Please try again in 5.352s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+[gpt-4o] #16/836 id= ✓ 40.20s (in=8520, out=1271)
+[gpt-4o] #17/836 id=SCHULROSA ✓ 49.44s (in=3512, out=1106)
+[gpt-4o] #18/836 id=HAPPYSTYLE_NAV ✓ 49.75s (in=3367, out=1453)
+[gpt-4o] #19/836 id=JH030K_R_5-6 ✓ 50.29s (in=2794, out=761)
+✓ Wrote output/result_gpt-4o_1758081239280.778.json (20 items)
+
+--- Summary for gpt-4o ---
+Wrote: output/result_gpt-4o_1758081239280.778.json (20 items)
+Success: 16 | Fail: 4
+Total time: 76.58s
+Avg latency/item: 23.34s
+Throughput: 10.92 items/sec
+Total tokens: in=39373, out=12835, sum=52208
+
+=== All models done. Grand total: 114.84s ===

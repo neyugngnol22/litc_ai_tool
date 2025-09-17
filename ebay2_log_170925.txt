@@ -1,0 +1,63 @@
+=== Running model: gpt-4.1-mini on 836 items ===
+[gpt-4.1-mini] #0/836 id= ✓ 7.90s (in=453, out=417)
+[gpt-4.1-mini] #1/836 id=107650078700 ✓ 9.41s (in=1572, out=628)
+[gpt-4.1-mini] #2/836 id=BG544_royal ✓ 11.56s (in=1630, out=936)
+[gpt-4.1-mini] #3/836 id=QS77_royal ✓ 12.06s (in=1449, out=654)
+[gpt-4.1-mini] #4/836 id=SCHULROSA ✓ 13.10s (in=3513, out=734)
+[gpt-4.1-mini] #5/836 id=HK_ROSA ✓ 14.34s (in=1756, out=846)
+[gpt-4.1-mini] #6/836 id=107632094700 ✓ 14.35s (in=3220, out=837)
+[gpt-4.1-mini] #7/836 id=BG118S_gruen ✓ 16.97s (in=1351, out=1129)
+[gpt-4.1-mini] #8/836 id=107731015700 ✓ 17.38s (in=4369, out=864)
+[gpt-4.1-mini] #9/836 id=HF7777 ✓ 12.24s (in=2442, out=798)
+[gpt-4.1-mini] #10/836 id=207639515800 ✓ 6.29s (in=509, out=387)
+[gpt-4.1-mini] #11/836 id=WM110_rosa_Reh ✓ 22.32s (in=1664, out=1156)
+[gpt-4.1-mini] #12/836 id=3/4-RY6681K_lightpink48 ✓ 9.93s (in=4250, out=926)
+[gpt-4.1-mini] #13/836 id=207632494700 ✓ 9.17s (in=536, out=528)
+[gpt-4.1-mini] #14/836 id=JH030K_R_5-6 ✓ 12.88s (in=2795, out=637)
+[gpt-4.1-mini] #15/836 id= ✓ 13.92s (in=778, out=885)
+[gpt-4.1-mini] #16/836 id= ✓ 19.54s (in=9281, out=1392)
+[gpt-4.1-mini] #17/836 id=3/4-RY6681K_hellblau ✓ 15.55s (in=5158, out=970)
+[gpt-4.1-mini] #18/836 id=HAPPYSTYLE_NAV ✓ 24.66s (in=3368, out=1860)
+[gpt-4.1-mini] #19/836 id= ✓ 30.68s (in=8521, out=1991)
+✓ Wrote output/result_gpt-4.1-mini_1758079950410.6038.json (20 items)
+
+--- Summary for gpt-4.1-mini ---
+Wrote: output/result_gpt-4.1-mini_1758079950410.6038.json (20 items)
+Success: 20 | Fail: 0
+Total time: 40.10s
+Avg latency/item: 14.71s
+Throughput: 20.85 items/sec
+Total tokens: in=58615, out=18575, sum=77190
+
+=== Running model: gpt-4o on 836 items ===
+[gpt-4o] #0/836 id= ✓ 9.50s (in=453, out=320)
+[gpt-4o] #1/836 id=BG118S_gruen ✓ 10.12s (in=1351, out=632)
+[gpt-4o] #2/836 id=QS77_royal ✓ 10.11s (in=1449, out=539)
+[gpt-4o] #3/836 id=107650078700 ✓ 10.86s (in=1572, out=819)
+[gpt-4o] #4/836 id=BG544_royal ✓ 11.34s (in=1630, out=1167)
+[gpt-4o] #5/836 id=WM110_rosa_Reh ✓ 14.59s (in=1664, out=829)
+[gpt-4o] #6/836 id=HK_ROSA ✓ 14.62s (in=1756, out=685)
+[gpt-4o] #7/836 id=SCHULROSA ✓ 25.06s (in=3513, out=634)
+[gpt-4o] #8/836 id=207632494700 ✗ 19.49s ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-JirKvE5Bwlj7bteYYAuz6uM7 on tokens per min (TPM): Limit 30000, Used 30000, Requested 753. Please try again in 1.506s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+[gpt-4o] #9/836 id=HF7777 ✓ 25.81s (in=2442, out=754)
+[gpt-4o] #10/836 id=107632094700 ✓ 35.85s (in=3220, out=843)
+[gpt-4o] #11/836 id=207639515800 ✗ 23.73s ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-JirKvE5Bwlj7bteYYAuz6uM7 on tokens per min (TPM): Limit 30000, Used 30000, Requested 726. Please try again in 1.452s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+[gpt-4o] #12/836 id=107731015700 ✓ 43.14s (in=4369, out=708)
+[gpt-4o] #13/836 id= ✓ 35.60s (in=8521, out=1013)
+[gpt-4o] #14/836 id= ✗ 21.02s ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-JirKvE5Bwlj7bteYYAuz6uM7 on tokens per min (TPM): Limit 30000, Used 30000, Requested 995. Please try again in 1.989s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+[gpt-4o] #15/836 id=3/4-RY6681K_hellblau ✗ 19.63s ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-JirKvE5Bwlj7bteYYAuz6uM7 on tokens per min (TPM): Limit 30000, Used 30000, Requested 5375. Please try again in 10.75s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+[gpt-4o] #16/836 id=3/4-RY6681K_lightpink48 ✓ 47.55s (in=4250, out=1059)
+[gpt-4o] #17/836 id= ✓ 55.55s (in=9281, out=1114)
+[gpt-4o] #18/836 id=HAPPYSTYLE_NAV ✓ 61.45s (in=3368, out=1775)
+[gpt-4o] #19/836 id=JH030K_R_5-6 ✓ 42.34s (in=2795, out=665)
+✓ Wrote output/result_gpt-4o_1758080026877.2996.json (20 items)
+
+--- Summary for gpt-4o ---
+Wrote: output/result_gpt-4o_1758080026877.2996.json (20 items)
+Success: 16 | Fail: 4
+Total time: 76.47s
+Avg latency/item: 26.87s
+Throughput: 10.93 items/sec
+Total tokens: in=51634, out=13556, sum=65190
+
+=== All models done. Grand total: 116.57s ===

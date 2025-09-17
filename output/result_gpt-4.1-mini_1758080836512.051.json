@@ -1,0 +1,12 @@
+[
+    {
+        "ok": false,
+        "model": "gpt-4.1-mini",
+        "error": "'Response' object has no attribute 'content'",
+        "latency_sec": 11.264980292999098,
+        "input_id": "",
+        "shopify_title": "Prio+",
+        "shopify_description": "Deine Bestellung wird als erstes verschickt",
+        "shopify_brand": ""
+    }
+]

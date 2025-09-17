@@ -31,17 +31,18 @@ tools = [
         "ebay_description_html": {
           "type": "string",
           "maxLength": 500000,
-          "minLength": 3500,
+          "minLength": 500,
           "description": (
             "A detailed, HTML-formatted eBay product description that complies with eBay's mobile and listing standards."
             "Fully utilize the content space (up to 500,000 characters) to provide all relevant product details. "
             "Do NOT shorten or oversimplify content. "
             "The description format must follow this structure: "
-            "1. An opening summary paragraph highlighting product value, use-case, benefits, and why to buy. "
+            "1. A rich, informative opening paragraph that clearly highlights the product’s **value**, **use-case**, **key benefits**, and **why a buyer should choose it**.\n\n"
             "2. A bullet-point section listing 4–6 key features using <ul><li> tags. "
             "3. A specs table (<table>) if 3 or more structured specs are available. "
+            "4. (Optional) If applicable, include a section on **usage instructions**, **care tips**, or **maintenance guidelines** in HTML format (using <ul><li>, <br>, or <strong> for formatting).\n\n"
             "Only use allowed tags: <b>, <strong>, <br>, <ol>, <ul>, <li>, <table>, <tr>, <td>, <th>, <thead>, <tbody>, <tfoot>, <caption>, <colgroup>, <col>." 
-            "Do not use any form of active content, links, or contact info."
+            "Do not use <p> tags or any form of active content, links, or contact info."
             "Use clear, non-promotional language with buyer-relevant keywords that match real search behavior (e.g., use case, compatibility, target users, or problem-solution terms)." 
             "The output must be in the same language as the input; detect and match language automatically"
           ),
@@ -49,7 +50,7 @@ tools = [
         "translated_description_en": {
             "type": "string",
             "maxLength": 500000,
-            "minLength": 3500,
+            "minLength": 500,
             "description": (
                 "Translate the full optimized HTML description into English. Preserve formatting, structure, and tags. "
                 "Do not localize. Translate only."
@@ -124,6 +125,7 @@ def call_once(client: OpenAI, model: str, user_prompt: str) -> Dict:
             ],
             tools=tools,
         )
+        # print(f"Res: {resp}")
 
         end_t = time.perf_counter()
 
@@ -156,6 +158,7 @@ def call_once(client: OpenAI, model: str, user_prompt: str) -> Dict:
             "ebay_description_html": ebay_desc,
         }
     except Exception as e:
+        print(str(e))
         # time.sleep(0.7 * (2 ** attempt))
         last_err = str(e)
     end_t = time.perf_counter()

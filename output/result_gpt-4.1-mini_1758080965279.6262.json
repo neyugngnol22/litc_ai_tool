@@ -1,0 +1,106 @@
+[
+    {
+        "ok": true,
+        "model": "gpt-4.1-mini",
+        "input_tokens": 454,
+        "output_tokens": 977,
+        "total_tokens": 1431,
+        "raw": {
+            "id": "resp_0c778695eb5cb0420068ca2fb95434819ab0b659215e0190f4",
+            "created_at": 1758080953.0,
+            "error": null,
+            "incomplete_details": null,
+            "instructions": null,
+            "metadata": {},
+            "model": "gpt-4.1-mini-2025-04-14",
+            "object": "response",
+            "output": [
+                {
+                    "arguments": "{\"ebay_description_html\":\"Deine Bestellung wird als erstes verschickt – genieße den Vorteil einer priorisierten Lieferung, die deine Ware schnell und zuverlässig zu dir bringt. Ideal für Käufer, die ihre Bestellung ohne Verzögerung erhalten möchten, sei es für Geschenke, dringend benötigte Artikel oder einfach, um nicht warten zu müssen. Entscheide dich für den Prio+ Service und erhalte vorrangige Behandlung bei Versand und Bearbeitung.<ul><li>Schneller Versand direkt nach Bestelleingang</li><li>Bevorzugte Bearbeitung in unserem Lager</li><li>Ideal für eilige Bestellungen oder Geschenke</li><li>Zuverlässige und pünktliche Lieferung</li><li>Verbesserte Kundenerfahrung durch Priorisierung</li></ul><table><thead><tr><th>Feature</th><th>Beschreibung</th></tr></thead><tbody><tr><td>Versandzeit</td><td>Priorisierte Verarbeitung und Versand</td></tr><tr><td>Geeignet für</td><td>Eilige Bestellungen, Geschenke, dringende Artikel</td></tr><tr><td>Kundenservice</td><td>Erhöhte Aufmerksamkeit bei Supportanfragen</td></tr></tbody></table>\",\"translated_description_en\":\"Your order will be shipped first – enjoy the benefit of prioritized delivery that brings your goods to you quickly and reliably. Ideal for buyers who want to receive their order without delay, whether for gifts, urgently needed items, or simply to avoid waiting. Choose the Prio+ service and receive priority handling in shipping and processing.<ul><li>Fast shipping immediately after order receipt</li><li>Priority processing in our warehouse</li><li>Ideal for urgent orders or gifts</li><li>Reliable and timely delivery</li><li>Enhanced customer experience through prioritization</li></ul><table><thead><tr><th>Feature</th><th>Description</th></tr></thead><tbody><tr><td>Shipping time</td><td>Prioritized handling and shipping</td></tr><tr><td>Suitable for</td><td>Urgent orders, gifts, essential items</td></tr><tr><td>Customer service</td><td>Increased attention in support requests</td></tr></tbody></table>\\\"}]}]}]}}}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}\"}",
+                    "call_id": "call_namulVWmmRduQL0oyPNHeQvO",
+                    "name": "optimize_for_ebay_title_description",
+                    "type": "function_call",
+                    "id": "fc_0c778695eb5cb0420068ca2fba6c7c819aae6ed0b729f59a2f",
+                    "status": "completed"
+                }
+            ],
+            "parallel_tool_calls": true,
+            "temperature": 1.0,
+            "tool_choice": "auto",
+            "tools": [
+                {
+                    "name": "optimize_for_ebay_title_description",
+                    "parameters": {
+                        "type": "object",
+                        "properties": {
+                            "ebay_description_html": {
+                                "type": "string",
+                                "maxLength": 500000,
+                                "minLength": 1000,
+                                "description": "A detailed, HTML-formatted eBay product description that complies with eBay's mobile and listing standards.Fully utilize the content space (up to 500,000 characters) to provide all relevant product details. Do NOT shorten or oversimplify content. The description format must follow this structure: 1. An opening paragraph highlighting product value, use-case, benefits, and why to buy. 2. A bullet-point section listing 4–6 key features using <ul><li> tags. 3. A specs table (<table>) if 3 or more structured specs are available. Only use allowed tags: <b>, <strong>, <br>, <ol>, <ul>, <li>, <table>, <tr>, <td>, <th>, <thead>, <tbody>, <tfoot>, <caption>, <colgroup>, <col>.Do not use <p> tags or any form of active content, links, or contact info.Use clear, non-promotional language with buyer-relevant keywords that match real search behavior (e.g., use case, compatibility, target users, or problem-solution terms).The output must be in the same language as the input; detect and match language automatically"
+                            },
+                            "translated_description_en": {
+                                "type": "string",
+                                "maxLength": 500000,
+                                "minLength": 1000,
+                                "description": "Translate the full optimized HTML description into English. Preserve formatting, structure, and tags. Do not localize. Translate only."
+                            }
+                        },
+                        "required": [
+                            "ebay_description_html",
+                            "translated_description_en"
+                        ],
+                        "additionalProperties": false
+                    },
+                    "strict": true,
+                    "type": "function",
+                    "description": "Return an eBay-optimized title and a compliant HTML description."
+                }
+            ],
+            "top_p": 1.0,
+            "background": false,
+            "conversation": null,
+            "max_output_tokens": null,
+            "max_tool_calls": null,
+            "previous_response_id": null,
+            "prompt": null,
+            "prompt_cache_key": null,
+            "reasoning": {
+                "effort": null,
+                "generate_summary": null,
+                "summary": null
+            },
+            "safety_identifier": null,
+            "service_tier": "default",
+            "status": "completed",
+            "text": {
+                "format": {
+                    "type": "text"
+                },
+                "verbosity": "medium"
+            },
+            "top_logprobs": 0,
+            "truncation": "disabled",
+            "usage": {
+                "input_tokens": 454,
+                "input_tokens_details": {
+                    "cached_tokens": 0
+                },
+                "output_tokens": 977,
+                "output_tokens_details": {
+                    "reasoning_tokens": 0
+                },
+                "total_tokens": 1431
+            },
+            "user": null,
+            "store": true
+        },
+        "latency_sec": 13.00851103900095,
+        "ebay_en_description_html": "Your order will be shipped first – enjoy the benefit of prioritized delivery that brings your goods to you quickly and reliably. Ideal for buyers who want to receive their order without delay, whether for gifts, urgently needed items, or simply to avoid waiting. Choose the Prio+ service and receive priority handling in shipping and processing.<ul><li>Fast shipping immediately after order receipt</li><li>Priority processing in our warehouse</li><li>Ideal for urgent orders or gifts</li><li>Reliable and timely delivery</li><li>Enhanced customer experience through prioritization</li></ul><table><thead><tr><th>Feature</th><th>Description</th></tr></thead><tbody><tr><td>Shipping time</td><td>Prioritized handling and shipping</td></tr><tr><td>Suitable for</td><td>Urgent orders, gifts, essential items</td></tr><tr><td>Customer service</td><td>Increased attention in support requests</td></tr></tbody></table>\"}]}]}]}}}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}]}",
+        "ebay_description_html": "Deine Bestellung wird als erstes verschickt – genieße den Vorteil einer priorisierten Lieferung, die deine Ware schnell und zuverlässig zu dir bringt. Ideal für Käufer, die ihre Bestellung ohne Verzögerung erhalten möchten, sei es für Geschenke, dringend benötigte Artikel oder einfach, um nicht warten zu müssen. Entscheide dich für den Prio+ Service und erhalte vorrangige Behandlung bei Versand und Bearbeitung.<ul><li>Schneller Versand direkt nach Bestelleingang</li><li>Bevorzugte Bearbeitung in unserem Lager</li><li>Ideal für eilige Bestellungen oder Geschenke</li><li>Zuverlässige und pünktliche Lieferung</li><li>Verbesserte Kundenerfahrung durch Priorisierung</li></ul><table><thead><tr><th>Feature</th><th>Beschreibung</th></tr></thead><tbody><tr><td>Versandzeit</td><td>Priorisierte Verarbeitung und Versand</td></tr><tr><td>Geeignet für</td><td>Eilige Bestellungen, Geschenke, dringende Artikel</td></tr><tr><td>Kundenservice</td><td>Erhöhte Aufmerksamkeit bei Supportanfragen</td></tr></tbody></table>",
+        "input_id": "",
+        "shopify_title": "Prio+",
+        "shopify_description": "Deine Bestellung wird als erstes verschickt",
+        "shopify_brand": ""
+    }
+]
