@@ -10,9 +10,9 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # input_path = 'data/shopify_data.json'
 input_path = 'data/ExportData104223.xlsx'
 # models = ['gpt-4.1-mini', 'gpt-4.1-nano']
-# models = ['gpt-4.1-mini']
+models = ['gpt-4.1-mini']
 # models = ['gpt-4o']
-models = ['gpt-4.1-mini', 'gpt-4o']
+# models = ['gpt-4.1-mini', 'gpt-4o']
 
 system_prompt = (
     "You are an eBay listing optimizer."
@@ -92,7 +92,7 @@ def load_products(path: str, sheet: Optional[str|int]=0) -> List[Dict[str, Any]]
         
     
 
-def make_user_prompt(item: Dict[str, Any]) -> str:
+def make_user_prompt(item: Dict[str, Any], keywords: str = None) -> str:
     lines = []
     def add(k, v):
         if v is None: return 
@@ -104,10 +104,23 @@ def make_user_prompt(item: Dict[str, Any]) -> str:
         add("Brand", item.get('brand'))
     add("Description", item.get('description'))
 
-    return (
+    keyword_section = ""
+    if keywords:
+        keyword_section = (
+            "\n\nPlease prioritize or naturally integrate the following keywords "
+            f"into the optimized content: **{keywords}**.\n"
+        )
+
+    default_prompt = (
         "Optimize only the product DESCRIPTION from the following Shopify product for eBay, preserving the original language.\n"
         "Output as an HTML-formatted description and a full English translation.\n"
         "Return the result using the function `optimize_for_ebay_title_description`.\n\n"
+    )
+    if keyword_section:
+        default_prompt += keyword_section 
+
+    return (
+        default_prompt + "Product data: \n"
         + "\n".join(lines)
     )
 
